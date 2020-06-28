@@ -10,8 +10,11 @@ sho them http://mcis.polymtl.ca/publications/2018/msr2.pdf afterwards. or the mo
 
 1. read the ethics docs. list definitions and overlaps between the ethical wods. propose changes to sqlite or skikit learn to make it more.ess ethical
 2. make a good github repo
-3. do a human study 
-4. do some good stats. data on n criteria. etc
+3. do a human study parta. set up. build isntallation scripts. write review questions
+4. run the study
+5. do some good stats. data on n criteria. etc
+6. do a lit review. start at google scholar emtrics software systems. find something you care about (start with shrinkanth's paper). seperate work. combine. skim papers. build that venn diatram
+
 
 
 1. github. get travis going. do x=x+1
