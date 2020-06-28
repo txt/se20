@@ -1,4 +1,15 @@
+# project
+
+take my se 4 ai paper. look at the 7 categories. try to find a project in one of those cats. or got for cat8: anything at all
+
+look at the ethros stuff. sonsir some poullar eice of software, eg, sqllite or sckitlearn. ask about ethics.
+
+sho them http://mcis.polymtl.ca/publications/2018/msr2.pdf afterwards. or the model store stuff
+
 # homework ideas
+
+1. read the ethics docs. list definitions and overlaps between the ethical wods. propose changes to sqlite or skikit learn to make it more.ess ethical
+2. make a good github repo
 
 1. github. get travis going. do x=x+1
 2. write a command line parser. have sperate objects for each command line. arg. long name, short name, helo test
