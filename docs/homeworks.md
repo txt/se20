@@ -14,6 +14,9 @@ sho them http://mcis.polymtl.ca/publications/2018/msr2.pdf afterwards. or the mo
 4. run the study
 5. do some good stats. data on n criteria. etc
 6. do a lit review. start at google scholar emtrics software systems. find something you care about (start with shrinkanth's paper). seperate work. combine. skim papers. build that venn diatram
+7. code something in smalltalk
+8. code something in lisp
+9. code something in prolog
 
 
 
