@@ -1,9 +1,14 @@
 
 - techniques
+  - requiremetns engineering
+    - is impossible
+    - is essential
   - continual test
     - unit
     - regression
-    - test case prioriization
+    - test case priorization
+      - test overdose
+      - testing cyperphysical systems
     - test suite minimziation
   - version control
     - e.g. Github
