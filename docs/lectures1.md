@@ -1,9 +1,16 @@
 
-- dsfsd
-  - sdfsd
-  -  sdfsd
-- sdfsd
-  - sfdsd
+- techniques
+  - continual test
+    - unit
+    - regression
+    - test case prioriization
+    - test suite minimziation
+  - version control
+    - e.g. Github
+  - feature flags
+  - configuration
+- people
+  - goverence (impression of nerutal governce) 
   
  
 https://drive.google.com/file/d/16LoqoqY26O_M1TbCtWCD8vb0FFwJitKj/view
