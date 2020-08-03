@@ -1,4 +1,5 @@
 <a name=top>
+<p>&nbsp;</p>
 <p align=center>
 <a href="http://tiny.cc/seng20"><img  
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
