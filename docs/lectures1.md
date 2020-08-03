@@ -1,25 +1,7 @@
-
-- techniques
-  - requiremetns engineering
-    - is impossible
-    - is essential
-  - continual test
-    - unit
-    - regression
-    - test case priorization
-      - test overdose
-      - testing cyperphysical systems
-    - test suite minimziation
-  - version control
-    - e.g. Github
-  - feature flags
-  - configuration
-- people
-  - goverence (impression of nerutal governce) 
-  
- 
-https://drive.google.com/file/d/16LoqoqY26O_M1TbCtWCD8vb0FFwJitKj/view
-
-
-peter o'hearn's thing. 70% fix rate. same false positive. mch earlier fix. diff time continusous deployment. worked with the developers in the workflow. worked much better , dont ave t contxt swtitch from old ideas to now. adapat analus to programmes, not force programemrs to adapt to analusis
-
+<a name=top>
+<p align=center>
+<a href="http://tiny.cc/seng20><img align=center src="etc/img/teamBanner.png"></a><br>
+<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</>a ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</>a ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">chat</>a
+</p>

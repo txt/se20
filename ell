@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# Shell tricks
-
+# usage:  . ell
 Ell=$(cd $( dirname "${BASH_SOURCE[0]}" ) && pwd )
 
 tput bold
@@ -14,13 +13,14 @@ cat <<'EOF'
 /\  __/      \_\ \_     \_\ \_ 
 \ \____\     /\____\    /\____\
  \/____/     \/____/    \/____/
-
+l
 EOF
 tput sgr0
 
 Var=$Ell/.var
 mkdir -p $Var
 
+alias ls="ls -G "
 alias gg="git pull"   
 alias gs="git status"   
 alias gp="git commit -am 'saving'; git push; git status"    
@@ -28,7 +28,7 @@ alias vi="vim    -u $Ell/.var/vimrc"
 alias tmux="tmux -f $Ell/.var/tmuxrc"
 
 matrix() { nice -20 cmatrix -b -C cyan; }
-reload()  { . $Ell/ell; }
+reload() { . $Ell/ell; }
 vims()   { vim -u $Ell/.var/vimrc +PluginInstall +qall; }
 here()   { cd $1; basename `pwd`; }    
 
@@ -43,18 +43,16 @@ doc1() {
         NR==1 && $1~/name=top>/ { next }
               { print ""; print }'
 }
-
 docs() {
   f=`find $Ell -type f -name '*.md'`
-  if [ -n "$f" ]; then
-    for g in $f;  do
-      if [ "$Ell/README.md" -nt "$g" ]; then
-        h=$(mktemp)
-        doc1 $g > $h
-        mv $h $g
-      fi
-    done
-  fi
+  for g in $f;  do
+    if [ "$Ell/README.md" -nt "$g" ]; then
+      h=$(mktemp)
+      echo "# updating ${g#$HOME/gits/txt/se20/} ..."
+      doc1 $g > $h
+      mv $h $g
+    fi
+  done
 }
 
 want=$Var/vimrc;
