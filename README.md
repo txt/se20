@@ -1,3 +1,3 @@
 <a name=top>
-<h1>SE</h1>
+<img align=center src="etc/img/teamBanner.png">
 
