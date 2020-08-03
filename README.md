@@ -1,13 +1,14 @@
 <a name=top>
 <p align=center>
-<a href="http://tiny.cc/seng20><img align=center 
+<a href="http://tiny.cc/seng20><img  
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 <a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</>a ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">moodle</>a ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">chat</>a
 </p>
-
 <hr>
+
+<img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png">
 
 <table width="100%" border=0 align=right>
 <tr>
