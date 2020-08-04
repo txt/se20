@@ -182,6 +182,8 @@ Xioa Ling
 + E-mail: xling4@ncsu.edu
 + Office hours: Tues 11am-1pm and by email request
 
+<br clear=all>
+
 -------
 
 ## Other Information
