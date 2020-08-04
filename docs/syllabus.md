@@ -80,24 +80,24 @@ All class communication from staff to students will be via this Slack group.
 
 Grades come from homeworks, project, mid-session exam.
 
-|week  | start| hw| proj | lab   |exam   |  notes                  | deliverable 2 be inspected |
-|------|------|----|------|-------|-------|------------------------|---------------|
-|1 |Aug10     |    |      |       |       | start 26 projects      |               |
-|2 |Aug17     | 2  |      |       |       | hw: GH set up          | GH with cool structure     |
-|3 |Aug24     | 2  |      |  5    |       | hw: Practice run: eval trials|  attendance tokens   |
-|4 |Aug31     | 2  |      |       |       | hw: report on eval     | report on evaluations      |
-|5 |Sept7     | 2  |      |       |       | hw: "advertisement" for project| 3 minute video             |
-|6 |Sept14    |    | 15+2 |       |       | proj: 26 to 2\*13 projects   |  deliverable list1 |
-|7| Sept21    | 2  |      |       |       | hw: issues review      |  issue report on w6 deliverables |     
+|week  | start| hw| proj | lab   |exam   |  notes                  | deliverable 2 be inspected   |
+|------|------|----|------|-------|-------|------------------------|------------------------------|
+|1 |Aug10     |    |      |       |       | start 26 projects      |                              |
+|2 |Aug17     | 2  |      |       |       | hw: GH set up          | GH with cool structure       |
+|3 |Aug24     | 2  |      |  5    |       | hw: Practice run: eval trials|  attendance tokens     |
+|4 |Aug31     | 2  |      |       |       | hw: report on eval     | report on evaluations        |
+|5 |Sept7     | 2  |      |       |       | hw: "advertisement" for project| 3 minute video       |
+|6 |Sept14    |    | 15+2 |       |       | proj: 26 to 2\*13 projects   |  deliverable list1     |
+|7| Sept21    | 2  |      |       |       | hw: issues review      |  issue report on w6 deliverable |     
 |8| Sept28    | 2  |      |       |       | hw: tool selection     | demo to tutor of group tools |
-|9| Oct5      |    |      |       | 20    | exam: mid-term         |
-|10| Oct12    |  2 |      |       |       | hw: TBD                |
-|11| Oct19    |  2 |      |       |       | hw: "advertisement" for project | 3 minute video         |
-|12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 | deliverable list2 |
-|13| Nov2     |    |      |       |       |                        |                    |
-|14| Nov9     |    | 15+2 |  5    |       | proj: eval trials      | addendance tokems<br> deliverables list3 |
-|14| Nov13    |    | 15+2 |  5    |       | proj: report on eval   |                    |
-|  | totals   | 16 | 55+6 |  10   |  20   |                        |                    |
+|9| Oct5      |    |      |       | 20    | exam: take-home mid-term | submitted exam             | 
+|10| Oct12    |  2 |      |       |       | hw: TBD                |                              |
+|11| Oct19    |  2 |      |       |       | hw: "advertisement" for project | 3 minute video      |
+|12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 | deliverable list2      |
+|13| Nov2     |    |      |       |       |                        |                              |
+|14| Nov9     |    | 15+2 |  5    |       | proj: eval trials      | attendance tokens<br> deliverable list3 |
+|14| Nov13    |    | 15+2 |  5    |       | proj: report on eval   |                              |
+|  | totals   | 16 | 55+6 |  10   |  20   |                        |                              |
 
 ### Projects
 
