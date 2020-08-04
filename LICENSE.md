@@ -1,9 +1,9 @@
 <a name=top>
 <p>
-<a href="http://tiny.cc/seng20"><img  width=250 align=left
+<a href="http://tiny.cc/seng20"><img  width=350
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 <h2>
-Software&nbsp;Engineering, Fall'20,&nbsp;csc510,&nbsp;NC&nbsp;State
+Software Engineering, Fall'20, csc510, NC&nbsp;State
 </h2>
 <p align=xcenter>
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
