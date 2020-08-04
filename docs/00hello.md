@@ -50,7 +50,7 @@ And the language you use next is probably not the one you are using now:
 And even if you are working on some language/tool now, if your work changes, that
 could change too
 
-<img width=20 
+<img width=700 
  src="../etc/img/groups.png">
 
 ## About NC State SE
