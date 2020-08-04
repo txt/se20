@@ -9,9 +9,9 @@ Software Engineering, Fall'20<br>
 csc510, NC State
 </h1>
 <p align=center>
-<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</>a ::
-<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</>a ::
-<a href="http://github.com/txt/se20/docs/syllabus.md">chat</>a
+<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">chat</a>
 </p>
 <hr>
 
