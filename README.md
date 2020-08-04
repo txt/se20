@@ -1,15 +1,14 @@
 <a name=top>
-<p>
+<p align=center>
 <a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>
-</p>
-<p>
 <a href="http://tiny.cc/seng20"><img  width=350
-  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
-<h3>http://tiny.cc/seng20</h3>
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
+</p>
+<h3 align=center>http://tiny.cc/seng20</h3>
 <hr>
 
 Are you a great software engineer? Can you...
