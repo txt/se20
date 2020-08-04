@@ -6,6 +6,7 @@
 Software Engineering, Fall'20, csc510, NC&nbsp;State
 </h2>
 <p align=xcenter>
+<a href="https://tny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
@@ -144,7 +145,6 @@ With the final grades, the following grade scale will be used:
      D+ (67-69),   D (63-66),   D-(60-62)
      F (below 60).
 
-
 ## Staff
 
 ### Lecturer
@@ -177,7 +177,6 @@ Xioa Ling
 + Slack name: hqtu
 + E-mail: xling4@ncsu.edu
 + Office hours: Tues 11am-1pm and by email request
-
 
 -------
 
