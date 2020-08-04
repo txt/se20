@@ -80,23 +80,23 @@ All class communication from staff to students will be via this Slack group.
 
 Grades come from homeworks, project, mid-session exam.
 
-|week  | start| tut| proj | lab   |exam  | notes|
-|------|------|----|------|-------|-------|------|
-|1 |Aug10     |    |      |       |       | start 26 projects    |
-|2 |Aug17     | 2  |      |       |       | Gh set up    |
-|3 |Aug24     | 2  |      |  5    |       | Practice run: eval trials    |
-|4 |Aug31     | 2  |      |       |       | Tool selection     |
-|5 |Sept7     | 2  |      |       |       | 3 minute video     |
-|6 |Sept14    |    | 15+2 |       |       | 26 to 2\*13 projects     |
-|7| Sept21    | 2  |      |       |       |      |
-|8| Sept28    | 2  |      |       |       |      |
-|9| Oct5      |    |      |       | 20    |      |
-|10| Oct12    |  2 |      |       |       |      |
-|11| Oct19    |  2 |      |       |       | 3 minute video     |
-|12| Oct26    |    | 25+2 |       |       | 2\*13 projects to 4\*6     |
-|13| Nov2     |    |      |       |       |      |
-|14| Nov9     |    | 15+2 |  5    |       | Project eval trials     |
-|  | totals   | 16 | 60+6 |  10   |  20   |                          |
+|week  | start| hw| proj | lab   |exam   |  notes                 |
+|------|------|----|------|-------|-------|------------------------|
+|1 |Aug10     |    |      |       |       | start 26 projects      |
+|2 |Aug17     | 2  |      |       |       | hw: GH set up              |
+|3 |Aug24     | 2  |      |  5    |       | hw: Practice run: eval trials    |
+|4 |Aug31     | 2  |      |       |       | hw: GOAL.md                |
+|5 |Sept7     | 2  |      |       |       | hw: 3 minute video         |
+|6 |Sept14    |    | 15+2 |       |       | proj: 26 to 2\*13 projects   |
+|7| Sept21    | 2  |      |       |       | hw: issues report      |         
+|8| Sept28    | 2  |      |       |       | hw: tool selection     |
+|9| Oct5      |    |      |       | 20    | exam: mid-term         |
+|10| Oct12    |  2 |      |       |       | hw: TBD                |
+|11| Oct19    |  2 |      |       |       | hw: 3 minute video         |
+|12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 |
+|13| Nov2     |    |      |       |       |                        |
+|14| Nov9     |    | 15+2 |  5    |       | proj: eval trials      |
+|  | totals   | 16 | 55+6 |  10   |  20   |                        |
 
 ### Projects
 
