@@ -12,48 +12,11 @@
 
 # Lecture0: Intro
 
-<img align=right width=400 src="http://se16.unbox.org/.worksite/img/elearning_image1.jpg">
+TL;DR: 
 
-Y'all yearning to be learning? Me too!
-
-Education is the not the filling of a pail, but the lighting of a fire.   
--- W.Yeats
-
-If the world merely lived up to our wildest dreamings, what a dull place it would be. Happily...   
--- Me
-
-Learn why the world wags and what wags it. That is the only thing which the mind
-can never exhaust, never alienate, never be tortured by, never fear or distrust,
-and never dream of regretting. Learning is the only thing for you. Look what a
-lot of things there are to learn.  
--- T.H. White (The Once and Future King)
-
-## Grad subject structure (sample)
-
-<img width=900 src="http://se16.unbox.org/_img/subjects.png">
-
-## About NC State SE
-
-We're number one! Nearly!
-
-<a href="http://csrankings.org/"><img width=900 src="../etc/img/csRankings.png"></a>
-
-Largest percent female faculty in CS  in the country:
-
-<img width=900 src="https://www.csc.ncsu.edu/enews/images2/features/1952-large.jpg">
-
-If you want to know our SE work:
-
-<a href="https://www.amazon.com/Perspectives-Data-Science-Software-Engineering/dp/0128042060"><img 
-width=250 src="http://menzies.us/img/perspectivesBook.jpg"></a>
-<a href="https://www.amazon.com/Art-Science-Analyzing-Software-Data/dp/0124115195"><img 
-width=250 src="http://menzies.us/img/asdbookCover.png"></a>
-<a href="https://www.amazon.com/Sharing-Data-Models-Software-Engineering/dp/0124172954"><img 
-width=250 src="http://menzies.us/img/shareBookCover.png"></a> 
-
-## About me
-
-http://menzies.us
+- software engineering is not just about programming
+- heck, programming is not just about programming
+- successful software development needs a range of skills
 
 ## Q: Which language is best?
 
@@ -73,10 +36,13 @@ could change too
 <img width=700 
  src="../etc/img/groups.png">
 
-Exercise: 7 minutes: the above diagram has clusters at clock positions
+<img align=right width=200 src="../etc/img/brain.png">
+Exercise: 7 minutes: explore.
+
+- The  above  diagram has clusters at clock positions
 1,2,3,4,5,6,7,8,9,10,11,12 and 0 (for the center).
 Look up sample tools an report back what kind of software is serviced by
-each group.
+one of those  groups.
 
 ## Q: So How many languages will you need to know?
 
@@ -100,33 +66,44 @@ How to learn so many languages:
 
 ## Q: Is programming the same as software engineering?
 
-Exercise: 7 minutes. Discuss:
+Programmers don't just program:
 
-Here is one person's picture of programmer versus software engineering. Where is it wrong:
-- For a large insurance company with 1000s of programmers?
-- For some new Silicon Valley start-up with 5 employees?
+- [Tom Zimmermann, Microsoft](https://www.microsoft.com/en-us/research/podcast/the-productive-software-engineer-with-dr-tom-zimmermann/)
+-  If you think of a typical software engineer at Microsoft, they spend about half of a day on development related activities, 
+     and the other half of the day is spent on other activities like coordinating with other people in meetings, sending emails.... So, 
+    there’s actually not that much time that they can spend on writing code, and the time they spend writing code, on a good day, it’s actually 
+     only 96 minutes, and on a bad day it’s, on average, 66 minutes. And half an hour writing code actually can make the difference between a bad and a good workday.
+
+What else do "programmers" do:
+
+- Convincing you that the system is trustable
+- Helping you when the systems fails
+
+Current roles of software engineering experts 
+when adopting data mining approaches:
+
+- Problem definition.
+- Data collection.
+- Data “surrogates” (when the joins fail you)
+- Model building.
+- Managing organizational impact
+  - MINKU, L.L.; MENDES, E.; TURHAN, B. . "Data Mining for SE  and Humans in the Loop", Progress in Artificial Intelligence (PRAI), 5(4), 307-314, Nov  2016
+
+Programmers are the people who know when not to program:
+
+- Exhibit A: Ken Thompson, of Unix and C fame, once said "One of my most productive days was throwing away 1000 lines of code."
+- Exhibit B:
+
+<img src="../etc/img/ghissues.png">
+
+
+<img align=right width=200 src="../etc/img/brain.png">
+Exercise: 7 minutes. Discuss:
+- Here is one person's picture of programmer versus software engineering. Where is it wrong:
+  - For a large insurance company with 1000s of programmers?
+  - For some new Silicon Valley start-up with 5 employees?
 
 <img width=500 
  src="../etc/img/sevsprog.png">
 
-Human factors:
-Convincing you that the system is trustable
-Helping you when the systems fails
 
-Current roles of software engineering experts 
-when adopting data mining approaches:
-Problem definition.
-Data collection.
-Data “surrogates” (when the joins fail you)
-Model building.
-Managing organizational impact
-- MINKU, L.L.; MENDES, E.; TURHAN, B. . "Data Mining for SE  and Humans in the Loop", Progress in Artificial Intelligence (PRAI), 5(4), 307-314, Nov  2016
-
-Potential roles software engineering experts 
-when adopting data mining approaches :
-Model building involvement.
-Expert domain knowledge.
-
-programmers re the people who know ehn not to program
-
-Ken Thompson, of Unix and C fame, once said "One of my most productive days was throwing away 1000 lines of code."
