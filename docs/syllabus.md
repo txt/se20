@@ -118,7 +118,7 @@ You will lose marks if that data collection violates the following three rights:
  
 
 |week  |start| hw| proj |lab|exam|essay|  notes                            | deliverable 2 be inspected   |
-|------|-----|----|-----|---|----|-----------------------------------|------------------------------|
+|------|-----|----|-----|---|----|-----|-----------------------------------|------------------------------|
 |1 |Aug10    |    |     |   |    |     |proj1: start 26 projects          |                              |
 |2 |Aug17    | 2  |     |   |    |     |hw: GH set up                     | GH with cool structure       |
 |3 |Aug24    | 2  |     | 5 |    |     |hw: Practice run for week14 trials|  attendance tokens           |
