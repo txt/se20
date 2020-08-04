@@ -106,7 +106,7 @@ Exercise: 7 minutes. Discuss:
   - For some new Silicon Valley start-up with 5 employees?
 <br clear=all>
 
-<img width=500 
+<img width=800 
  src="../etc/img/sevsprog.png">
 
 
