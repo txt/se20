@@ -161,7 +161,7 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 + Github id: timm
 + Slack name: timm
-+ Office Hours: Wednesday, 2:00-4:00 and by request
++ Office Hours: Thursday, 12:00-2:30 and by request
 + E-Mail: timm@ieee.org
   + Only use this email for private matters. All other class communication should be via the class news group,    listed below.
 + Phone: 304-376-2859
