@@ -14,12 +14,12 @@ http://tiny.cc/seng20
 
 Are you a great software engineer? Can you...
 
-- Assess options; i.e.
-  - Glance at any system; suggest how to build it another, possibly better, way;
-  - Be able to assess the cost/benefits of those changes.
-- Write good software;
-  - that  anyone else would want o use?
-  - that is demonstrable _good_ (compared to something else).
+- Assess options?
+  - i.e. Glance at any system; suggest how to build it another, possibly better, way;
+  - i.e. Be able to assess the cost/benefits of those changes.
+- Write good software?
+  - That  anyone else would want o use?
+  - That is demonstrable _better_ (compared to something else).
 
 
 <table width="100%" border=0 align=center>
