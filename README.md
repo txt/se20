@@ -15,6 +15,7 @@ csc510, NC State
 </p>
 <hr>
 
+<p align=center>
 <table width="100%" border=0 align=center>
 <tr>
 <td align=center><img  src="etc/img/lectures.gif"></td>
@@ -56,4 +57,4 @@ Introduction:
 </tr>
 
 </table>
-
+</p>
