@@ -126,14 +126,17 @@ You will lose marks if that data collection violates the following three rights:
 |11| Oct19   |  2 |     |   |    | hw: "advertisement" for project   | 3 minute video               |
 |12| Oct26   |    | 25+2|   |    | proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
-|14| Nov9    |    |     |  5|    | proj3: eval trials                 | attendance tokens            |
-|14| Nov13   |    | 15+2|   |    | proj3: report on eval              | report on week14 evaluations |
-|  | totals  | 16 | 55+6| 10| 20 |                                   |                              |
+|14| Nov9    |    |     |  5|    | proj3: eval trials                | attendance tokens            |
+|14| Nov13   |    |15+2 |   |    | proj3: report on eval             | report on week14 evaluations |
+|  | totals  | 16 |55+6| 10| 20 |                                   |                              |
 
-In the above:
+In the above you can get, at max 6 bonus marks:
 - Proj1 is graded via the week6 deliverable list 1
+  - And if your project survives into Proj2, you get 2 bonus marks
 - Proj2 is graded via the week12 deliverable list 2
+  - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
 - Proj3 is graded via the report of the week14 evals (due last day of class)
+  - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
 
 With the final grades, the following grade scale will be used: 
 
