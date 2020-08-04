@@ -2,10 +2,8 @@
 <p>
 <a href="http://tiny.cc/seng20"><img  width=350
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
-<h2>
-Software Engineering,<br>Fall'20, csc510, NC&nbsp;State<br>http://tiny.cc/seng20
-</h2>
-<p align=xcenter>
+<h3>http://tiny.cc/seng20</h3>
+<p>
 <a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
@@ -24,7 +22,6 @@ Are you a great software engineer? Can you...
   - that is demonstrable _good_ (compared to something else).
 
 
-<p align=xcenter>
 <table width="100%" border=0 align=center>
 <tr>
 <td align=center><img           src="etc/img/lectures.gif"></td>
@@ -70,4 +67,3 @@ Introduction:
 </tr>
 
 </table>
-</p>
