@@ -117,24 +117,25 @@ You will lose marks if that data collection violates the following three rights:
 
  
 
-|week  |start| hw| proj |lab|exam|  notes                            | deliverable 2 be inspected   |
+|week  |start| hw| proj |lab|exam|essay|  notes                            | deliverable 2 be inspected   |
 |------|-----|----|-----|---|----|-----------------------------------|------------------------------|
-|1 |Aug10    |    |     |   |    | proj1: start 26 projects          |                              |
-|2 |Aug17    | 2  |     |   |    | hw: GH set up                     | GH with cool structure       |
-|3 |Aug24    | 2  |     | 5 |    | hw: Practice run for week14 trials|  attendance tokens           |
-|4 |Aug31    | 2  |     |   |    | hw: report on eval                | report on week3 evaluations  |
-|5 |Sept7    | 2  |     |   |    | hw: "advertisement" for project   | 3 minute video               |
-|6 |Sept14   |    | 15+2|   |    | proj2: 26 to 2\*13 projects        |  deliverable list1           |
-|7| Sept21   | 2  |     |   |    | hw: issues review                 |  issue report on w6 deliverable |     
-|8| Sept28   | 2  |     |   |    | hw: tool selection                | demo to tutor of group tools |
-|9| Oct5     |    |     |   | 20 | exam: take-home mid-term          | submitted exam               | 
-|10| Oct12   |  2 |     |   |    | hw: TBD                           |                              |
-|11| Oct19   |  2 |     |   |    | hw: "advertisement" for project   | 3 minute video               |
-|12| Oct26   |    | 25+2|   |    | proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
+|1 |Aug10    |    |     |   |    |     |proj1: start 26 projects          |                              |
+|2 |Aug17    | 2  |     |   |    |     |hw: GH set up                     | GH with cool structure       |
+|3 |Aug24    | 2  |     | 5 |    |     |hw: Practice run for week14 trials|  attendance tokens           |
+|4 |Aug31    | 2  |     |   |    |     |hw: report on eval                | report on week3 evaluations  |
+|5 |Sept7    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
+|6 |Sept14   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
+|7| Sept21   | 2  |     |   |    |     |hw: issues review                 |  issue report on w6 deliverable |     
+|8| Sept28   | 2  |     |   |    |     |hw: tool selection                | demo to tutor of group tools |
+|9| Oct5     |    |     |   | 20 |     |exam: take-home mid-term          | submitted exam               | 
+|10| Oct12   |  2 |     |   |    |     |hw: TBD                           |                              |
+|11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
+|12| Oct26   |    | 20+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
-|14| Nov9    |    |     |  5|    | proj3: eval trials                | attendance tokens            |
-|14| Nov13   |    |15+2 |   |    | proj3: report on eval             | report on week14 evaluations |
-|  | totals  | 16 |55+6| 10| 20 |                                   |                              |
+|14| Nov9    |    |     |  5|    |     |proj3: eval trials                | attendance tokens            |
+|14| Nov13   |    |10+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
+|15| Nov20   |    |     |   |    | 15  | essay                            | essay. 1200 words           |
+|  | totals  | 16 |40+6| 10| 20  | 15  |                              |                              |
 
 In the above you can get, at max 6 bonus marks:
 - Proj1 is graded via the week6 deliverable list 1
