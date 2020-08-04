@@ -160,6 +160,8 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
        + **Do not use** this number, except in the most dire of 
           circumstances (best way to contact me is via email).
 
+<br clear=all>
+
 ### Tutors
 
 <img src="http://ai4se.net/img/AndreMotta.jpg" align=right width=200>
@@ -169,6 +171,8 @@ Andre Motta
 + Slack name: Andre Motta
 + E-mail: alustos@ncsu.edu
 + Office hours: Mon-Wed 12pm-2:30pm and by email request
+
+<br clear=all>
 
 <img src="http://ai4se.net/img/huy.jpg" align=right width=200>
 Xioa Ling
