@@ -188,7 +188,7 @@ Xiao Ling
 + Github id:  XiaoLing941212
 + Slack name: Xiao Ling
 + E-mail: xling4@ncsu.edu
-+ Office hours: Tue-Thr 10am-12:30pm and by email request
++ Office hours: Tue 10am-12:30pm and by email request
 
 <br clear=all>
 
