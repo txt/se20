@@ -181,7 +181,7 @@ Xioa Ling
 + Github id:  alustos
 + Slack name: hqtu
 + E-mail: xling4@ncsu.edu
-+ Office hours: Tues 11am-1pm and by email request
++ Office hours: Tue-Thr 10am-12:30pm and by email request
 
 <br clear=all>
 
