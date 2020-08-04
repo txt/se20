@@ -3,7 +3,8 @@
 <a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
-<a href="http://seng20.slack.com">chat</a>
+<a href="http://seng20.slack.com">chat</a> ::
+<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">@copy; 2020</a>
 <br>
 <a href="http://tiny.cc/seng20"><img  width=450
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
@@ -11,11 +12,9 @@
 <h3 align=center>http://tiny.cc/seng20</h3>
 <hr>
 
-# LICENSE
+# @copy; Tim Menzies, 2020
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
-This work is available under a Creative Commons Attribution-ShareAlike 4.0 International license.
 
 Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
@@ -186,4 +185,3 @@ d. Nothing in this Public License constitutes or may be interpreted as a limitat
 > Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/legalcode). Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at [creativecommons.org/policies](http://creativecommons.org/policies), Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 >
 > Creative Commons may be contacted at creativecommons.org.
-
