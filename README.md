@@ -18,8 +18,8 @@ Are you a great software engineer? Can you...
   - i.e. Glance at any system; suggest how to build it another, possibly better, way;
   - i.e. Be able to assess the cost/benefits of those changes.
 - Write good software?
-  - That  anyone else would want o use?
-  - That is demonstrable _better_ (compared to something else).
+  - That  anyone else wants to use?
+  - That is clearly  _better_ than something else?
 
 
 <table width="100%" border=0 align=center>
