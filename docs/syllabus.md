@@ -7,7 +7,7 @@ Software Engineering, Fall'20, csc510, NC&nbsp;State
 </h2>
 <p align=xcenter>
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
-<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
+<a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>
 </p>
@@ -77,65 +77,64 @@ All class communication from staff to students will be via this Slack group.
 
 ## Assessment
 
-Grades come from homeworks, project, mid-session exam.
+Grades come from 8 homeworks, 3 project, 1 mid-session exam and 2 "eval sessions" where students
+give time to other projects (for user trials).
 
-|week  | start| hw| proj | lab   |exam   |  notes                  | deliverable 2 be inspected   |
-|------|------|----|------|-------|-------|------------------------|------------------------------|
-|1 |Aug10     |    |      |       |       | start 26 projects      |                              |
-|2 |Aug17     | 2  |      |       |       | hw: GH set up          | GH with cool structure       |
-|3 |Aug24     | 2  |      |  5    |       | hw: Practice run for week14 trials|  attendance tokens|
-|4 |Aug31     | 2  |      |       |       | hw: report on eval     | report on week3 evaluations  |
-|5 |Sept7     | 2  |      |       |       | hw: "advertisement" for project| 3 minute video       |
-|6 |Sept14    |    | 15+2 |       |       | proj: 26 to 2\*13 projects   |  deliverable list1     |
-|7| Sept21    | 2  |      |       |       | hw: issues review      |  issue report on w6 deliverable |     
-|8| Sept28    | 2  |      |       |       | hw: tool selection     | demo to tutor of group tools |
-|9| Oct5      |    |      |       | 20    | exam: take-home mid-term| submitted exam             | 
-|10| Oct12    |  2 |      |       |       | hw: TBD                |                              |
-|11| Oct19    |  2 |      |       |       | hw: "advertisement" for project | 3 minute video      |
-|12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 tasks| deliverable list2 |
-|13| Nov2     |    |      |       |       |                        |                              |
-|14| Nov9     |    |      |  5    |       | proj: eval trials      | attendance tokens            |
-|14| Nov13    |    | 15+2 |       |       | proj: report on eval   | report on week14 evaluations |
-|  | totals   | 16 | 55+6 |  10   |  20   |                        |                              |
+- Projects are larger tasks  (groups of 5 people, working in public Github repos-- not NCSU GH):
+  - Starting with 26 tasks in project1, we'll focus in on the best half, then the best quarter, for
+    project2 and project3
+    - Two bonus marks if other people jump to your task.i for their task.i+1 work
+  - Project1: you'll start some task
+  - Project2: ypu'll finish someone else's task (thereby learning the important of documentation, 
+    design purity, regression tests, etc).
+  - Project3: you'll be judging the success of  other people's code 
+- To support evaluation work
+  - Students get 10 marks for participating (\*) in other project's evaluation
+  - The real eval session will be in week14
+    - And we'll do a practice round in week3.
+- One mid-term take-home exam (week 9).
+  - no final exam
+- Homeworks are small tasks 
+  - graded 0 (for no submission), 1 (for "please try again") and 2 for "good".
+  - no late penalties
+  - may be submitted multiple times
 
-### Projects
+(\*) And by "participate" we mean that students need to attend  evaluation sessions organised by other groups.
+This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
+You will lose marks if that data collection violates the following three rights:
+      - The right to be anonymous: no one should be able to identify individuals in your data. Don't store free
+         text names in Github!
+      - The right to refuse: Any member of this clss, when called to an eval session, has the right to decline
+        to participate without having to explain why (in which case, they still get their chit).
+      - The right to be forgotten. Any one you collect data from has the right to require their data
+        deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous
+	  (outside of Github).
 
-Students will work in groups of five, storing their code in public Github repos (not stored on NCSU).
+ 
 
-- Project1 (due Monday, Sept14) : one team per task: 26 tasks
-  - Initial analysis, some coding
-  - Goal: write code that someone else wants to use.
-     - At the end of this project, students will assess all other tasks and pick one to jump too (and you cannot jump to your own);
-- Project2 (due Monday Oct26): two teams per task: 13 tasks
-  - Final delivery
-  - Goal: deliver a system that someone else things they can test
-     - At the end of this prokect, students will assess all other tasks and pick one to jump too (and you cannot jump to your own);
-- Project3 (due Tuesday, w14): four teams per task: 6 tasks
-  - Running evaluations on the 6 tasks
+|week  |start| hw| proj |lab|exam|  notes                            | deliverable 2 be inspected   |
+|------|-----|----|-----|---|----|-----------------------------------|------------------------------|
+|1 |Aug10    |    |     |   |    | proj1: start 26 projects          |                              |
+|2 |Aug17    | 2  |     |   |    | hw: GH set up                     | GH with cool structure       |
+|3 |Aug24    | 2  |     | 5 |    | hw: Practice run for week14 trials|  attendance tokens           |
+|4 |Aug31    | 2  |     |   |    | hw: report on eval                | report on week3 evaluations  |
+|5 |Sept7    | 2  |     |   |    | hw: "advertisement" for project   | 3 minute video               |
+|6 |Sept14   |    | 15+2|   |    | proj2: 26 to 2\*13 projects        |  deliverable list1           |
+|7| Sept21   | 2  |     |   |    | hw: issues review                 |  issue report on w6 deliverable |     
+|8| Sept28   | 2  |     |   |    | hw: tool selection                | demo to tutor of group tools |
+|9| Oct5     |    |     |   | 20 | exam: take-home mid-term          | submitted exam               | 
+|10| Oct12   |  2 |     |   |    | hw: TBD                           |                              |
+|11| Oct19   |  2 |     |   |    | hw: "advertisement" for project   | 3 minute video               |
+|12| Oct26   |    | 25+2|   |    | proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
+|13| Nov2    |    |     |   |    |                                   |                              |
+|14| Nov9    |    |     |  5|    | proj3: eval trials                 | attendance tokens            |
+|14| Nov13   |    | 15+2|   |    | proj3: report on eval              | report on week14 evaluations |
+|  | totals  | 16 | 55+6| 10| 20 |                                   |                              |
 
-### Homework
-
-Weekly tasks, in weeks 2,3,
-
-Student will sit exams to determine their understanding of lecture material.
-
-<!-- a href="https://computer-engineer-barbie.herokuapp.com/"><img width=400 align=right src="../img/barbieGithub.png"></a --->
-Students will work in groups of four using Github
-to test their ability to work in groups to deliver software.
-
-Grades will be assigned as follows:
-
-- Spot quizes, misc (quick) home works, 5 marks.
-- Team check ins : 5 marks, teams must meet with a tutor at least 5  times in the semester (1 before end-Jan, 2 before end-Feb, 2 before end-March) to assess your progress.
-- Mid-term: Tuesday, February 27, 15 marks
-- Final exam: 6pm Thurs May 3, 15 marks
-- Participation in evaluations: 10 marks (one per evaluation)
-    - Students will be issued 10 "chits" with 10 magic numbers
-    - When they perform any evaluation, they hand over the "chit"
-    - When students hand in their Mar1, May1 reports,
-        they list the chit numbers of the students present for their evals.
-    - Chits must be "spent" in other projects (you cannot hand in chits from your own people for your own project).
-- Project: 50 marks (deliverables each month).
+In the above:
+- Proj1 is graded via the week6 deliverable list 1
+- Proj2 is graded via the week12 deliverable list 2
+- Proj3 is graded via the report of the week14 evals (due last day of class)
 
 With the final grades, the following grade scale will be used: 
 
@@ -145,52 +144,6 @@ With the final grades, the following grade scale will be used:
      D+ (67-69),   D (63-66),   D-(60-62)
      F (below 60).
 
-## Project
-
-### Project1:  Build your own (Jan,Feb) 
-
-Do something cool, Evaluate it (using your peers) |
-
-|what | when | marks | notes |
-|-----|-----|--------|-----|
-|  1a | Feb1| 5| 5 page planning doc. Describes what and why. Also, an evaluation plan|
-| 1b  | Mar12  | 10|10 page report doc. . What your did. Why did you do it that way? How to install and run the code. Eval results|
-| 1c  | March13,15| 5| 5 minute presentation, 15 slides, 20 secs per slide. Descibe what, why and the eval|
-| 1d  | March13,15| 5| Peer assessment: how "cool" is your project?|
-
-### Project2:  Maintain someone else's (Mar,Apr) 
-
-Grab some other group's system, improve it, evaluate it. 
-
-Note: No more than 2 Proj2 teams can work on the same Proj1 task
-
-|what | when | marks | notes |
-|-----|-----|--------|-----|
-|2a  | Mar29| 5|5 page progress report doc. What you are doing. What was done before. What you are trying to do better.|
-|2b| Apr24,Apr26|5|  10 minute presentations on what was achieved|
-|2d| Apr24,Apr26  | 5| Peer assessment: how "cool" is your project? |
-|2c| May1  | 10| 10 page report doc. What you did. Why. Evaluation of new, and compared to old. Recommendations |
-
- Notes:
- 
--  Its ok to "fail" and say the old way was better. The thing here is can you maintain
-		   someone else's code and can you evaluate it.
-- Reports must  be in pdf generated from Word of Latex using [these templates](https://www.acm.org/publications/proceedings-template-16dec2016); e.g. [this doc](https://www.acm.org/binaries/content/assets/publications/article-templates/sig-alternate-sample.pdf).
-Reports that are too short or expand font size or margins sizes will lose points proprotional to that expansion.
-
-- You will be collecting eval data from your peers. This means you are now the gaurdians of that private data. 
-  Remember the 3Rs of data collection:
-      - The right to be anonymous: no one should be able to identify individuals in your data. Don't store free
-         text names in Github!
-      - The right to refuse: Any member of this clss, when called to an eval session, has the right to decline
-        to participate without having to explain why (in which case, they still get their chit).
-      - The right to be forgotten. Any one you collect data from has the right to require their data
-        deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous
-	  (outside of Github).
-- Regading the "cool" mark described above:  the grades from peers will be reviewed by the lecturer to
-  determine the final "cool" mark.
-
-____
 
 ## Staff
 
@@ -200,9 +153,8 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 + Github id: timm
 + Slack name: timm
-+ Office Hours: Tuesday, 2:00-4:00 and by request
-+ Location of Office Hours: EB II room 3298 
-+ E-Mail: tim.menzies@gmail.com 
++ Office Hours: Wednesday, 2:00-4:00 and by request
++ E-Mail: timm@ieee.org
   + Only use this email for private matters. All other class communication should be via the class news group,    listed below.
 + Phone: 304-376-2859
        + **Do not use** this number, except in the most dire of 
@@ -211,38 +163,38 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 ### Tutors
 
 <img src="http://ai4se.net/img/huy.jpg" align=right width=200>
-Ken Tu
+Andre Motta
 
-+ Github id:  huytu7
-+ Slack name: hqtu
-+ E-mail: hqtu@ncsu.edu
++ Github id:  andre-motta
++ Slack name: XXX
++ E-mail: alustos@ncsu.edu
 + Office hours: Tues 11am-1pm and by email request
-+ Office location: EB2 3240
 
-<br clear=all>
+<img src="http://ai4se.net/img/huy.jpg" align=right width=200>
+Xioa Ling
 
-<img src="http://static.wixstatic.com/media/1bf308_01e141375f454173b368feb66f3ee865.png_srz_p_325_348_75_22_0.50_1.20_0.00_png_srz"  align=right width=200>
++ Github id:  alustos
++ Slack name: hqtu
++ E-mail: xling4@ncsu.edu
++ Office hours: Tues 11am-1pm and by email request
 
-Amritanshu Agrawal
 
-+ Github id:  amritbhanu
-+ Slack name: aagrawa8
-+ E-mail: aagrawa8@ncsu.edu
-+ Office hours: Thurs 11am-1pm and by email request
-+ Office location: EB2 3240
-
-____
+-------
 
 ## Other Information
 
 ### Attendance
 
-Attendance is extremely important for your learning
-experience in this class. Once you reach three
+- Lectures are twice a week and tutorial sessions are 20 minutes, once every 2 weeks.
+- All meetings will be via Zoom. 
+- Attendance is extremely important for your learning
+experience in this class. 
+- An attendance record will be maintained by lecturer and tutors.
+- Once you reach three
 unexcused absences, each additional absence will
-reduce your attendance grade by 10%.
+reduce your attendance grade by 1 mark.
 
-As to what is an "excused" class, see the list at 
+As to what is an "excused" class, the official list is:
 [https://policies.ncsu.edu/regulation/reg-02-20-03](https://policies.ncsu.edu/regulation/reg-02-20-03):
 
 - Anticipated absences:
@@ -254,16 +206,19 @@ As to what is an "excused" class, see the list at
      - Short-term illness or injury
      - Death or serious illnesses in the family when documented appropriately. 
 
+On top of that, Covid-related issues will, of course, also be excused (e.g. Difficulties in getting child care
+for the meeting times).
+
 ### Expected Workload
 
  Students must be
 prepared to dedicate AT LEAST 5-8 working hours a
 week to this class (excluding the time spent in the
-classroom). Laboratory instruction is not included
+lecture meeting). Laboratory instruction is not included
 in this subject.
 
 Sometimes, the lecturer/tutor will require you to
-attend a review session during their consultation
+attend a review session, via Zoom, during their consultation
 time. There, students may be asked to review code,
 concepts, or comment on the structure of the
 course. Those sessions are mandatory and failure to
@@ -382,6 +337,8 @@ contact the Office for Equal Opportunity (OEO) at
 919-515-3148.
 
 ### Liability Insurance.
+
+(Included for completeness... but this is not text that is really relevant to this semester.)
 
 Non-scheduled class time for field trips or
 out-of-class activities are NOT required for this
