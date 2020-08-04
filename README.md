@@ -68,6 +68,8 @@ Introduction:
 </table>
 
 
+<hr>
+<h2> This is gonna b so much FUNNNN! </h2>
 <img align=right width=400 src="http://se16.unbox.org/.worksite/img/elearning_image1.jpg">
 
 Y'all yearning to be learning? Me too!
