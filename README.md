@@ -5,7 +5,8 @@
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>
-<a href="http://tiny.cc/seng20"><img  width=350
+<br>
+<a href="http://tiny.cc/seng20"><img  width=450
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 </p>
 <h3 align=center>http://tiny.cc/seng20</h3>
