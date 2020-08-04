@@ -38,3 +38,12 @@ show them spaital trees
 show them  make and bake
 
 then tell them about open governence in zehypr and the linux kernel indicators. exercise: given GH data, what particla indcitors might predict for project health?
+
+bad smells:
+
+- no bramches, no pull requests, no activity, no good
+- [commits to master](https://www.quora.com/I-work-for-a-startup-our-CTO-loves-writing-code-and-he-frequently-commits-bad-code-directly-to-the-master-branch-What-should-I-do)
+  - not necesarily a bad thing (given enough pre-commit tooling) https://paulhammant.com/2013/05/06/googles-scaled-trunk-based-development/
+  - https://trunkbaseddevelopment.com
+  - https://www.stxnext.com/blog/escape-merge-hell-why-i-prefer-trunk-based-development-over-feature-branching-and-gitflow:w
+- 
