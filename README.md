@@ -1,21 +1,20 @@
 <a name=top>
 <p>&nbsp;</p>
-<p align=center>
+<p align=xcenter>
 <a href="http://tiny.cc/seng20"><img  width=300
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 </p>
-<h1 align=center>
+<h1 align=xcenter>
 Software Engineering, Fall'20<br>
 csc510, NC State
 </h1>
-<p align=center>
+<p align=xcenter>
 <a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">chat</a>
 </p>
-<hr>
 
-<p align=center>
+<p align=xcenter>
 <table width="100%" border=0 align=center>
 <tr>
 <td align=center><img  src="etc/img/lectures.gif"></td>
