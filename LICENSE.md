@@ -4,7 +4,7 @@
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a> ::
-<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">@copy; 2020</a>
+<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>
 <br>
 <a href="http://tiny.cc/seng20"><img  width=450
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
@@ -12,7 +12,7 @@
 <h3 align=center>http://tiny.cc/seng20</h3>
 <hr>
 
-# @copy; Tim Menzies, 2020
+# &copy; Tim Menzies, 2020
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
