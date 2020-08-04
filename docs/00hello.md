@@ -1,5 +1,16 @@
-x
-
+<a name=top>
+<p align=center>
+<a href="https://tiny.cc/seng20">home</a> ::
+<a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
+<a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
+<a href="http://seng20.slack.com">chat</a> 
+<br>
+<a href="http://tiny.cc/seng20"><img  width=350
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
+<br>
+<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a> :: 
+http://tiny.cc/seng20
+<hr>
 
 
 # Lecture0: Intro
@@ -10,7 +21,6 @@ Y'all yearning to be learning? Me too!
 
 Education is the not the filling of a pail, but the lighting of a fire.   
 -- W.Yeats
-
 
 If the world merely lived up to our wildest dreamings, what a dull place it would be. Happily...   
 -- Me
@@ -37,6 +47,12 @@ And the language you use next is probably not the one you are using now:
 
 <img width=700 src="../etc/img/nextLanguage.png">
 
+And even if you are working on some language/tool now, if your work changes, that
+could change too
+
+<img width=20 
+ src="https://user-images.githubusercontent.com/29195/87721551-9b19ef00-c784-11ea-929f-68606c45828f.png">
+
 ## About NC State SE
 
 We're number one! Nearly!
@@ -59,6 +75,3 @@ width=250 src="http://menzies.us/img/shareBookCover.png"></a>
 ## About me
 
 http://menzies.us
-
-<a href="http://menzies.us"><img src="../img/me.png"></a>
-
