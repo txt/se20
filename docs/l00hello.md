@@ -44,6 +44,8 @@ Exercise: 7 minutes: explore.
 Look up sample tools an report back what kind of software is serviced by
 one of those  groups.
 
+<br clear=all>
+
 ## Q: So How many languages will you need to know?
 
 Projects are build from  2-5 Programming Languages 
@@ -102,6 +104,7 @@ Exercise: 7 minutes. Discuss:
 - Here is one person's picture of programmer versus software engineering. Where is it wrong:
   - For a large insurance company with 1000s of programmers?
   - For some new Silicon Valley start-up with 5 employees?
+<br clear=all>
 
 <img width=500 
  src="../etc/img/sevsprog.png">
