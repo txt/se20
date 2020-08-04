@@ -51,7 +51,7 @@ And even if you are working on some language/tool now, if your work changes, tha
 could change too
 
 <img width=20 
- src="https://user-images.githubusercontent.com/29195/87721551-9b19ef00-c784-11ea-929f-68606c45828f.png">
+ src="../etc/img/groups.png">
 
 ## About NC State SE
 
