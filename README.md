@@ -5,8 +5,7 @@
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 </p>
 <h1 align=xcenter>
-Software Engineering, Fall'20<br>
-csc510, NC State
+Software Engineering, Fall'20, csc510, NC State
 </h1>
 <p align=xcenter>
 <a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
