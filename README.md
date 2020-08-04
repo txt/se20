@@ -11,7 +11,6 @@ Software Engineering, Fall'20, csc510, NC&nbsp;State
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>
 </p>
-<br clear=all>
 <hr>
 
 Are you a great software engineer? Can you...
