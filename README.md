@@ -3,7 +3,7 @@
 <a href="http://tiny.cc/seng20"><img  width=350
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 <h2>
-Software Engineering, Fall'20, csc510, NC&nbsp;State<br>http://tiny.cc/seng20
+Software Engineering,<br>Fall'20, csc510, NC&nbsp;State<br>http://tiny.cc/seng20
 </h2>
 <p align=xcenter>
 <a href="https://tiny.cc/seng20">home</a> ::
