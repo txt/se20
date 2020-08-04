@@ -84,7 +84,7 @@ Grades come from homeworks, project, mid-session exam.
 |------|------|----|------|-------|-------|------------------------|------------------------------|
 |1 |Aug10     |    |      |       |       | start 26 projects      |                              |
 |2 |Aug17     | 2  |      |       |       | hw: GH set up          | GH with cool structure       |
-|3 |Aug24     | 2  |      |  5    |       | hw: Practice run: eval trials|  attendance tokens     |
+|3 |Aug24     | 2  |      |  5    |       | hw: Practice run for week14 trials|  attendance tokens     |
 |4 |Aug31     | 2  |      |       |       | hw: report on eval     | report on evaluations        |
 |5 |Sept7     | 2  |      |       |       | hw: "advertisement" for project| 3 minute video       |
 |6 |Sept14    |    | 15+2 |       |       | proj: 26 to 2\*13 projects   |  deliverable list1     |
@@ -96,7 +96,7 @@ Grades come from homeworks, project, mid-session exam.
 |12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 | deliverable list2      |
 |13| Nov2     |    |      |       |       |                        |                              |
 |14| Nov9     |    | 15+2 |  5    |       | proj: eval trials      | attendance tokens<br> deliverable list3 |
-|14| Nov13    |    | 15+2 |  5    |       | proj: report on eval   |                              |
+|14| Nov13    |    | 15+2 |  5    |       | proj: report on eval   | deliverable list4             |
 |  | totals   | 16 | 55+6 |  10   |  20   |                        |                              |
 
 ### Projects
