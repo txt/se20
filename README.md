@@ -43,6 +43,7 @@ Are you a great software engineer? Can you...
 <dt>
 Introduction:
 <dd>
+<a href="doc/syllabus.md">Syllabus!</a>,
 <a href="doc/l00hello.md">Hello!</a>,
 </dl>
 
