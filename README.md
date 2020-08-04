@@ -2,7 +2,7 @@
 <p>&nbsp;</p>
 <p align=center>
 <a href="http://tiny.cc/seng20"><img  
-  src="https://r,aw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 </p>
 <h1 align=center>
 Software Engineering, Fall'20<br>
