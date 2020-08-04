@@ -41,7 +41,7 @@ And the language you use next is probably not the one you are using now:
 
 We're number one! Nearly!
 
-<a href="http://csrankings.org/"><img width=900 src="../etc/img/csrankings.png"></a>
+<a href="http://csrankings.org/"><img width=900 src="../etc/img/csRankings.png"></a>
 
 Largest percent female faculty in CS  in the country:
 
