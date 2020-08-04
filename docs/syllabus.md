@@ -1,12 +1,18 @@
-<a name=top>&nbsp;<p> </a>
-[home](http://tiny.cc/ase19#top) | 
-[copyright](https://github.com/txt/ase19/blob/master/LICENSE.md#top) &copy;2019, tjmenzie&commat;ncsu.edu 
-<br> [<img width=900 src="https://raw.githubusercontent.com/txt/ase19/master/etc/img/banner.png">](http://tiny.cc/ase19)<br> 
-[syllabus](https://github.com/txt/ase19/blob/master/syllabus.md#top) | 
-[src](http://menzies.us/fun) | 
-[submit](http://tiny.cc/ase19give) | 
-[chat](https://ase19.slack.com/) 
-
+<a name=top>
+<p>
+<a href="http://tiny.cc/seng20"><img  width=250 align=left
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
+<h2>
+Software Engineering, Fall'20, csc510, NC State
+</h2>
+<p align=xcenter>
+<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
+<a href="http://seng20.slack.com">chat</a>
+</p>
+<br clear=all>
+<hr>
 
 # Syllabus
  
@@ -28,7 +34,6 @@ In this subject, students will learn how to:
 - Write good software;
   - that  someone else would want to use;
   - that is demonstrable _good_ (compared to something else).
-
 
 ### Topics
 
@@ -52,11 +57,9 @@ able to explain empirical and theoretical evidence,
 technical mechanisms, and models supporting software
 engineering.
 
-
 ### Prerequisites
 
 + CSC 316 and CSC 226
-
 
 ### Textbook
 
@@ -73,7 +76,6 @@ It is each student's responsibility to join the Slack  group:
 
 All class communication from staff to students will be via this Slack group.
 
-
 ## Assessment
 
 Grades come from homeworks, project, mid-session exam..
@@ -83,7 +85,6 @@ Student will sit exams to determine their understanding of lecture material.
 <!-- a href="https://computer-engineer-barbie.herokuapp.com/"><img width=400 align=right src="../img/barbieGithub.png"></a --->
 Students will work in groups of four using Github
 to test their ability to work in groups to deliver software.
-
 
 Grades will be assigned as follows:
 
@@ -126,14 +127,12 @@ Grab some other group's system, improve it, evaluate it.
 
 Note: No more than 2 Proj2 teams can work on the same Proj1 task
 
-
 |what | when | marks | notes |
 |-----|-----|--------|-----|
 |2a  | Mar29| 5|5 page progress report doc. What you are doing. What was done before. What you are trying to do better.|
 |2b| Apr24,Apr26|5|  10 minute presentations on what was achieved|
 |2d| Apr24,Apr26  | 5| Peer assessment: how "cool" is your project? |
 |2c| May1  | 10| 10 page report doc. What you did. Why. Evaluation of new, and compared to old. Recommendations |
-
 
  Notes:
  
@@ -153,7 +152,6 @@ Reports that are too short or expand font size or margins sizes will lose points
 	  (outside of Github).
 - Regading the "cool" mark described above:  the grades from peers will be reviewed by the lecturer to
   determine the final "cool" mark.
-
 
 ____
 
@@ -175,11 +173,8 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 ### Tutors
 
-
 <img src="http://ai4se.net/img/huy.jpg" align=right width=200>
 Ken Tu
-
-
 
 + Github id:  huytu7
 + Slack name: hqtu
@@ -193,13 +188,11 @@ Ken Tu
 
 Amritanshu Agrawal
 
-
 + Github id:  amritbhanu
 + Slack name: aagrawa8
 + E-mail: aagrawa8@ncsu.edu
 + Office hours: Thurs 11am-1pm and by email request
 + Office location: EB2 3240
-
 
 ____
 
@@ -238,8 +231,6 @@ time. There, students may be asked to review code,
 concepts, or comment on the structure of the
 course. Those sessions are mandatory and failure to
 attend will result in marks being deducted.
-
-
 
 ### Academic Integrity
 
@@ -353,7 +344,6 @@ discrimination, harassment, or retaliation should
 contact the Office for Equal Opportunity (OEO) at
 919-515-3148.
 
-
 ### Liability Insurance.
 
 Non-scheduled class time for field trips or
@@ -364,8 +354,3 @@ However,
 if they do happen then students are required to
 purchase liability insurance. For more information,
 see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
-
-
-
-
-

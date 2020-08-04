@@ -12,6 +12,7 @@ Software Engineering, Fall'20, csc510, NC State
 <a href="http://seng20.slack.com">chat</a>
 </p>
 <br clear=all>
+<hr>
 
 Are you a great software engineer? Can you...
 

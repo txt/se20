@@ -1,7 +1,15 @@
 <a name=top>
-<p align=center>
-<a href="http://tiny.cc/seng20><img align=center src="etc/img/teamBanner.png"></a><br>
-<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</>a ::
-<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</>a ::
-<a href="http://github.com/txt/se20/docs/syllabus.md">chat</>a
+<p>
+<a href="http://tiny.cc/seng20"><img  width=250 align=left
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
+<h2>
+Software Engineering, Fall'20, csc510, NC State
+</h2>
+<p align=xcenter>
+<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
+<a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
+<a href="http://seng20.slack.com">chat</a>
 </p>
+<br clear=all>
+<hr>
