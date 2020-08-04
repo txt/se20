@@ -90,7 +90,7 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
     project2 and project3
     - Two bonus marks if other people jump to your task.i for their task.i+1 work
   - Project1: you'll start some task
-  - Project2: ypu'll finish someone else's task (thereby learning the important of documentation, 
+  - Project2: you'll finish someone else's task (thereby learning the important of documentation, 
     design purity, regression tests, etc).
   - Project3: you'll be judging the success of  other people's code 
 - To support evaluation work
@@ -130,12 +130,12 @@ You will lose marks if that data collection violates the following three rights:
 |9| Oct5     |    |     |   | 20 |     |exam: take-home mid-term          | submitted exam               | 
 |10| Oct12   |    |     |   |    |     |   |                              |
 |11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
-|12| Oct26   |    | 25+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
+|12| Oct26   |    | 20+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
 |14| Nov9    |    |     |  5|    |     |proj3: eval trials                | attendance tokens            |
-|14| Nov13   |    |15+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
+|14| Nov13   |    |10+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
 |15| Nov20   |    |     |   |    | 18  | essay                            | essay. 1200 words           |
-|  | totals  | 12 |50+6| 10| 20  | 18  |                              |                              |
+|  | totals  | 12 |40+6| 10| 20  | 18  |                              |                              |
 
 In the above you can get, at max 6 bonus marks:
 - Proj1 is graded via the week6 deliverable list 1
