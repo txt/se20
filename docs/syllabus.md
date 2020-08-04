@@ -77,7 +77,7 @@ All class communication from staff to students will be via this Slack group.
 ## Assessment
 
 Grades come from 
-- 8 homeworks
+- 6 homeworks
 - 3 project, 
 - 2 "eval sessions" where students
 - 1 mid-session exam 
@@ -126,16 +126,16 @@ You will lose marks if that data collection violates the following three rights:
 |5 |Sept7    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
 |6 |Sept14   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
 |7| Sept21   | 2  |     |   |    |     |hw: issues review                 |  issue report on w6 deliverable |     
-|8| Sept28   | 2  |     |   |    |     |hw: tool selection                | demo to tutor of group tools |
+|8| Sept28   |    |     |   |    |     |                                  |                              |
 |9| Oct5     |    |     |   | 20 |     |exam: take-home mid-term          | submitted exam               | 
-|10| Oct12   |  2 |     |   |    |     |hw: TBD                           |                              |
+|10| Oct12   |    |     |   |    |     |   |                              |
 |11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
-|12| Oct26   |    | 20+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
+|12| Oct26   |    | 25+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
 |14| Nov9    |    |     |  5|    |     |proj3: eval trials                | attendance tokens            |
-|14| Nov13   |    |10+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
-|15| Nov20   |    |     |   |    | 15  | essay                            | essay. 1200 words           |
-|  | totals  | 16 |40+6| 10| 20  | 15  |                              |                              |
+|14| Nov13   |    |15+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
+|15| Nov20   |    |     |   |    | 18  | essay                            | essay. 1200 words           |
+|  | totals  | 12 |50+6| 10| 20  | 18  |                              |                              |
 
 In the above you can get, at max 6 bonus marks:
 - Proj1 is graded via the week6 deliverable list 1
