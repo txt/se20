@@ -76,10 +76,16 @@ All class communication from staff to students will be via this Slack group.
 
 ## Assessment
 
-Grades come from 8 homeworks, 3 project, 1 mid-session exam and 2 "eval sessions" where students
-give time to other projects (for user trials).
+Grades come from 
+- 8 homeworks
+- 3 project, 
+- 2 "eval sessions" where students
+- 1 mid-session exam 
+- 1 end-of-term essay
 
-- Projects are larger tasks  (groups of 5 people, working in public Github repos-- not NCSU GH):
+Exams and essays are done individually. Everything else is done in groups of 4+.
+
+- Projects comprise three  large tasks  (groups of 5 people, working in public Github repos-- not NCSU GH):
   - Starting with 26 tasks in project1, we'll focus in on the best half, then the best quarter, for
     project2 and project3
     - Two bonus marks if other people jump to your task.i for their task.i+1 work
