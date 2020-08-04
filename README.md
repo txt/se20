@@ -1,11 +1,10 @@
 <a name=top>
-<p>&nbsp;</p>
 <p align=xcenter>
 <a href="http://tiny.cc/seng20"><img  width=300 align=left
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
-<h1>
+<h2>
 Software Engineering, Fall'20, csc510, NC State
-</h1>
+</h2>
 <p align=xcenter>
 <a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
