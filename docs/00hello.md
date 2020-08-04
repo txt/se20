@@ -29,13 +29,13 @@ lot of things there are to learn.
 
 A: none of them.
 
-<img width=900 src="../img/tiobe.png">
+<img width=900 src="../etc/img/tiobe.png">
 
 And the language you use next is probably not the one you are using now:
 
 - Empirical Analysis of Programming Language Adoption Leo A. Meyerovich, Ariel Rabkin, OOPSLA ’13.
 
-<img width=700 src="../img/nextLanguage.png">
+<img width=700 src="../etc/img/nextLanguage.png">
 
 ## About NC State SE
 
