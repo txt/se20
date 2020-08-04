@@ -95,7 +95,7 @@ Grades come from homeworks, project, mid-session exam.
 |11| Oct19    |  2 |      |       |       | hw: "advertisement" for project | 3 minute video      |
 |12| Oct26    |    | 25+2 |       |       | proj: 2\*13 projects to 4\*6 tasks| deliverable list2      |
 |13| Nov2     |    |      |       |       |                        |                              |
-|14| Nov9     |    | 15+2 |  5    |       | proj: eval trials      | attendance tokens<br> deliverable list3 |
+|14| Nov9     |    |      |  5    |       | proj: eval trials      | attendance tokens<br> deliverable list3 |
 |14| Nov13    |    | 15+2 |       |       | proj: report on eval   | report on week14 evaluations |
 |  | totals   | 16 | 55+6 |  10   |  20   |                        |                              |
 
