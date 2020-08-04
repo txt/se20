@@ -1,10 +1,9 @@
 <a name=top>
 <p>&nbsp;</p>
 <p align=xcenter>
-<a href="http://tiny.cc/seng20"><img  width=300
+<a href="http://tiny.cc/seng20"><img  width=300 align=left
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
-</p>
-<h1 align=xcenter>
+<h1>
 Software Engineering, Fall'20, csc510, NC State
 </h1>
 <p align=xcenter>
@@ -13,6 +12,7 @@ Software Engineering, Fall'20, csc510, NC State
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>
 </p>
+<br clear=all>
 
 Are you a great software engineer? Can you...
 
