@@ -1,7 +1,7 @@
 <a name=top>
 <p>&nbsp;</p>
 <p align=center>
-<a href="http://tiny.cc/seng20"><img  width=500
+<a href="http://tiny.cc/seng20"><img  width=400
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
 </p>
 <h1 align=center>
