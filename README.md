@@ -2,7 +2,13 @@
 <p>&nbsp;</p>
 <p align=center>
 <a href="http://tiny.cc/seng20"><img  
-  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
+  src="https://r,aw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a><br>
+</p>
+<h1 align=center>
+Software Engineering, Fall'20<br>
+csc510, NC State
+</h1>
+<p align=center>
 <a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</>a ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">moodle</>a ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">chat</>a
