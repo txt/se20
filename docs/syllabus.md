@@ -182,12 +182,12 @@ Andre Motta
 <br clear=all>
 
 <img src="http://ai4se.net/img/huy.jpg" align=right width=200>
-Xioa Ling
+Xiao Ling
 
-+ Github id:  alustos
-+ Slack name: hqtu
++ Github id:  XiaoLing941212
++ Slack name: Xiao Ling
 + E-mail: xling4@ncsu.edu
-+ Office hours: Tues 11am-1pm and by email request
++ Office hours: Tue-Thr 10am-12:30pm and by email request
 
 <br clear=all>
 
