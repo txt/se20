@@ -96,7 +96,7 @@ Programmers are the people who know when not to program:
 - Exhibit A: Ken Thompson, of Unix and C fame, once said "One of my most productive days was throwing away 1000 lines of code."
 - Exhibit B:
 
-<img src="../etc/img/ghissues.png">
+<img width=700 src="../etc/img/ghissues.png">
 
 
 <img align=right width=200 src="../etc/img/brain.png">
@@ -106,7 +106,7 @@ Exercise: 7 minutes. Discuss:
   - For some new Silicon Valley start-up with 5 employees?
 <br clear=all>
 
-<img width=800 
+<img width=700 
  src="../etc/img/sevsprog.png">
 
 
