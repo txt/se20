@@ -6,7 +6,7 @@
 Software Engineering, Fall'20, csc510, NC State
 </h2>
 <p align=xcenter>
-<a href="http://github.com/txt/se20/docs/syllabus.md">syllabus</a> ::
+<a href="https://github.com/txt/se20/blob/master/docs/syllabus.md">syllabus</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">moodle</a> ::
 <a href="http://github.com/txt/se20/docs/syllabus.md">zoom</a> ::
 <a href="http://seng20.slack.com">chat</a>

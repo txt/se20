@@ -78,7 +78,44 @@ All class communication from staff to students will be via this Slack group.
 
 ## Assessment
 
-Grades come from homeworks, project, mid-session exam..
+Grades come from homeworks, project, mid-session exam.
+
+|week  | start| tut| proj | lab   |exam  | notes|
+|------|------|----|------|-------|-------|------|
+|1 |Aug10     |    |      |       |       | start 26 projects    |
+|2 |Aug17     | 2  |      |       |       | Gh set up    |
+|3 |Aug24     | 2  |      |  5    |       | Practice run: eval trials    |
+|4 |Aug31     | 2  |      |       |       | Tool selection     |
+|5 |Sept7     | 2  |      |       |       | 3 minute video     |
+|6 |Sept14    |    | 15+2 |       |       | 26 to 2\*13 projects     |
+|7| Sept21    | 2  |      |       |       |      |
+|8| Sept28    | 2  |      |       |       |      |
+|9| Oct5      |    |      |       | 20    |      |
+|10| Oct12    |  2 |      |       |       |      |
+|11| Oct19    |  2 |      |       |       | 3 minute video     |
+|12| Oct26    |    | 25+2 |       |       | 2\*13 projects to 4\*6     |
+|13| Nov2     |    |      |       |       |      |
+|14| Nov9     |    | 15+2 |  5    |       | Project eval trials     |
+|  | totals   | 16 | 60+6 |  10   |  20   |                          |
+
+### Projects
+
+Students will work in groups of five, storing their code in public Github repos (not stored on NCSU).
+
+- Project1 (due Monday, Sept14) : one team per task: 26 tasks
+  - Initial analysis, some coding
+  - Goal: write code that someone else wants to use.
+     - At the end of this project, students will assess all other tasks and pick one to jump too (and you cannot jump to your own);
+- Project2 (due Monday Oct26): two teams per task: 13 tasks
+  - Final delivery
+  - Goal: deliver a system that someone else things they can test
+     - At the end of this prokect, students will assess all other tasks and pick one to jump too (and you cannot jump to your own);
+- Project3 (due Tuesday, w14): four teams per task: 6 tasks
+  - Running evaluations on the 6 tasks
+
+### Homework
+
+Weekly tasks, in weeks 2,3,
 
 Student will sit exams to determine their understanding of lecture material.
 
