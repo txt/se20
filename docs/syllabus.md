@@ -103,13 +103,11 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
 This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
 You will lose marks if that data collection violates the following three rights:
 
-- The right to be anonymous: no one should be able to identify individuals in your data. Don't store free
-         text names in Github!
-- The right to refuse: Any member of this clss, when called to an eval session, has the right to decline
-       to participate without having to explain why (in which case, they still get their chit).
-- The right to be forgotten. Any one you collect data from has the right to require their data
-        deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous
-	  (outside of Github).
+|Right| Notes|
+|-----|------|
+|Right to be forgotten|No one should be able to identify individuals in your data. Don't store free text names in Github!|
+| The **right to refuse| Any member of this clss, when called to an eval session, has the right to decline to participate without having to explain why (in which case, they still get their chit).|
+| The **right to be forgotten**| Any one you collect data from has the right to require their data deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous (outside of Github).|
 
  
 
