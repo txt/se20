@@ -384,7 +384,7 @@ see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
 
 ## COVID-Related Issues
 
-<img align=right widht=300 src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/04/covid-19-model.jpg">
+<img align=right wdith=400 src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/04/covid-19-model.jpg">
 Due to the Coronavirus pandemic, public health measures have been implemented across
 campus. Students should stay current with these practices and expectations through the 
 Protect the Pack
