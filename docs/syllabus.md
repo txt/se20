@@ -25,7 +25,7 @@ We are working in "big H" history. See below for how we are helping you respond 
 
 
 This is an _advanced graduate_ class. 
-In this subject, students will be give exposure to the start of the art in how to:
+In this subject, students will be taught the start of the art in how to:
 
 - Assess software options; i.e.
   - (a) Review  a system; suggest how to build it another, possibly better, way;
