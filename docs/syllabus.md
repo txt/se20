@@ -386,9 +386,11 @@ see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
 
 <img align=right widht=400 src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/04/covid-19-model.jpg">
 Due to the Coronavirus pandemic, public health measures have been implemented across
-campus. Students should stay current with these practices and expectations through the [Protect the Pack](https://www.ncsu.edu/coronavirus/)
+campus. Students should stay current with these practices and expectations through the 
+Protect the Pack
 website (https://www.ncsu.edu/coronavirus/). The sections below provide expectations and conduct
 related to COVID-19 issues.
+
 
 In the following,  there is text about "coming to class". Note that that text should be interpreted
 in the context of this class being **on-line**.
