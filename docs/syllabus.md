@@ -384,6 +384,7 @@ see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
 
 ## COVID-Related Issues
 
+<img align=right widht=500 src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/04/covid-19-model.jpg">
 Due to the Coronavirus pandemic, public health measures have been implemented across
 campus. Students should stay current with these practices and expectations through the [Protect the Pack](https://www.ncsu.edu/coronavirus/)
 website (https://www.ncsu.edu/coronavirus/). The sections below provide expectations and conduct
@@ -446,8 +447,8 @@ participation. However, you will be expected to develop a plan to keep up with y
 during any such absences. If you become ill with COVID-19, you should follow the steps
 outlined in the health and participating section above. COVID 19-related absences will be
 considered excused; documentation need only involve communication with your instructor.
-- Course Meeting Schedule: Your course might not have a traditional meeting schedule in Fall
-2020. Be sure to pay attention to any updates to the course schedule as the information in this
+- Course Meeting Schedule: Your course might not have a traditional meeting schedule in Fall 2020. 
+Be sure to pay attention to any updates to the course schedule as the information in this
 syllabus may have changed. Please discuss any questions you have with the instructor.
 - Classroom Seating: To support efficient, effective contact tracing, please sit in the same seat
 when possible and take note of who is sitting around you; instructors may also assign seats for
