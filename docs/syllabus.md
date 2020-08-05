@@ -76,10 +76,14 @@ Grades come from
 - 3 project, 
 - 2 "eval sessions" where students use suers to test software
 - 1 mid-session exam 
-- 1 end-of-term essay
+- 1 end-of-term essay, no final
 
 Exams and essays are done individually. Everything else is done in groups of 4+.
 
+- Homeworks are small tasks 
+  - graded 0 (for no submission), 1 (for "please try again") and 2 for "good".
+  - no late penalties
+  - may be submitted multiple times
 - Projects comprise three  large tasks  (groups of 5 people, working in public Github repos-- not NCSU GH):
   - Starting with 26 tasks in project1, we'll focus in on the best half, then the best quarter, for
     project2 and project3
@@ -99,12 +103,6 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
   - Students get 10 marks for participating (\*) in other project's evaluation
   - The real eval session will be in week14
     - And we'll do a practice round in week3.
-- One mid-term take-home exam (week 9).
-  - no final exam
-- Homeworks are small tasks 
-  - graded 0 (for no submission), 1 (for "please try again") and 2 for "good".
-  - no late penalties
-  - may be submitted multiple times
 
 (\*) And by "participate" we mean that students need to attend  evaluation sessions organised by other groups.
 This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
