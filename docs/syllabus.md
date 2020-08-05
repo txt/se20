@@ -392,7 +392,7 @@ website (https://www.ncsu.edu/coronavirus/). The sections below provide expectat
 related to COVID-19 issues.
 
 
-In the following,  there is text about "coming to class". Note that that text should be interpreted
+- In the following,  there is text about "coming to class". Note that that text should be interpreted
 in the context of this class being **on-line**.
 
 ### Health and Participation in Class
