@@ -99,6 +99,15 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
   - no late penalties
   - may be submitted multiple times
 
+In the above you can get, at max 6 bonus marks:
+- Proj1 is graded via the week6 deliverable list 1
+  - And if your project survives into Proj2, you get 2 bonus marks
+- Proj2 is graded via the week12 deliverable list 2
+  - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
+- Proj3 is graded via the report of the week14 evals (due last day of class)
+  - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
+
+
 (\*) And by "participate" we mean that students need to attend  evaluation sessions organised by other groups.
 This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
 You will lose marks if that data collection violates the following three rights:
@@ -109,7 +118,15 @@ You will lose marks if that data collection violates the following three rights:
 | The **right to refuse| Any member of this clss, when called to an eval session, has the right to decline to participate without having to explain why (in which case, they still get their chit).|
 | The **right to be forgotten**| Any one you collect data from has the right to require their data deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous (outside of Github).|
 
+### Grades
  
+With the final grades, the following grade scale will be used: 
+
+     A+ (97-100),  A (93-96),   A-(90-92)
+     B+ (87-89),   B (83-86),   B-(80-82)
+     C+ (77-79),   C (73-76),   C-(70-72)
+     D+ (67-69),   D (63-66),   D-(60-62)
+     F (below 60).
 
 |week  |start| hw| proj |lab|exam|essay|  notes                            | deliverable 2 be inspected   |
 |------|-----|----|-----|---|----|-----|-----------------------------------|------------------------------|
@@ -130,22 +147,6 @@ You will lose marks if that data collection violates the following three rights:
 |14| Nov13   |    |10+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
 |15| Nov20   |    |     |   |    | 18  | essay                            | essay. 1200 words           |
 |  | totals  | 12 |40+6| 10| 20  | 18  |                              |                              |
-
-In the above you can get, at max 6 bonus marks:
-- Proj1 is graded via the week6 deliverable list 1
-  - And if your project survives into Proj2, you get 2 bonus marks
-- Proj2 is graded via the week12 deliverable list 2
-  - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
-- Proj3 is graded via the report of the week14 evals (due last day of class)
-  - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
-
-With the final grades, the following grade scale will be used: 
-
-     A+ (97-100),  A (93-96),   A-(90-92)
-     B+ (87-89),   B (83-86),   B-(80-82)
-     C+ (77-79),   C (73-76),   C-(70-72)
-     D+ (67-69),   D (63-66),   D-(60-62)
-     F (below 60).
 
 ## Staff
 
