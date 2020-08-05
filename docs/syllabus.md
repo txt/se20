@@ -16,7 +16,10 @@
 Fall 2020        
 CSC 510-001 (2104)  
 TuTh 3:00PM - 4:15PM   
-on-line
+
+This course will be run 100% on-line. No face to face meetings!
+
+We are working in "big H" history. See below for how we are helping you respond to the COVID pandemic.
 
 ## Overview
 
@@ -25,13 +28,32 @@ on-line
 In this subject, students will learn how to:
 
 - Assess software options; i.e.
-  - Review  a system; suggest how to build it another, possibly better, way;
-  - Be able to assess the cost/benefits of those changes.
+  - (D1) Review  a system; suggest how to build it another, possibly better, way;
+  - (D2) Be able to assess the cost/benefits of those changes.
+        - (D3) including the ethical implications of different designs
+  - (D4): Working in teams, deliver a systems of acceptable quality withint eh availanble resoruces   
 - Write good software;
-  - that  someone else would want to use;
-  - that is demonstrable _good_ (compared to something else).
+  - (D5) that  someone else would want to use;
+  - (D6) that is demonstrable _good_ (compared to something else).
+
+|Outcomes| Notes | Mapping|
+|-------|-------|---------|
+| O1 |  Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.|  D1,D2,D3 |
+| O2 | Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. | D4 |
+| O3 | Communicate effectively in a variety of professional contexts. |D5 |
+| O4 | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |D3,D6 |
+| O5 | Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | D4,D5|
+
+
+|Topics| Notes | Mapping |
+|-------|-------|---------|
+| T1 |Techniques, skills, and tools necessary for computing practice. |D1,D2 |
+| T2| Principles and practices for secure computing. | D1,D2,D3|
+| T3| Local and global impacts of computing solutions on individuals, organizations, and society. | D3,D5| 
 
 ### Topics
+
+
 
 An introduction to software life cycle models; size
 estimation; cost and schedule estimation; project
@@ -267,15 +289,8 @@ The  exams will be done individually.  Academic integrity is important.  Do not 
 
 ### Disabilities
 
-Reasonable accommodations will be made for students
-with verifiable disabilities. In order to take
-advantage of available accommodations, students must
-register with Disability Services for Students at
-1900 Student Health Center, Campus Box 7509,
-919-515-7653. For more information on NC State's
-policy on working with students with disabilities,
-please see the Academic Accommodations for Students
-with Disabilities Regulation(REG 02.20.01).
+Reasonable accommodations will be made for students with verifiable disabilities. In order to take advantage of available accommodations, students must register with the Disability Resource Office at Holmes Hall, Suite 304, Campus Box 7509, 919-515-7653. For more information on NC State’s policy on working with students with disabilities, please see the Academic Accommodations for Students with Disabilities Regulation (REG02.20.01) (https://policies.ncsu.edu/regulation/reg-02-20-01/).
+
 
 Students are responsible for reviewing the PRRs
 which pertain to their course rights and
@@ -291,28 +306,57 @@ Diversity),
 (Code of Student Conduct), and
 [http://policies.ncsu.edu/regulation/reg-02-50-03](http://policies.ncsu.edu/regulation/reg-02-50-03)
 (Grades and Grade Point Average).
+### Policy on Incomplete Grades
+
+If an extended deadline is not authorized by the Graduate School,
+an unfinished incomplete grade will automatically change to an F
+after either (a) the end of the next regular semester in which the
+student is enrolled (not including summer sessions), or (b) by the
+end of 12 months if the student is not enrolled, whichever is
+shorter. Incompletes that change to F will count as an attempted
+course on transcripts. The burden of fulfilling an incomplete grade
+is the responsibility of the student. The university policy on
+incomplete grades is located at
+http://policies.ncsu.edu/regulation/reg-02-50-03. Additional
+information relative to incomplete grades for graduate students can
+be found in the Graduate Administrative Handbook in Section 3.18.F
+at http://www.ncsu.edu/grad/handbook/index.php
+
+### Late Assignments Policy
+
+Homeworks become late 1 month after after the dates listed above.  Late homeworks earn zero marks.
+
+For project deliverables, students will lose 1 mark per day for late submissions (weekend = 1 day).
+
+### Digital Course Components
+
+Instructors are not responsible for ensuring privacy
+or accessibility of electronic materials that are not required
+components of the course (e.g., links to supplemental information
+that is not part of the required reading list). However, instructors
+should judiciously consider the privacy, copyright, and accessibility
+of supplemental links provided to students and warn them of any
+known issues or concerns in this regard. See Online Course Material
+Host Requirements (NCSU REG 08.00.11).
 
 ### Non-Discrimination Policy
  <img src="https://farm5.staticflickr.com/4276/34435689480_2e6f358510_k_d.jpg" align=right width=500>
 
-NC State University provides equality of opportunity
-in education and employment for all students and
-employees. Accordingly, NC State affirms its
-commitment to maintain a work environment for all
-employees and an academic environment for all
-students that is free from all forms of
-discrimination. Discrimination based on race, color,
-religion, creed, sex, national origin, age,
-disability, veteran status, or sexual orientation is
-a violation of state and federal law and/or NC State
-University policy and will not be
-tolerated. Harassment of any person (either in the
-form of quid pro quo or creation of a hostile
-environment) based on race, color, religion, creed,
-sex, national origin, age, disability, veteran
-status, or sexual orientation also is a violation of
-state and federal law and/or NC State University
-policy and will not be tolerated.
+NC State provides equal opportunity and affirmative action efforts,
+and prohibits all forms of unlawful discrimination, harassment, and
+retaliation ("Prohibited Conduct") that are based upon a person's
+race, color, religion, sex (including pregnancy), national origin,
+age (40 or older), disability, gender identity, genetic information,
+sexual orientation, or veteran status (individually and collectively,
+"Protected Status"). Additional information as to each Protected
+Status is included in NCSU REG 04.25.02 (Discrimination, Harassment
+and Retaliation Complaint Procedure). NC State's policies and
+regulations covering discrimination, harassment, and retaliation
+may be accessed at http://policies.ncsu.edu/policy/pol-04-25-05 or
+https://oied.ncsu.edu/divweb/. Any person who feels that he or she
+has been the subject of prohibited discrimination, harassment, or
+retaliation should contact the Office for Equal Opportunity (OEO)
+at 919-515-3148.
 
 + Note that, as a lecturer, I am legally required to
 **report** all such acts to the campus policy<sup>1</sup>.
