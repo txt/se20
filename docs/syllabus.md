@@ -2,6 +2,7 @@
 <p xalign=center>
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
+<a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
@@ -36,7 +37,6 @@ In this subject, students will be taught the start of the art in how to:
   - (c) Working in teams, deliver a systems of acceptable quality within eh available resources;  
   - (d) That  someone else would want to use;
   - (e) That is demonstrable _good_ (compared to something else).
-
 
 |ABET Categories |  Notes | Mapping to the above|
 |----|-------|---------|
