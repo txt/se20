@@ -55,7 +55,8 @@ In this subject, students will be taught the start of the art in how to:
 
 ### Textbook
 
-+ Optional [Software Engineering: A Practitioner's Approach, 8th International edition](https://www.amazon.com/Software-Engineering-Practitioners-Roger-Pressman/dp/0078022126/ref=sr_1_1?dchild=1&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach&qid=1596502362&sr=8-1)
++ Optional, purchase not necessary
+  -  [Software Engineering: A Practitioner's Approach, 8th International edition](https://www.amazon.com/Software-Engineering-Practitioners-Roger-Pressman/dp/0078022126/ref=sr_1_1?dchild=1&keywords=Software+Engineering%3A+A+Practitioner%27s+Approach&qid=1596502362&sr=8-1)
 by Roger Pressman 
 
 ### Group Slack group
