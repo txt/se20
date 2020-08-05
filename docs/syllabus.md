@@ -74,7 +74,7 @@ All class communication from staff to students will be via this Slack group.
 Grades come from 
 - 6 homeworks
 - 3 project, 
-- 2 "eval sessions" where students use suers to test software
+- 2 "lab sessions" where students use suers to test software
 - 1 mid-session exam 
 - 1 end-of-term essay, no final
 
@@ -97,21 +97,21 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
       - And if your project survives into Proj2, you get 2 bonus marks
     - Proj2 is graded via the week12 deliverable list 2
       - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
-    - Proj3 is graded via the report of the week14 evals (due last day of class)
+    - Proj3 is graded via the report of the week14 labs (due last day of class)
       - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
-- To support evaluation work
-  - Students get 10 marks for participating (\*) in other project's evaluation
-  - The real eval session will be in week14
+- To support the lab work
+  - Students get 10 marks for participating (\*) in other project's labs
+  - The real lab session will be in week14
     - And we'll do a practice round in week3.
 
-(\*) And by "participate" we mean that students need to attend  evaluation sessions organised by other groups.
-This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
+(\*) And by "participate" we mean that students need to attend  lab sessions organized by other groups.
+This means you will be collecting lab data from your peers. This also means you are now the guardians of that private data. 
 You will lose marks if that data collection violates the following three rights:
 
 |Right| Notes|
 |-----|------|
 |The **right to  privacy**|No one should be able to identify individuals in your data. Don't store free text names in Github!|
-| The **right to refuse**| Any member of this clss, when called to an eval session, has the right to decline to participate without having to explain why (in which case, they still get their chit).|
+| The **right to refuse**| Any member of this class, when called to an lab session, has the right to decline to participate without having to explain why (in which case, they still get their chit).|
 | The **right to be forgotten**| Any one you collect data from has the right to require their data deleted from your study. So keep anonymous ids for everyone, keep a mapping table real name to anonymous (outside of Github).|
 
 ### Grades
@@ -129,7 +129,7 @@ With the final grades, the following grade scale will be used:
 |1 |Aug10    |    |     |   |    |     |proj1: start 26 projects          |                              |
 |2 |Aug17    | 2  |     |   |    |     |hw: GH set up                     | GH with cool structure       |
 |3 |Aug24    | 2  |     | 5 |    |     |hw: Practice run for week14 trials|  attendance tokens           |
-|4 |Aug31    | 2  |     |   |    |     |hw: report on eval                | report on week3 evaluations  |
+|4 |Aug31    | 2  |     |   |    |     |hw: report on lab                | report on week3 lab sessions  |
 |8| Sept7   |    |     |   |    |     |                                  |   trial run on deliverable list           |
 |5 |Sept14    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
 |6 |Sept21   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
@@ -139,8 +139,8 @@ With the final grades, the following grade scale will be used:
 |11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
 |12| Oct26   |    | 20+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
-|14| Nov9    |    |     |  5|    |     |proj3: eval trials                | attendance tokens            |
-|14| Nov13   |    |10+2 |   |    |     |proj3: report on eval             | report on week14 evaluations |
+|14| Nov9    |    |     |  5|    |     |proj3: lab trials                | attendance tokens            |
+|14| Nov13   |    |10+2 |   |    |     |proj3: report on lab             | report on week14 labs |
 |15| Nov20   |    |     |   |    | 18  | essay                            | essay. 1200 words           |
 |  | totals  | 12 |40+6| 10| 20  | 18  |                              |                              |
 
