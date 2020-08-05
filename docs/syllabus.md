@@ -30,7 +30,7 @@ In this subject, students will learn how to:
 - Assess software options; i.e.
   - (D1) Review  a system; suggest how to build it another, possibly better, way;
   - (D2) Be able to assess the cost/benefits of those changes.
-        - (D3) including the ethical implications of different designs
+    - (D3) including the ethical implications of different designs
   - (D4): Working in teams, deliver a systems of acceptable quality withint eh availanble resoruces   
 - Write good software;
   - (D5) that  someone else would want to use;
