@@ -1,6 +1,7 @@
 <a name=top>
 <a href="http://tiny.cc/seng20"><img  width=400
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
+<hr>
 <p>
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
