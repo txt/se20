@@ -43,9 +43,7 @@ In this subject, students will be taught the start of the art in how to:
 | O3 | Communicate effectively in a variety of professional contexts. |d |
 | O4 | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |b2,e |
 | O5 | Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | c,d|
-
 |Topics| Notes | Mapping |
-|-------|-------|---------|
 | T1 |Techniques, skills, and tools necessary for computing practice. |a,b1 |
 | T2| Principles and practices for secure computing. | a,b1,b2|
 | T3| Local and global impacts of computing solutions on individuals, organizations, and society. | b2,d| 
