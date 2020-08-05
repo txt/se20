@@ -43,20 +43,20 @@ Are you a great software engineer? Can you...
 <dt>
 Introduction:
 <dd>
-<a href="doc/syllabus.md">Syllabus!</a>,
-<a href="doc/l00hello.md">Hello!</a>,
+<a href="docs/syllabus.md">Syllabus!</a>,
+<a href="docs/l00hello.md">Hello!</a>,
 </dl>
 
 
 <!-- -------------------------------- -->
 
 </td><td align=center valign=top xwidth="100px">
-<a href="doc/project.md">0.Project</a>
+<a href="doc/project.md">XXXX</a>
 
 </td>
 <td align=center   valign=top xwidth="100px">
    
-<a href="doc/review1.md">Review1</a><br>
+<a href="doc/review1.md">XXX</a><br>
   
 </td>
 <td align=center valign=top  xwidth="100px">
