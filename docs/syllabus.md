@@ -44,7 +44,6 @@ In this subject, students will learn how to:
 | O4 | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |D3,D6 |
 | O5 | Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | D4,D5|
 
-
 |Topics| Notes | Mapping |
 |-------|-------|---------|
 | T1 |Techniques, skills, and tools necessary for computing practice. |D1,D2 |
@@ -267,7 +266,6 @@ The  exams will be done individually.  Academic integrity is important.  Do not 
 
 Reasonable accommodations will be made for students with verifiable disabilities. In order to take advantage of available accommodations, students must register with the Disability Resource Office at Holmes Hall, Suite 304, Campus Box 7509, 919-515-7653. For more information on NC State’s policy on working with students with disabilities, please see the Academic Accommodations for Students with Disabilities Regulation (REG02.20.01) (https://policies.ncsu.edu/regulation/reg-02-20-01/).
 
-
 Students are responsible for reviewing the PRRs
 which pertain to their course rights and
 responsibilities. These include:
@@ -381,7 +379,6 @@ if they do happen then students are required to
 purchase liability insurance. For more information,
 see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
 
-
 ## COVID-Related Issues
 
 <img align=right wdith=400 src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/04/covid-19-model.jpg">
@@ -390,7 +387,6 @@ campus. Students should stay current with these practices and expectations throu
 Protect the Pack
 website (https://www.ncsu.edu/coronavirus/). The sections below provide expectations and conduct
 related to COVID-19 issues.
-
 
 - In the following,  there is text about "coming to class". Note that that text should be interpreted
 in the context of this class being **on-line**.
