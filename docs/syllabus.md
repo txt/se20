@@ -37,9 +37,8 @@ In this subject, students will be taught the start of the art in how to:
   - (d) That  someone else would want to use;
   - (e) That is demonstrable _good_ (compared to something else).
 
-### Mapping to ABET
 
-| |  Notes | Mapping to the above|
+|ABET Categories |  Notes | Mapping to the above|
 |----|-------|---------|
 |**Outcome**|  Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.|  a,b1,b2 |
 | | Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. | c |
