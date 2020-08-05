@@ -121,10 +121,10 @@ You will lose marks if that data collection violates the following three rights:
 |2 |Aug17    | 2  |     |   |    |     |hw: GH set up                     | GH with cool structure       |
 |3 |Aug24    | 2  |     | 5 |    |     |hw: Practice run for week14 trials|  attendance tokens           |
 |4 |Aug31    | 2  |     |   |    |     |hw: report on eval                | report on week3 evaluations  |
-|5 |Sept7    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
-|6 |Sept14   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
-|7| Sept21   | 2  |     |   |    |     |hw: issues review                 |  issue report on w6 deliverable |     
-|8| Sept28   |    |     |   |    |     |                                  |                              |
+|8| Sept7   |    |     |   |    |     |                                  |   trial run on deliverable list           |
+|5 |Sept14    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
+|6 |Sept21   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
+|7| Sept28   | 2  |     |   |    |     |hw: issues review                 |  issue report on w6 deliverable |     
 |9| Oct5     |    |     |   | 20 |     |exam: take-home mid-term          | submitted exam               | 
 |10| Oct12   |    |     |   |    |     |   |                              |
 |11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
