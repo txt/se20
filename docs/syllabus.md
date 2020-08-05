@@ -66,15 +66,6 @@ projects. A group project required following
 good software engineering practices throughout the
 semester.
 
-### Objectives
-
-Students are expected to gain practical exposure to
-tools, processes, and principles of software
-engineering through hands-on projects while being
-able to explain empirical and theoretical evidence,
-technical mechanisms, and models supporting software
-engineering.
-
 ### Prerequisites
 
 + CSC 316 and CSC 226
