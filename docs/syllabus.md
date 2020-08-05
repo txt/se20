@@ -282,6 +282,7 @@ Diversity),
 (Code of Student Conduct), and
 [http://policies.ncsu.edu/regulation/reg-02-50-03](http://policies.ncsu.edu/regulation/reg-02-50-03)
 (Grades and Grade Point Average).
+
 ### Policy on Incomplete Grades
 
 If an extended deadline is not authorized by the Graduate School,
@@ -379,3 +380,80 @@ However,
 if they do happen then students are required to
 purchase liability insurance. For more information,
 see [http://www2.acs.ncsu.edu/insurance/](http://www2.acs.ncsu.edu/insurance/).
+
+
+## COVID-Related Issues
+
+Due to the Coronavirus pandemic, public health measures have been implemented across
+campus. Students should stay current with these practices and expectations through the [Protect the Pack](https://www.ncsu.edu/coronavirus/)
+website (https://www.ncsu.edu/coronavirus/). The sections below provide expectations and conduct
+related to COVID-19 issues.
+
+In the following,  there is text about "coming to class". Note that that text should be interpreted
+in the context of this class being **on-line**.
+
+### Health and Participation in Class
+
+We are most concerned about your health and the health of your classmates and instructors/TAs.
+
+- If you test positive for COVID-19, or are told by a healthcare provider that you are presumed
+positive for the virus, please work with your instructor on health accommodations and follow
+other university guidelines, including self-reporting: https://healthypack.dasa.ncsu.edu/coronavirus/. Self-reporting is not only to help
+provide support to you, but also to assist in contact tracing for containing the spread of the virus.
+-  If you feel unwell, even if you have not been knowingly exposed to COVID-19, please do not
+come to class.
+- If you are in quarantine, have been notified that you may have been exposed to COVID-19, or
+have a personal or family situation related to COVID-19 that prevents you from attending this
+course in person (or synchronously), please connect with your instructor to discuss the situation
+and make alternative plans, as necessary.
+- If you need to make a request for an academic consideration related to COVID-19, such as a
+discussion about possible options for remote learning, please talk with your instructor for the
+appropriate process to make a COVID-19 request.
+
+### Health and Well-Being Resources
+
+These are difficult times, and academic and personal stress is a natural result. Everyone is encouraged to
+take care of themselves and their peers. If you need additional support, there are many resources on
+campus to help you:
+
+- Counseling Center (https://counseling.dasa.ncsu.edu/)
+-  Health Center (https://healthypack.dasa.ncsu.edu/)
+- If the personal behavior of a classmate concerns or worries you, either for the classmate’s well-
+being or yours, we encourage you to report this behavior to the NC State CARES team:
+(https://advising.dasa.ncsu.edu/resources-for-advisors/advisors-toolkit/cares/)
+- If you or someone you know are experiencing food, housing or financial insecurity, please see
+the Pack Essentials Program (https://dasa.ncsu.edu/pack-essentials/).
+
+### Community Standards related to COVID-19
+
+We are all responsible for protecting ourselves and our community. Please see the community
+expectations and Rule 04.21.01 regarding Personal Safety Requirements Related to COVID-19 https://policies.ncsu.edu/rule/rul-04-21-01/
+
+### Course Expectations Related to COVID-19:
+
+- Personal Protective Equipment: As a member of the NC State academic community you are
+required to follow all university guidelines for personal safety with face coverings, physical
+distancing, and sanitation. Face coverings are required in this class and in all NC State
+buildings. Face coverings should be worn to cover the nose and mouth and be close fitting to the
+face with minimal gaps on the sides. In addition, students are responsible for keeping their
+course/work area clean.
+- Course Attendance: NC State attendance policies can be found
+at: https://policies.ncsu.edu/regulation/reg-02-20-03-attendance-regulations/ . Please refer to
+this course’s attendance, absence, and deadline policies for additional details. If you are
+quarantined or otherwise need to miss class because you have been advised that you may have
+been exposed to COVID-19, you should not be penalized regarding attendance or class
+participation. However, you will be expected to develop a plan to keep up with your coursework
+during any such absences. If you become ill with COVID-19, you should follow the steps
+outlined in the health and participating section above. COVID 19-related absences will be
+considered excused; documentation need only involve communication with your instructor.
+- Course Meeting Schedule: Your course might not have a traditional meeting schedule in Fall
+2020. Be sure to pay attention to any updates to the course schedule as the information in this
+syllabus may have changed. Please discuss any questions you have with the instructor.
+- Classroom Seating: To support efficient, effective contact tracing, please sit in the same seat
+when possible and take note of who is sitting around you; instructors may also assign seats for
+this purpose..
+- Technology Requirements: This course may require particular technologies to complete
+coursework. Be sure to review the syllabus for these expectations, and see go.ncsu.edu/syllabus-
+tech-requirements to find out more about technical requirements for your course. If you need
+access to additional technological support, please contact the Libraries’ Technology Lending
+Service: https://www.lib.ncsu.edu/devices.
