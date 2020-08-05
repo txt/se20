@@ -46,8 +46,8 @@ Mapping to ABET outcomes and topics:
 | | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |b2,e |
 || Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | c,d|
 |**Topics** | Techniques, skills, and tools necessary for computing practice. |a,b1 |
-| Principles and practices for secure computing. | a,b1,b2|
-| Local and global impacts of computing solutions on individuals, organizations, and society. | b2,d| 
+|| Principles and practices for secure computing. | a,b1,b2|
+|| Local and global impacts of computing solutions on individuals, organizations, and society. | b2,d| 
 
 ### Prerequisites
 
