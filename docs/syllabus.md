@@ -31,10 +31,10 @@ In this subject, students will learn how to:
   - (D1) Review  a system; suggest how to build it another, possibly better, way;
   - (D2) Be able to assess the cost/benefits of those changes.
     - (D3) including the ethical implications of different designs
-  - (D4): Working in teams, deliver a systems of acceptable quality withint eh availanble resoruces   
-- Write good software;
-  - (D5) that  someone else would want to use;
-  - (D6) that is demonstrable _good_ (compared to something else).
+- Write "good" software;
+  - (D4) Working in teams, deliver a systems of acceptable quality withint eh availanble resoruces   
+  - (D5) That  someone else would want to use;
+  - (D6) That is demonstrable _good_ (compared to something else).
 
 |Outcomes| Notes | Mapping|
 |-------|-------|---------|
