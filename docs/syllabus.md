@@ -51,21 +51,6 @@ In this subject, students will learn how to:
 | T2| Principles and practices for secure computing. | D1,D2,D3|
 | T3| Local and global impacts of computing solutions on individuals, organizations, and society. | D3,D5| 
 
-### Topics
-
-
-
-An introduction to software life cycle models; size
-estimation; cost and schedule estimation; project
-management; risk management; formal technical
-reviews; analysis, design, coding and testing
-methods; configuration management and change
-control; and software reliability
-estimation. Emphasis on large development
-projects. A group project required following
-good software engineering practices throughout the
-semester.
-
 ### Prerequisites
 
 + CSC 316 and CSC 226
