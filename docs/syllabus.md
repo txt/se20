@@ -401,7 +401,7 @@ We are most concerned about your health and the health of your classmates and in
 
 - If you test positive for COVID-19, or are told by a healthcare provider that you are presumed
 positive for the virus, please work with your instructor on health accommodations and follow
-other university guidelines, including self-reporting: https://healthypack.dasa.ncsu.edu/coronavirus/. Self-reporting is not only to help
+other university guidelines, including [self-reporting](https://healthypack.dasa.ncsu.edu/coronavirus/). Self-reporting is not only to help
 provide support to you, but also to assist in contact tracing for containing the spread of the virus.
 -  If you feel unwell, even if you have not been knowingly exposed to COVID-19, please do not
 come to class.
