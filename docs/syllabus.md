@@ -23,32 +23,32 @@ We are working in "big H" history. See below for how we are helping you respond 
 
 ## Overview
 
-### General description:
 
-In this subject, students will learn how to:
+This is an _advanced graduate_ class. 
+In this subject, students will be give exposure to the start of the art in how to:
 
 - Assess software options; i.e.
-  - (D1) Review  a system; suggest how to build it another, possibly better, way;
-  - (D2) Be able to assess the cost/benefits of those changes.
-    - (D3) including the ethical implications of different designs
+  - (a) Review  a system; suggest how to build it another, possibly better, way;
+  - (b1) Be able to assess the cost/benefits of those changes.
+    - (b2) including the ethical implications of different designs
 - Write "good" software;
-  - (D4) Working in teams, deliver a systems of acceptable quality withint eh availanble resoruces   
-  - (D5) That  someone else would want to use;
-  - (D6) That is demonstrable _good_ (compared to something else).
+  - (c) Working in teams, deliver a systems of acceptable quality within eh available resources;  
+  - (d) That  someone else would want to use;
+  - (e) That is demonstrable _good_ (compared to something else).
 
 |Outcomes| Notes | Mapping|
 |-------|-------|---------|
-| O1 |  Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.|  D1,D2,D3 |
-| O2 | Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. | D4 |
-| O3 | Communicate effectively in a variety of professional contexts. |D5 |
-| O4 | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |D3,D6 |
-| O5 | Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | D4,D5|
+| O1 |  Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.|  a,b1,b2 |
+| O2 | Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. | c |
+| O3 | Communicate effectively in a variety of professional contexts. |d |
+| O4 | Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles. |b2,e |
+| O5 | Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline. | c,d|
 
 |Topics| Notes | Mapping |
 |-------|-------|---------|
-| T1 |Techniques, skills, and tools necessary for computing practice. |D1,D2 |
-| T2| Principles and practices for secure computing. | D1,D2,D3|
-| T3| Local and global impacts of computing solutions on individuals, organizations, and society. | D3,D5| 
+| T1 |Techniques, skills, and tools necessary for computing practice. |a,b1 |
+| T2| Principles and practices for secure computing. | a,b1,b2|
+| T3| Local and global impacts of computing solutions on individuals, organizations, and society. | b2,d| 
 
 ### Prerequisites
 
