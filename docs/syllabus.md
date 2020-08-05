@@ -88,6 +88,13 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
   - Project2: you'll finish someone else's task (thereby learning the important of documentation, 
     design purity, regression tests, etc).
   - Project3: you'll be judging the success of  other people's code 
+  - In the above you can get, at max 6 bonus marks:
+    - Proj1 is graded via the week6 deliverable list 1
+      - And if your project survives into Proj2, you get 2 bonus marks
+    - Proj2 is graded via the week12 deliverable list 2
+      - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
+    - Proj3 is graded via the report of the week14 evals (due last day of class)
+      - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
 - To support evaluation work
   - Students get 10 marks for participating (\*) in other project's evaluation
   - The real eval session will be in week14
@@ -98,15 +105,6 @@ Exams and essays are done individually. Everything else is done in groups of 4+.
   - graded 0 (for no submission), 1 (for "please try again") and 2 for "good".
   - no late penalties
   - may be submitted multiple times
-
-In the above you can get, at max 6 bonus marks:
-- Proj1 is graded via the week6 deliverable list 1
-  - And if your project survives into Proj2, you get 2 bonus marks
-- Proj2 is graded via the week12 deliverable list 2
-  - And if your project from proj1 or proj2 survives into Proj3, you get 2 bonus marks
-- Proj3 is graded via the report of the week14 evals (due last day of class)
-  - And if the class votes your proj1,proj2 as  "best", they get two bonus marks.
-
 
 (\*) And by "participate" we mean that students need to attend  evaluation sessions organised by other groups.
 This means you will be collecting eval data from your peers. This also means you are now the guardians of that private data. 
