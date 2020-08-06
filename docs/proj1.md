@@ -85,9 +85,6 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 || Number of commits: by different people||
 || Issues reports: there are many||
 ||  issues are being  closed||
-|| test cases exist||
-|| test cases are routinely executed||
-|| test cases:.a large proportion of the issues related to handling failing cases.||
 || License: exists||
 || DOI badge: exists ||
 ||Docs: what: point descriptions of each class/function (in isolation) ||
@@ -107,12 +104,15 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 || Extensive use of code coverage ||
 || other automated analysis tools||
 || Extensive use of  other automated analysis tools||
+|| test cases exist||
+|| test cases are routinely executed||
 | consensus-oriented model| the files CONTRIBUTING.md and CODEOFCONDUCT.md has have multiple edits by multiple people||
 | | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up||
 | | multiple people contribute to discussions||
 || issues are discussed before they are closed||
 || Chat channel: exists||
 || Chat channel: is active ||
+|| test cases:.a large proportion of the issues related to handling failing cases.||
 | zero internal boundaries | evidence that the whole team is using the same tools: everyone can get to all tools and files||
 | | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)||
 | | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)||
