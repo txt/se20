@@ -128,25 +128,26 @@ With the final grades, the following grade scale will be used:
      F (below 60).
 
 ### Timetable
-|week  |start| hw| proj |lab|exam|essay|  notes                            | deliverable 2 be inspected   |
-|------|-----|----|-----|---|----|-----|-----------------------------------|------------------------------|
-|1 |Aug10    |    |     |   |    |     |proj1: start 26 projects          |                              |
-|2 |Aug17    | 2  |     |   |    |     |hw: GH set up                     | GH with cool structure       |
-|3 |Aug24    | 2  |     | 5 |    |     |hw: Practice run for week14 trials|  attendance tokens           |
-|4 |Aug31    | 2  |     |   |    |     |hw: report on lab                | report on week3 lab sessions  |
-|8| Sept7   |    |     |   |    |     |                                  |   trial run on deliverable list           |
-|5 |Sept14    | 2  |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
-|6 |Sept21   |    | 10+2|   |    |     |proj2: 26 to 2\*13 projects        |  deliverable list1           |
-|7| Sept28   | 2  |     |   |    |     |hw: issues review                 |  issue report on w6 deliverable |     
-|9| Oct5     |    |     |   | 20 |     |exam: take-home mid-term          | submitted exam               | 
-|10| Oct12   |    |     |   |    |     |   |                              |
-|11| Oct19   |  2 |     |   |    |     |hw: "advertisement" for project   | 3 minute video               |
-|12| Oct26   |    | 20+2|   |    |     |proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
+
+|week  |start| hw| proj |lab|exam|essay|spot<br>quiz|  notes                            | deliverable 2 be inspected   |
+|------|-----|----|-----|---|----|-----|----|-----------------------------------|------------------------------|
+|1 |Aug10    |    |     |   |    |     ||proj1: start 26 projects          |                              |
+|2 |Aug17    | 2  |     |   |    |     ||hw: GH set up                     | GH with cool structure       |
+|3 |Aug24    | 2  |     | 5 |    |     ||hw: Practice run for week14 trials|  attendance tokens           |
+|4 |Aug31    | 2  |     |   |    |     ||hw: report on lab                | report on week3 lab sessions  |
+|8| Sept7    |    |     |   |    |     ||                                  |   trial run on deliverable list           |
+|5 |Sept14   | 2  |     |   |    |     ||hw: "advertisement" for project   | 3 minute video               |
+|6 |Sept21   |    | 10+2|   |    |     ||proj2: 26 to 2\*13 projects        |  deliverable list1           |
+|7| Sept28   | 2  |     |   |    |     ||hw: issues review                 |  issue report on w6 deliverable |     
+|9| Oct5     |    |     |   | 20 |     ||exam: take-home mid-term          | submitted exam               | 
+|10| Oct12   |    |     |   |    |     ||   |                              |
+|11| Oct19   |  2 |     |   |    |     ||hw: "advertisement" for project   | 3 minute video               |
+|12| Oct26   |    | 20+2|   |    |     ||proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
-|14| Nov9    |    |     |  5|    |     |proj3: lab trials                | attendance tokens            |
-|14| Nov13   |    |10+2 |   |    |     |proj3: report on lab             | report on week14 labs |
-|15| Nov20   |    |     |   |    | 18  | essay                            | essay. 1200 words           |
-|  | totals  | 12 |40+6| 10| 20  | 18  |                              |                              |
+|14| Nov9    |    |     |  5|    |     ||proj3: lab trials                | attendance tokens            |
+|14| Nov13   |    |10+2 |   |    |     ||proj3: report on lab             | report on week14 labs |
+|15| Nov20   |    |     |   |    | 12  || essay                            | essay. 1200 words           |
+|  | totals  | 12 |40+6| 10| 20  | 12  |5|                              |                              |
 
 ## Staff
 
@@ -193,17 +194,16 @@ Xiao Ling
 
 ### Attendance
 
+ 
 - Lectures are twice a week and tutorial sessions are 20 minutes, once every 2 weeks.
 - All meetings will be via Zoom. 
 - Attendance is extremely important for your learning
 experience in this class. 
-- An attendance record will be maintained by lecturer and tutors.
-- Once you reach three
-unexcused absences, each additional absence will
-reduce your attendance grade by 1 mark.
 
-As to what is an "excused" class, the official list is:
-[https://policies.ncsu.edu/regulation/reg-02-20-03](https://policies.ncsu.edu/regulation/reg-02-20-03):
+Lecture attendance will be scored by 5 one mark spot quizzes, run at random times,
+at some point 5 minutes after the start of the lecture. There will be no appeal,
+excuse for "excused" 
+[excused classes](https://policies.ncsu.edu/regulation/reg-02-20-03):
 
 - Anticipated absences:
      - Representing an official university function (e.g. athletics)
