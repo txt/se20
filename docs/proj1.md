@@ -93,7 +93,7 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 ||Docs: 3 minute video, posted to YouTube. That convinces people why they want to work on your code.||
 || (hard) code conforms to some known patterns |
 |Tools Matter| Use of version control tools||
-|| Version control tools used extensively||
+|| Extensive use of version control tools ||
 ||Use of  style checkers ||
 ||Extensive Use of  style checkers ||
 || Use of code  formatters. ||
