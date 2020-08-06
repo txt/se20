@@ -14,6 +14,17 @@
 
 # Lecture: What is "good code"?
 
+nothing i knew about SE holds anymore
+
+Gorilla
+
+fish
+
+make : depdnancies
+
+date databases.
+
+dochdr
 comapre two sites (me and anothr)
 
 show them the release notes fro  zephyr
