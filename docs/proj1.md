@@ -73,8 +73,11 @@ you can emulate.
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
 
 
-Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
-(and that's the score out of ten).
+Total score: 
+- write down "2" into every right-hand-side cell
+- Look for evidence that a "2" should be something else
+- sum the right-hand-column, divide by number of rows, multiple by 12.5
+  - and that's the score out of ten.
 
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
