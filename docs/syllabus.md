@@ -147,7 +147,7 @@ With the final grades, the following grade scale will be used:
 |14| Nov9    |    |     |  5|    |     ||proj3: lab trials                | attendance tokens            |
 |14| Nov13   |    |10+2 |   |    |     ||proj3: report on lab             | report on week14 labs |
 |15| Nov20   |    |     |   |    | 12  || essay                            | essay. 1200 words           |
-|  | totals  | 12 |40+6| 10| 20  | 12  |5|                              |                              |
+|  | totals  | 12 |40+6| 10| 20  | 12  |6|                              |                              |
 
 ## Staff
 
@@ -200,7 +200,7 @@ Xiao Ling
 - Attendance is extremely important for your learning
 experience in this class. 
 
-Lecture attendance will be scored by 5 one mark spot quizzes, run at random times,
+Lecture attendance will be scored by six one mark spot quizzes, run at random times,
 at some point 5 minutes after the start of the lecture. There will be no appeal,
 excuse for "excused" 
 [excused classes](https://policies.ncsu.edu/regulation/reg-02-20-03):
