@@ -12,21 +12,11 @@
 <br>
 <hr>
 
-Are you a great software engineer? Can you...
-
-- Assess software options; i.e.
-  - Review  a system; suggest how to build it another, possibly better, way;
-  - Be able to assess the cost/benefits of those changes.
-    - including the ethical implications of different designs
-- Write "good" software;
-  - Working in teams, deliver a systems of acceptable quality within eh available resources;  
-  - That  someone else would want to use;
-  - That is demonstrable _good_ (compared to something else).
 
 
-
-<table width="100%" border=0 align=xenter>
+<table width="100%" border=0 align=center>
 <tr>
+<td></td>
 <td align=center><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
 <td align=center><img           src="etc/img/review.gif"></td>
@@ -34,6 +24,7 @@ Are you a great software engineer? Can you...
 <td align=center><img  width=64 src="etc/img/time.png"></td>
 </tr>
 <tr>
+<td></td>
 <td align=center><b>Lectures</b></td>
 <td align=center><b>Project/HW</b>
 </td><td align=center><b>Review </td>
@@ -41,6 +32,29 @@ Are you a great software engineer? Can you...
 <td align=center><b>Events</b> </td>
 </tr>
 <tr>
+<td>
+
+Are you a great software engineer? Can you...
+
+<ul>
+<li>
+- Assess software options; i.e.
+<ul>
+<li>
+   Review  a system; suggest how to build it another, possibly better, way;
+  <li> Be able to assess the cost/benefits of those changes.
+    <li> including the ethical implications of different designs
+</ul>
+<li>
+ Write "good" software;
+  <ul><li> Working in teams, deliver a systems of acceptable quality within eh available resources;  
+  <li> That  someone else would want to use;
+  <li> That is demonstrable _good_ (compared to something else).
+</ul>
+</ul>
+
+
+</td>
 <td valign=top  xwidth="100px">
 
 <!-- -------------------------------- -->
