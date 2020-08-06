@@ -14,7 +14,9 @@
 
 # Project 1
 
-## How to Pick  a Project
+Goal: partially complete some software that other groups will say "yes, we want to work on that for Project2".
+
+## Start by Picking  a Project
 
 (Hint: do it now!)
 
@@ -40,18 +42,23 @@ If you want to be in the running for "best project" in task3, your system has to
 
 - Which means your code has to address some problem in some current system
 - And do so in a manner that is quantifiable.
-- For that kind of assessment, doing something AI related is useful (but don't feel oblidged to go there is you
+- For that kind of assessment, doing something AI related is useful (but don't feel obliged to go there is you
   have other ideas).
 
 ![](../etc/img/aiall.png)
 
-## Deliverable check list
+## Grading
 
-score each 0..4 Sum, divide by number of rows, multiple by 10.
+Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
+
+Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
+(and that's the score out of ten).
 
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
 |Distrbuted dev model: | workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
+|| Number of commits||
+|| Number of commits: by different people||
 || Issues reports: there are many||
 ||  issues are being  closed||
 || test cases exist||
@@ -61,9 +68,7 @@ score each 0..4 Sum, divide by number of rows, multiple by 10.
 || There are pre-commit tools:  code  formatters) ||
 || There are pre-commit tools:  syntax checkers) ||
 || There are pre-commit tools:  code coverage ||
-|| There are pre-commit tools:  other automated analytsis tools||
-|| Chat channel: exists||
-|| Chat channel: is active ||
+|| There are pre-commit tools:  other automated analysis tools||
 || License: exists||
 || DOI badge: exists ||
 ||Docs: what: point descriptions of each class/function (in isolation) ||
@@ -74,6 +79,8 @@ score each 0..4 Sum, divide by number of rows, multiple by 10.
 | | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up||
 | | multiple people contribute to discussions||
 || issues are discussed before they are closed||
+|| Chat channel: exists||
+|| Chat channel: is active ||
 | zero internal boundaries | evidence that the whole team is using the same tools: everyone can get to all tools and files||
 | | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)||
 | | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)||
