@@ -64,7 +64,8 @@ If you want to be in the running for "best project" in task3, your system has to
 
 <img src="../etc/img/rules.png" align=right width=400>
 Your work will be assessed via how many of the 
-[Linux Kernek Key Practices](https://go.pardot.com/l/6342/2017-10-24/3xr3f2/6342/188781/Publication_LinuxKernelReport_2017.pdf) (see pages 25,26)
+<a href="https://go.pardot.com/l/6342/2017-10-24/3xr3f2/6342/188781/Publication_LinuxKernelReport_2017.pdf">Linux Kernel Best Practices</a>
+ (see pages 25,26)
 you can emulate.
 
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
