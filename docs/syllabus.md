@@ -81,7 +81,8 @@ Grades come from
 - 1 mid-session exam 
 - 1 end-of-term essay, no final
 
-Exams and essays are done individually. Everything else is done in groups of 4+.
+Exams and essays are done individually. Everything else is done in groups of 4+. For group information, please see
+https://docs.google.com/spreadsheets/d/1gKkaPaiqHUqHDSdliHuL8Wj-cPtq8FRpSSdqihR0Oc4/edit#gid=0
 
 - Homeworks are small tasks 
   - graded 0 (for no submission), 1 (for "please try again") and 2 for "good".
