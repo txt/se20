@@ -52,11 +52,13 @@ If you want to be in the running for "best project" in task3, your system has to
 
 - Which means your code has to address some problem in some current system
 - And do so in a manner that is quantifiable.
-- For that kind of assessment, doing something AI related is useful (but don't feel obliged to go there is you
+- <a href="../etc/img/aiall.png"><img src="../etc/img/ai.png" align=right width=400></a>
+ For that kind of assessment, doing something AI related is useful (but don't feel obliged to go there is you
   have other ideas).
   - For notes on categories of AI-for-SE applications, see 
     <a href="../etc/img/aiall.png">here</a>.
 
+<br clear=all>
 ## Grading
 
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
