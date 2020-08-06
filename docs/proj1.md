@@ -76,8 +76,7 @@ Note: complete this table and add to the root of your project in a file called _
 Total score: 
 - write down "2" into every right-hand-side cell
 - Look for evidence that a "2" should be something else
-- sum the right-hand-column, divide by number of rows, multiple by 12.5
-  - and that's the score out of ten.
+- sum the right-hand-column, divide by number of rows 
 
 <br clear=all>
 
