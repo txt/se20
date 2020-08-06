@@ -91,6 +91,7 @@ Total score:
 ||  issues are being  closed||
 || License: exists||
 || DOI badge: exists ||
+||Docs: doco generated , format not ugly ||
 ||Docs: what: point descriptions of each class/function (in isolation) ||
 ||Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z||
 ||Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||
