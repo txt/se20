@@ -53,13 +53,13 @@ score each 0..4 Sum, divide by number of rows, multiple by 10.
 |-----|------|------|
 |Distrbuted dev model: | workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
 || Issues reports: there are many||
-|| issues are discussed before they are closed||
 ||  issues are closed||
-||  issues: there are many||
 || test cases exist||
 || test cases are routinely executed||
 || test cases:.a large proprotion of the issues related to handling failing cases.||
-|| There are pre-commit tools  (style checkers, formatters, syntax checkers) ||
+|| There are pre-commit tools:  style checkers) ||
+|| There are pre-commit tools:  code  formatters) ||
+|| There are pre-commit tools:  syntax checkers) ||
 ||Docs: what: point descriptions of each class/function (in isolation) ||
 ||Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z||
 ||Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||
@@ -67,6 +67,7 @@ score each 0..4 Sum, divide by number of rows, multiple by 10.
 | consensus-oriented model| the files CONTRIBUTING.md and CODEOFCONDUCT.md has have multiple edits by multiple people||
 | | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up||
 | | multiple people contribute to discussions||
+|| issues are discussed before they are closed||
 |short release cycles | project members are committing often enough so that everyone can get your work||
 | zero internal boundaries | evidence that the whole team is using the same tools: everyone can get to all tools and files||
 | | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)||
