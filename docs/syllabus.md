@@ -178,6 +178,8 @@ Andre Motta
 
 <br clear=all>
 
+<p>&nbsp;</p>
+
 <img src="http://ai4se.net/img/huy.jpg" align=right width=200>
 Xiao Ling
 
