@@ -25,7 +25,12 @@ better than something else".
 
 (Hint: do it now!)
 
-Pick something:
+Pick something. Code it in any language using any tools you like. But
+
+- everyone on the team has to use the same tools
+- all the work has to be shared via Github (public repos, general GH-- not NCSU):
+
+What to do? Well pick something:
 
 - Cool: 
   - Cause you have to impress;
@@ -65,6 +70,7 @@ pattern
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
 |Distrbuted dev model: | code conforms to some packaging standard|
+|| code has can be downloaded from some standard package manager|
 | |workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
 || Number of commits||
 || Number of commits: by different people||
