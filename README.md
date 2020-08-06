@@ -14,12 +14,15 @@
 
 Are you a great software engineer? Can you...
 
-- Assess options?
-  - i.e. Glance at any system; suggest how to build it another, possibly better, way;
-  - i.e. Be able to assess the cost/benefits of those changes.
-- Write good software?
-  - That  anyone else wants to use?
-  - That is clearly  _better_ than something else?
+- Assess software options; i.e.
+  - Review  a system; suggest how to build it another, possibly better, way;
+  - Be able to assess the cost/benefits of those changes.
+    - including the ethical implications of different designs
+- Write "good" software;
+  - Working in teams, deliver a systems of acceptable quality within eh available resources;  
+  - That  someone else would want to use;
+  - That is demonstrable _good_ (compared to something else).
+
 
 
 <table width="100%" border=0 align=center>
@@ -45,8 +48,8 @@ Are you a great software engineer? Can you...
 <dt>
 Introduction:
 <dd>
-<a href="docs/syllabus.md">Syllabus!</a>,
-<a href="docs/l00hello.md">Hello!</a>,
+<a href="docs/syllabus.md">Syllabus</a>,
+<a href="docs/l00hello.md">Hello</a>
 </dl>
 
 

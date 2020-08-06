@@ -12,6 +12,8 @@
 <br>
 <hr>
 
+<img align=right width=300 src="https://atrott01.files.wordpress.com/2018/01/keep-calm-and-read-the-syllabus.png?w=514">
+
 # Syllabus
  
 
