@@ -59,6 +59,7 @@ If you want to be in the running for "best project" in task3, your system has to
     <a href="../etc/img/aiall.png">here</a>.
 
 <br clear=all>
+
 ## Grading
 
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
