@@ -14,7 +14,12 @@
 
 # Project 1
 
-Goal: partially complete some software that other groups will say "yes, we want to work on that for Project2".
+Goal1: start something that another groups will say
+"yes, for Project2, we want to finish that".
+
+Goal2: (much harder) start something  another groups will say
+"yes, for Project3, we know how to evaluate if that does something
+better than something else".
 
 ## Start by Picking  a Project
 
@@ -54,9 +59,13 @@ Note: complete this table and add to the root of your project in a file called _
 Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
 (and that's the score out of ten).
 
+package
+pattern
+
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
-|Distrbuted dev model: | workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
+|Distrbuted dev model: | code conforms to some packaging standard|
+| |workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
 || Number of commits||
 || Number of commits: by different people||
 || Issues reports: there are many||
@@ -75,6 +84,7 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 ||Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z||
 ||Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||
 ||Docs: 3 minute video, posted to YouTube. That convinces people why they want to work on your code.||
+|| (hard) code conforms to some known patterns |
 | consensus-oriented model| the files CONTRIBUTING.md and CODEOFCONDUCT.md has have multiple edits by multiple people||
 | | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up||
 | | multiple people contribute to discussions||
