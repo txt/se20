@@ -62,13 +62,16 @@ If you want to be in the running for "best project" in task3, your system has to
 
 ## Grading
 
+<img src="../etc/img/rules.png" align=right width=400>
+Your work will be assessed via how many of the 
+[Linux Kernek Key Practices](https://go.pardot.com/l/6342/2017-10-24/3xr3f2/6342/188781/Publication_LinuxKernelReport_2017.pdf) (see pages 25,26)
+you can emulate.
+
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
 
 Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
 (and that's the score out of ten).
-
-package
-pattern
+<br clear=all>
 
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
@@ -81,12 +84,7 @@ pattern
 ||  issues are being  closed||
 || test cases exist||
 || test cases are routinely executed||
-|| test cases:.a large proprotion of the issues related to handling failing cases.||
-|| There are pre-commit tools:  style checkers) ||
-|| There are pre-commit tools:  code  formatters) ||
-|| There are pre-commit tools:  syntax checkers) ||
-|| There are pre-commit tools:  code coverage ||
-|| There are pre-commit tools:  other automated analysis tools||
+|| test cases:.a large proportion of the issues related to handling failing cases.||
 || License: exists||
 || DOI badge: exists ||
 ||Docs: what: point descriptions of each class/function (in isolation) ||
@@ -94,6 +92,18 @@ pattern
 ||Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing||
 ||Docs: 3 minute video, posted to YouTube. That convinces people why they want to work on your code.||
 || (hard) code conforms to some known patterns |
+|Tools Matter| Use of version control tools||
+|| Version control tools used extensively||
+||Use of  style checkers ||
+||Extensive Use of  style checkers ||
+|| Use of code  formatters. ||
+|| Extensive Use of code  formatters. ||
+|| Use of syntax checkers. ||
+|| Extensive use of syntax checkers. ||
+|| Use of code coverage ||
+|| Extensive use of code coverage ||
+|| other automated analysis tools||
+|| Extensive use of  other automated analysis tools||
 | consensus-oriented model| the files CONTRIBUTING.md and CODEOFCONDUCT.md has have multiple edits by multiple people||
 | | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up||
 | | multiple people contribute to discussions||
