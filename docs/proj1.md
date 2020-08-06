@@ -68,10 +68,9 @@ Your work will be assessed via how many of the
  (see pages 25,26)
 you can emulate.
 
+
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
 
-Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
-(and that's the score out of ten).
 <br clear=all>
 
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
@@ -119,4 +118,6 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 |short release cycles | (hard to see in short projects) project members are committing often enough so that everyone can get your work||
 
 
+Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of rows, multiple by 12.5
+(and that's the score out of ten).
 
