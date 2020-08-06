@@ -94,6 +94,8 @@ Total score: sum the right-hand-column, score each 0..4 Sum, divide by number of
 || (hard) code conforms to some known patterns |
 |Tools Matter| Use of version control tools||
 || Extensive use of version control tools ||
+|| Repo has an up-to-date requirements.txt file||
+|| Repo does not have "ignore" files.||
 ||Use of  style checkers ||
 ||Extensive Use of  style checkers ||
 || Use of code  formatters. ||

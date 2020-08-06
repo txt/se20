@@ -20,7 +20,7 @@
 <td align=center><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
 <td align=center><img           src="etc/img/review.gif"></td>
-<td align=center><img           src="etc/img/news.png"></td>
+<td align=center><img  width=64         src="etc/img/news.png"></td>
 <td align=center><img  width=64 src="etc/img/time.png"></td>
 </tr>
 <tr>
