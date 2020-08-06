@@ -60,15 +60,15 @@ If you want to be in the running for "best project" in task3, your system has to
 
 <br clear=all>
 
+<img src="../etc/img/rules.png" align=right width=400>
+
 ## Grading
 
-<img src="../etc/img/rules.png" align=right width=400>
 Your work will be assessed via how many of the 
 <a href="https://go.pardot.com/l/6342/2017-10-24/3xr3f2/6342/188781/Publication_LinuxKernelReport_2017.pdf">Linux Kernel Best Practices</a>
  (see pages 25,26)
 you can emulate.
 
-<br clear=all>
 
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
 
@@ -79,6 +79,7 @@ Total score:
 - sum the right-hand-column, divide by number of rows, multiple by 12.5
   - and that's the score out of ten.
 
+<br clear=all>
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
 |Distrbuted dev model: | code conforms to some packaging standard|
