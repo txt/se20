@@ -81,7 +81,7 @@ Introduction:
 </td>
 <td align=center valign=top  xwidth="100px">
 </td>
-<td>
+<td valign=top>
 <a href="docs/h01work.md">Hw1</a> due Aug17:2400 
 </td>
 </tr>
