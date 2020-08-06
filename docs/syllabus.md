@@ -181,7 +181,7 @@ Andre Motta
 
 <p>&nbsp;</p>
 
-<img src="http://ai4se.net/img/huy.jpg" align=right width=200>
+<img src="https://user-images.githubusercontent.com/41660376/89558051-b99e6380-d7e1-11ea-81f3-d8b4fac8aa32.jpg" align=right width=200>
 Xiao Ling
 
 + Github id:  XiaoLing941212
