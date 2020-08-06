@@ -25,7 +25,7 @@ Are you a great software engineer? Can you...
 
 
 
-<table width="100%" border=0 align=center>
+<table width="100%" border=0 align=xenter>
 <tr>
 <td align=center><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
