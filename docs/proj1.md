@@ -80,6 +80,7 @@ Total score:
   - and that's the score out of ten.
 
 <br clear=all>
+
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
 |Distrbuted dev model: | code conforms to some packaging standard|
