@@ -35,7 +35,7 @@ Are you a great software engineer? Can you...
 </tr>
 <tr>
 <td align=center><b>Lectures</b></td>
-<td align=center><b>Project</b>
+<td align=center><b>Project/HW</b>
 </td><td align=center><b>Review </td>
 <td align=center><b>Misc</b> </td>
 <td align=center><b>Events</b> </td>
@@ -56,7 +56,8 @@ Introduction:
 <!-- -------------------------------- -->
 
 </td><td align=center valign=top xwidth="100px">
-<a href="doc/project.md">XXXX</a>
+<a href="docs/proj1.md">Project1</a>
+<a href="docs/h01work.md">Homework1</a>
 
 </td>
 <td align=center   valign=top xwidth="100px">
