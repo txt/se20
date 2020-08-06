@@ -38,7 +38,7 @@ Are you a great software engineer? Can you...
 
 <ul>
 <li>
-- Assess software options; i.e.
+Assess software options; i.e.
 <ul>
 <li>
    Review  a system; suggest how to build it another, possibly better, way;
@@ -70,7 +70,7 @@ Introduction:
 <!-- -------------------------------- -->
 
 </td><td align=center valign=top xwidth="100px">
-<a href="docs/proj1.md">Project1</a>
+<a href="docs/proj1.md">Project1</a><br>
 <a href="docs/h01work.md">Homework1</a>
 
 </td>
@@ -82,6 +82,7 @@ Introduction:
 <td align=center valign=top  xwidth="100px">
 </td>
 <td>
+<a href="docs/h01work.md">Hw1</a> due Aug17:2400 
 </td>
 </tr>
 
