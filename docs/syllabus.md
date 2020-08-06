@@ -175,7 +175,7 @@ Andre Motta
 + Github id:  andre-motta
 + Slack name: Andre Motta
 + E-mail: alustos@ncsu.edu
-+ Office hours: Mon-Wed 12pm-2:30pm and by email request
++ Office hours: Wed 12pm-2:30pm and by email request
 
 <br clear=all>
 
