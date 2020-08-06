@@ -61,8 +61,9 @@ If you don't know what any of the above do, then google them (they are quite sta
 - [CODE_OF_CONDUCT.md]( https://docs.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
 - [CONTRIBUTING.md](https://github.com/atom/atom/blob/master/CONTRIBUTING.md)
   - This contrib file is too verbose. Discuss with your group which 10-20 items you'd actually endorse from your project.
-- [setup.py, __init__.py](https://github.com/bmcfee/spatialtree)
 - [requirements.txt](https://www.idkrtm.com/what-is-the-python-requirements-txt/)
+- [setup.py, __init__.py](https://github.com/bmcfee/spatialtree)
+  - Test your package (`python3 setup.py install`)
 - [.travis.yml](https://docs.travis-ci.com/user/customizing-the-build)
 
 Regarding the last point, keep it real simple.
