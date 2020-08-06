@@ -82,7 +82,12 @@ Total score:
 
 |What | Notes|score 0..4<br>(0=no, 2=ok, 4=wow!)|
 |-----|------|------|
-|Distrbuted dev model: | code conforms to some packaging standard|
+|Misc | Group members attended tutorial sessions||
+|Distrbuted dev model: | decisions made by unanmyous vote}
+|| group meetings had a round robin speaking order|
+|| group meetings had a moderator that managed the round robin|
+|| group meeting moderator rotated among  the group|
+|| code conforms to some packaging standard|
 || code has can be downloaded from some standard package manager|
 | |workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)||
 || Number of commits||
