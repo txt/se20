@@ -52,7 +52,7 @@ code/
 If you don't know what any of the above do, then google them (they are quite standard). ALso, read the following: 
 
 - README.md
-   - add the travis badge "build:passing"  to your README.md. See [Instructions]https://docs.travis-ci.com/user/customizing-the-build)
+   - add the travis badge "build:passing"  to your README.md. See [Instructions](https://docs.travis-ci.com/user/customizing-the-build)
    - add the Zenodo DOI badge to your README.md. See [Instructions](https://genr.eu/wp/cite/)
 - [.gitignore](https://github.com/github/gitignore)
 - LICENSE.md
