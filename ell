@@ -6,19 +6,11 @@ Ell=$(cd $( dirname "${BASH_SOURCE[0]}" ) && pwd )
 tput bold
 tput setaf 6
 cat <<'EOF'
-          .    .
-          |\   |\
-       _..;|;__;|;    Yau can never escape... from ShELL !!!
-     ,'   ';` \';`-.
-     7;-..     :   )
-.--._)|   `;==,|,=='
- `\`@; \_ `<`G," G).
-   `\/-;,(  )  .>. )
-       < ,-;'-.__.;'
-        `\_ `-,__,'
-   kg      `-..,;,>
-              `;;;;
-               `  `
+   .-.
+  (o o)  boo !!
+  | O \    there's no escape 
+   \   \     from (sh)ELL, v0.4
+    `~~~'
 EOF
 tput sgr0
 

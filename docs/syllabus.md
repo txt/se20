@@ -6,6 +6,7 @@
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
+<a href="https://docs.google.com/spreadsheets/d/1gKkaPaiqHUqHDSdliHuL8Wj-cPtq8FRpSSdqihR0Oc4/edit?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
@@ -136,10 +137,10 @@ With the final grades, the following grade scale will be used:
 |2 |Aug17    | 2  |     |   |    |     ||hw: GH set up                     | GH with cool structure       |
 |3 |Aug24    | 2  |     | 5 |    |     ||hw: Practice run for week14 trials|  attendance tokens           |
 |4 |Aug31    | 2  |     |   |    |     ||hw: report on lab                | report on week3 lab sessions  |
-|8| Sept7    |    |     |   |    |     ||                                  |   trial run on deliverable list           |
-|5 |Sept14   | 2  |     |   |    |     ||hw: "advertisement" for project   | 3 minute video               |
-|6 |Sept21   |    | 10+2|   |    |     ||proj2: 26 to 2\*13 projects        |  deliverable list1           |
-|7| Sept28   | 2  |     |   |    |     ||hw: issues review                 |  issue report on w6 deliverable |     
+|5| Sept7    |    |     |   |    |     ||                                  |   trial run on deliverable list           |
+|6 |Sept14   | 2  |     |   |    |     ||hw: "advertisement" for project   | 3 minute video               |
+|7 |Sept21   |    | 10+2|   |    |     ||proj2: 26 to 2\*13 projects        |  deliverable list1           |
+|8| Sept28   | 2  |     |   |    |     ||hw: issues review                 |  issue report on w6 deliverable |     
 |9| Oct5     |    |     |   | 20 |     ||exam: take-home mid-term          | submitted exam               | 
 |10| Oct12   |    |     |   |    |     ||   |                              |
 |11| Oct19   |  2 |     |   |    |     ||hw: "advertisement" for project   | 3 minute video               |

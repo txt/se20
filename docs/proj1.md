@@ -6,6 +6,7 @@
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
+<a href="https://docs.google.com/spreadsheets/d/1gKkaPaiqHUqHDSdliHuL8Wj-cPtq8FRpSSdqihR0Oc4/edit?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
@@ -69,13 +70,11 @@ Your work will be assessed via how many of the
  (see pages 25,26)
 you can emulate.
 
-
 Note: complete this table and add to the root of your project in a file called _PROJ1-selfAssessment.md_.
 
-
 Total score: 
-- write down "2" into every right-hand-side cell
-- Look for evidence that a "2" should be something else
+- write down "4" into every right-hand-side cell
+- Look for evidence that any "4" should be something else
 - sum the right-hand-column, divide by number of rows 
 
 <br clear=all>
@@ -131,6 +130,3 @@ Total score:
 | | evidence that the members of the team are working across multiple places in the code base||
 | low-regressions rule | (hard to judge) features released are not subsequently removed||
 |short release cycles | (hard to see in short projects) project members are committing often enough so that everyone can get your work||
-
-
-
