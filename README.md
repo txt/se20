@@ -63,8 +63,8 @@ Assess software options; i.e.
 <dt>
 Introduction:
 <dd>
-<a href="https://docs.google.com/presentation/d/1d5EV8OESccHgVvLdD7o_hi89KlAoNg-ZNeCA__BML3U/edit#slide=id.g906decb5d4_4_58">Aug13</a>,
-<a href="docs/l00hello.md">Hello</a>
+<a href="https://docs.google.com/presentation/d/1d5EV8OESccHgVvLdD7o_hi89KlAoNg-ZNeCA__BML3U/edit#slide=id.g906decb5d4_4_58">Aug13</a>,<br>
+<a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>,
 </dl>
 
