@@ -63,10 +63,15 @@ Assess software options; i.e.
 <dt>
 Introduction:
 <dd>
-<a href="http://tiny.cc/seng20aug20">Aug203</a>,<br>
-<a href="http://tiny.cc/seng20aug13">Aug13</a>,<br>
 <a href="docs/l00hello.md">Hello</a>, <br>
-<a href="docs/syllabus.md">Syllabus</a>,
+<a href="docs/syllabus.md">Syllabus</a>
+</dl>
+
+<dt>
+Lectures:
+<dd>
+<a href="http://tiny.cc/seng20aug20">Aug23</a>,<br>
+<a href="http://tiny.cc/seng20aug13">Aug13</a>
 </dl>
 
 
