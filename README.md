@@ -88,7 +88,10 @@ Lectures:
   
 </td>
 <td valign=top>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vTvSwqxtS70AV3qWWwmuLyZF4eceq7FCkyxsqeqJaZNdw6CPvffCBqsqGM5vH1WL62kJQkN0D4KWyim/pub?start=false&loop=false&delayms=3000&slide=id.g906decb5d4_0_72">HW2</a>, 
+due Aug24:2400 , <br>
 <a href="docs/h01work.md">Hw1</a> due Aug17:2400 
+<hr>
 </td>
 </tr>
 
