@@ -21,7 +21,6 @@
 <td align=center><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
 <td align=center><img           src="etc/img/review.gif"></td>
-<td align=center><img  width=64         src="etc/img/news.png"></td>
 <td align=center><img  width=64 src="etc/img/time.png"></td>
 </tr>
 <tr>
@@ -29,7 +28,6 @@
 <td align=center><b>Lectures</b></td>
 <td align=center><b>Project/HW</b>
 </td><td align=center><b>Review </td>
-<td align=center><b>Misc</b> </td>
 <td align=center><b>Events</b> </td>
 </tr>
 <tr>
@@ -88,8 +86,6 @@ Lectures:
    
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">one</a><br>
   
-</td>
-<td align=center valign=top  xwidth="100px">
 </td>
 <td valign=top>
 <a href="docs/h01work.md">Hw1</a> due Aug17:2400 
