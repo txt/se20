@@ -63,6 +63,7 @@ Assess software options; i.e.
 <dt>
 Introduction:
 <dd>
+<a href="http://tiny.cc/seng20aug20">Aug203</a>,<br>
 <a href="http://tiny.cc/seng20aug13">Aug13</a>,<br>
 <a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>,
@@ -78,7 +79,7 @@ Introduction:
 </td>
 <td align=center   valign=top xwidth="100px">
    
-<a href="doc/review1.md">XXX</a><br>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">one</a><br>
   
 </td>
 <td align=center valign=top  xwidth="100px">
