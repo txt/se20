@@ -65,7 +65,6 @@ Introduction:
 <dd>
 <a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>
-</dl>
 
 <dt>
 Lectures:
