@@ -67,7 +67,7 @@ Introduction:
 <dt>
 Lectures:
 <dd>
-<a href="http://tiny.cc/seng20aug20">Aug23</a>,<br>
+<a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
 <a href="http://tiny.cc/seng20aug13">Aug13</a>
 </dl>
 
