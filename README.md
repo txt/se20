@@ -59,17 +59,19 @@ Assess software options; i.e.
 <!-- -------------------------------- -->
 <dl>
 <dt>
+Lectures:
+<dd>
+<img width=40 src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fnew-icon-gif-2.html&psig=AOvVaw1ouTwM5KIgw1GBrRnQGNWp&ust=1598453738079000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDRmK_OtusCFQAAAAAdAAAAABAD">
+<a href="http://tiny.cc/seng20aug20">Aug20</a>,<br>
+<a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
+<a href="http://tiny.cc/seng20aug13">Aug13</a>
+
+<dt>
 Introduction:
 <dd>
 <a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>
 
-<dt>
-Lectures:
-<dd>
-<a href="http://tiny.cc/seng20aug20">Aug20</a>,<br>
-<a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
-<a href="http://tiny.cc/seng20aug13">Aug13</a>
 </dl>
 
 
@@ -84,6 +86,7 @@ Lectures:
 
 </td>
 <td align=center   valign=top xwidth="100px">
+<img width=40 src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-library.com%2Ficon%2Fnew-icon-gif-2.html&psig=AOvVaw1ouTwM5KIgw1GBrRnQGNWp&ust=1598453738079000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDRmK_OtusCFQAAAAAdAAAAABAD">
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSym0GiQCS7mgEAEu6m10MqrBHFBogcwl_zlZYD3R_U7C6qQNbf00_xE1CW6xcRHdTID73pHCKquHyM/pub?start=false&loop=false&delayms=3000&slide=id.g91325eedd8_0_7">two</a>,<br>  
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">one</a><br>
   
