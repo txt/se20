@@ -109,6 +109,7 @@ for later life cycle
 3. If no requirements, what sort of things can you test?
 
 <br clear=all>
+
 -----
 
 ## Some Introductory Terms
@@ -210,6 +211,7 @@ Q: How many/what kind of tests are you looking for in Project1 software?
 
 
 <br clear=all>
+
 -----
 
 ## Test is Hard
@@ -288,5 +290,6 @@ Q: How does testing work?
 - It should be impossible to test anything. So why does software work... at all? Ever?
 
 <br clear=all>
+
 -----
 
