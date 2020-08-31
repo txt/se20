@@ -120,7 +120,6 @@ Testing is most of our effort:
         `(ipo '(2 2 2 7 10))`  (see below)
       - BTW, all pairs is an amazing heuristic for exploring a large
         space
-
 ```lisp
 ((2 2 1 1 1) ; e.g. (true true true and first value of rest)
  (2 1 2 2 2) (1 2 2 3 3) (1 1 1 4 4) 
@@ -148,8 +147,7 @@ Testing is most of our effort:
  (0 0 0 1 7) (0 0 0 1 6) (0 0 0 1 5) 
  (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
 ```
-
-BTW, all pairs is an interesting way to explore large spaces
+      - BTW, all pairs is an interesting way to explore large spaces
 
 <img src="https://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
 
@@ -215,7 +213,7 @@ Problems:
 
 Also, what about rare events?
 
-<img src="../etc/img/spike.png">
+<img width=600 src="../etc/img/spike.png">
 
 Can apply some non-simple stats to model arbitrary distributions as combinations of 
 (e.g.) Gaussian kernels (think wavlets or Fourier series, if you
