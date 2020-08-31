@@ -54,6 +54,10 @@ High points:
 - Debugging is like a mystery novel where you are both the
   detective and the murderer.   
   - Anon
+
+## History
+
+Testing had to be discovered:
 - It was on one of my journeys between the EDSAC room and the 
   punching equipment that ‘hesitating at the angles of stairs the 
   realization came over me with full force that a good part of the 
@@ -61,22 +65,26 @@ High points:
   my own programs.
   - Maurice Wilkes
 
-## History
-
-Testing had to be invented
-
-- Maurice
-
 
 First bug
 
 <img width=600 src="https://www.globalapptesting.com/hs-fs/hubfs/the-first-ever-bug---debugging.jpg?width=2160&name=the-first-ever-bug---debugging.jpg">
 
-XXX
 
-Testing is most of our effor
+Testing is most of our effort:
 
-XXX
+<img width=600 src="../etc/img/vdiagram.png">
+
+- V-diagram
+  - "Without requirements or design, programming is the art of adding bugs to an empty text file."    
+    -- Louis Srygley
+  - Brooks, [Mythical Man Month](https://web.eecs.umich.edu/~weimerw/2018-481/readings/mythical-man-month.pdf).
+    Effort is
+    - 1/3 th planning
+    - 1/6 th coding
+    - 1/4 th unit testing
+    - 1/4 th systems testing
+
 
 ## Definitions
 
@@ -91,29 +99,53 @@ XXX
     - Alpha testing is simulated or actual operational testing by potential users/customer
     - Follows alpha testing: external testing with a larger audience
       - Released to a limited audience outside of the programming team
-
-- V-diagram
-  - "Without requirements or design, programming is the art of adding bugs to an empty text file."    
-    -- Louis Srygley
-  - Brooks, [Mythical Man Month](https://web.eecs.umich.edu/~weimerw/2018-481/readings/mythical-man-month.pdf).
-    Effort is
-    - 1/3 th planning
-    - 1/6 th coding
-    - 1/4 th unit testing
-    - 1/4 th systems testing
-
-
-XXX
-
 - State space: options inside a project
   - 300 boolean options = 2<sup>300</sup> states
     - Given numeric models, search space is infinite
   - Inside our software is more states than stars in the sky (10<sup>21</sup>)
-- blacbbox:
+- Blackbox:
   - Can't look inside the code
   - Look for clusters in the inout or output sace
     - e..g if age runs 0...120
       - try -1 60 150  
+    - e.g. all pairs testing
+      - Let the inputs be a vector showing choices per input
+        - Find inouts that never use the same pair of values, twice.
+      - e.g. three binary inputs, one "days of week"
+        and something with a range of 10 inputs
+        - e.g. (2 2 2 7 10) 
+      - when processed by an
+        [_all-pairs_](https://gist.github.com/timm/1c270e6d40715f4f9cfce123eea3badf/archive/a9102cd968e39b89824e669c8caa2f1f2b9f13ba.zip)
+         generator   
+        `(ipo '(2 2 2 7 10))` :
+
+```lisp
+((2 2 1 1 1) ; e.g. (true true true and first value of rest)
+ (2 1 2 2 2) (1 2 2 3 3) (1 1 1 4 4) 
+ (2 2 2 7 5) (2 2 2 6 6) (2 2 2 5 7) 
+ (2 2 2 4 8) (1 1 2 1 9) (1 1 1 7 10)
+ (1 1 1 6 5) (1 1 1 5 6) (2 1 1 3 3) 
+ (1 2 1 2 2) (2 2 1 7 9) (1 1 1 7 8) 
+ (1 1 1 7 7) (0 0 0 7 6)  ; note "0" means "don't care"
+ (2 2 2 7 4) (0 0 0 7 3) (0 0 0 7 2) 
+ (1 1 2 7 1) (2 2 2 6 10) (0 0 0 6 9) 
+ (0 0 0 6 8) (0 0 0 6 7) (0 0 0 6 4) 
+ (0 0 0 6 3) (0 0 0 6 2) (0 0 0 6 1)
+ (0 0 0 5 10) (0 0 0 5 9) (0 0 0 5 8) 
+ (0 0 0 5 5) (0 0 0 5 4) (0 0 0 5 3) 
+ (0 0 0 5 2) (0 0 0 5 1) (0 0 0 4 10) 
+ (0 0 0 4 9) (0 0 0 4 7) (0 0 0 4 6) 
+ (0 0 0 4 5) (0 0 0 4 3) (0 0 0 4 2)
+ (0 0 0 4 1) (0 0 0 3 10) (0 0 0 3 9) 
+ (0 0 0 3 8) (0 0 0 3 7) (0 0 0 3 6) 
+ (0 0 0 3 5) (0 0 0 3 4) (0 0 0 3 2) 
+ (0 0 0 3 1) (0 0 0 2 10) (0 0 0 2 9) 
+ (0 0 0 2 8) (0 0 0 2 7) (0 0 0 2 6)
+ (0 0 0 2 5) (0 0 0 2 4) (0 0 0 2 3) 
+ (0 0 0 2 1) (0 0 0 1 10) (0 0 0 1 8) 
+ (0 0 0 1 7) (0 0 0 1 6) (0 0 0 1 5) 
+ (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
+```
 
 ## TEsting for what?
 
@@ -173,7 +205,7 @@ Problems:
   - Events happen at probability _p_? 
   - What _p_?
 
-<img width=600 src="https://raw.githubusercontent.com/txt/ase16/master/img/notnorm8.png">
+<img width=500 src="https://raw.githubusercontent.com/txt/ase16/master/img/notnorm8.png">
 
 Also, what about rare events?
 
@@ -321,7 +353,7 @@ Recent experience at Amazon:
   - Which means that we have enough information to auto-configure our formal methods 
     - and the size of the potential user community and the business value now justifies the cost of formal methods.
 
-<img src="../etc/img/3tiered.png">
+<img width=600 src="../etc/img/3tiered.png">
 
 ## The Truth About Testing
 
