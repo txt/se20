@@ -93,6 +93,8 @@ Testing is most of our effort:
     - 1/4 th unit testing
     - 1/4 th systems testing
 
+-----
+
 <img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
 Q: Does testing need requirements?
 The V-diagram says we must do requirements engineering to uncover the test cases needed
@@ -105,6 +107,9 @@ for later life cycle
   regulatory tests to certify that, say, planes
   are safe to fly)
 3. If no requirements, what sort of things can you test?
+
+<br clear=all>
+-----
 
 ## Some Introductory Terms
 
@@ -196,6 +201,7 @@ Karac + Turhan (2018): TDD can't really be  defined or shown to be effective
 
 <!-- img src="../etc/img/tddreview.png" -->
 
+-----
 <img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
 Q: How many/what kind of tests are you looking for in Project1 software?
 
@@ -203,6 +209,8 @@ Q: How many/what kind of tests are you looking for in Project1 software?
 2. What guidelines should we offer people during Project1?
 
 
+<br clear=all>
+-----
 
 ## Test is Hard
 
@@ -273,11 +281,12 @@ chunks, then reasons separately about each chunk:
 
 <img src="../etc/img/spiketree.png">
 
- 
+----- 
 <img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
 Q: How does testing work?
 
 - It should be impossible to test anything. So why does software work... at all? Ever?
 
-
+<br clear=all>
+-----
 
