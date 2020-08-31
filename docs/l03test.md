@@ -23,21 +23,22 @@ Testing bingo: have we covered these terms?
   - unit test, systems test, integration test, acceptance test (alpha, beta), 
     contractual and regulatory
   - state space
-  - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
-    mutation, coverage)
-  - white box, formal testing
   - Coverage criteria: path, state, transition, function, statement, du, branch
   - Goals: functional (e.g. Performance), non-functional (e.g. the "ilities")
-  - test driven development (red, green, refactor)
-  - test case prioritization 
-  - O'nite regression tests
-    - Triage
-- Test-driven development
+- Testing is East: Test-driven development
   - is a useful process (for small teams)
   - gets very complex for large teams
   - is not a quality assurance activity
-- Increasing vision is increasing expensive
+  - red, green, refactor
+- Testing is hard
   - Infinitely good tests are infinitely expensive
+- Types of testing
+  - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
+    mutation, coverage)
+  - white box, formal testing
+- Test case prioritization 
+  - O'nite regression tests
+    - Triage
 - Software works (usually). Why? How can we exploit that?
 
 ## Quotes

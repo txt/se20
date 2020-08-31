@@ -308,6 +308,7 @@ Excessive test:
 - Google overdose three bullion
 - LN cant ick where tests codm from 
 
+XXX totod: add pointer to zeller's book
 
 ## The Truth About Testing
 
