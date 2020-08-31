@@ -16,6 +16,31 @@
 
 # Lecture: Testing
 
+Testing bingo: have we covered these terms?
+
+- Definitions
+  - V-diagram, requirements (are a dirty word?), 
+  - unit test, systems test, integration test, acceptance test (alpha, beta), 
+    contractual and regulatory
+  - state space
+  - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
+    mutation, coverage)
+  - white box, formal testing
+  - Coverage criteria: path, state, transition, function, statement, du, branch
+  - Goals: functional (e.g. Performance), non-functional (e.g. the "ilities")
+  - test driven development (red, green, refactor)
+  - test case prioritization 
+  - O'nite regression tests
+    - Triage
+- Test-driven development
+  - is a useful process (for small teams)
+  - gets very complex for large teams
+  - is not a quality assurance activity
+- Increasing vision is increasing expensive
+  - Infinitely good tests are infinitely expensive
+- Software works (usually). Why? How can we exploit that?
+
+## Quotes
 
 - f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
   - Anonymous
@@ -31,30 +56,6 @@
 - Debugging is like a mystery novel where you are both the
   detective and the murderer.   
   - Anon
-
-High points:
-
-- Definitions
-  - V-diagram, requirements (are a dirty word?), 
-  - unit test, systems test, integration test, acceptance test (alpha, beta), 
-    contractual and regulatory
-  - state space
-  - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
-    mutation, coverage)
-  - white box, formal testing
-  - Coverage criteria: path, state, transition, function, statement, du, branch
-  - Goals: functional (e.g. performance), non-functional (e.g. the "ilities")
-  - test driven development (red, green, refactor)
-  - test case prioritization 
-  - O'nite regression tests
-    - Triage
-- Test-driven development
-  - is a useful process (for small teams)
-  - gets very complex for large teams
-  - is not a quality assurance activity
-- Increasing vision is increasing expensive
-  - Infinitely good tests are infinitely expensive
-- Software works (usually). Why? How can we exploit that?
 
 ## History
 
@@ -95,7 +96,28 @@ for later life cycle
 - Is totally rejected by large Silicon Valley companies (where tens of thousands of programmers
   update millions of lines per day).
 
-## Test-driven-Development
+## Some Introductory Terms
+
+- Unit tests: testing your code
+- Systems test: testing how your code works with everyone else's (harder)
+- Integration testing: verify the interfaces between components against a software design.
+- Acceptance testing: 
+  - User acceptance testing
+  - Contractual and regulatory acceptance testing
+  - Alpha and beta testing
+    - Alpha testing is simulated or actual operational testing by potential users/customer
+    - Follows alpha testing: external testing with a larger audience
+      - Released to a limited audience outside of the programming team
+- State space: options inside a project
+  - 300 boolean options = 2<sup>300</sup> states
+    - Given numeric models, search space is infinite
+  - Inside our software is more states than stars in the sky (10<sup>21</sup>)
+
+## Testing is Easy (not): Test-driven-Development
+
+Have test cases!  
+Run them, a lot!   
+Do not make them into a  religion!   
 
 <img src="../etc/img/tddscreen.png">
 
@@ -155,36 +177,45 @@ Karac + Turhan (2018): TDD can't really be  defined or shown to be effective
              - Only 0.8 % were TDD. And in that set, no evidence for
                - no evidence for higher commit velocity
                - no evidence for more issues reported or retired
-               
-
-of the projects adhered to TDD protocol.
-
-- Does TDD only perform better when compared to a coarse-grained development waterfall process?
-  - TDD’s superiority over a test-last approach were due to the fact that most of the 
+  - Does TDD only perform better when compared to a coarse-grained
+    rigid old-fashioned development waterfall process?
+    - TDD’s superiority over a test-last approach were due to the fact that most of the 
   experiments employed a coarse-grained test-last process closer to the waterfall
   approach as a control group
 
 <img src="../etc/img/tddreview.png">
 
 
-## Definitions
 
-- Unit tests: testing your code
-- Systems test: testing how your code works with everyone else's (harder)
-- Integration testing: verify the interfaces between components against a software design.
-- Acceptance testing: 
-  - User acceptance testing
-  - Contractual and regulatory acceptance testing
-  - Alpha and beta testing
-    - Alpha testing is simulated or actual operational testing by potential users/customer
-    - Follows alpha testing: external testing with a larger audience
-      - Released to a limited audience outside of the programming team
-- State space: options inside a project
-  - 300 boolean options = 2<sup>300</sup> states
-    - Given numeric models, search space is infinite
-  - Inside our software is more states than stars in the sky (10<sup>21</sup>)
+## Test is Hard
 
-## Increasing vision is increasing expensive
+### What are you testing for?
+
+- Testing to check that the promised behavior actually works?
+  - But the documentation is incomplete, always
+  - Even if we try to make it complete, complete for  who?
+    - e.g. Stakeholders, competing goals
+    - Toronto CS department. Information stem
+      - "good" if parents can track their children
+      - "good" if students  can maintain their privacy
+    - How to write tests?
+- Are any of the following mutually exclusive?
+  - For "maintainability?" 
+    - how to test that, except to watch the code for years to come?
+    - Research task: can we learn from prior maintainability?
+  - Performance:
+    - Energy usage
+    - Network request response time?
+    - Minimize variance in query   times
+    - etc etc 
+  - For "usability"? Did you do that in HW3? 
+    - For other "ilities" (maintainability, customizability, 
+      scalability,
+      capacity, availability, reliability, recoverability, maintainability,
+      serviceability, security, regulatory, manageability, environmental,
+      data integrity, interoperability fairness  
+  
+### Testing is Hard: a little Maths
 
 Consider test some web-based app
 - Everything that happens to it depends on events, elsewhere on the web
@@ -228,31 +259,4 @@ chunks, then reasons separately about each chunk:
 **QUESTION** <em>Is this testing? Is it monitoring? Is learning and automatically re-learning
 this tree a better way to do "testing"?</em>
  
-## Testing for what?
-
-- Documentation : 
-  - Incomplete, always
-  - Even if we try to make it complete, complete for  who?
-    - e.g. Stakeholders, competing goals
-    - Toronto CS department. Information stem
-      - "good" if parents can track their children
-      - "good" if students  can maintain their privacy
-    - How to write tests?
-- For "maintainability?" 
-  - how to test that, except to watch the code for years to come?
-  - Research task: can we learn from prior maintainability?
-- Are any of the following mutually exclusive?
-  - Performance:
-    - Energy usage
-    - Network request response time?
-    - Minimize variance in query   times
-    - etc etc 
-  - For "usability"? Did you do that in HW3? 
-    - For other "ilities" (maintainability, customizability, 
-      scalability,
-      capacity, availability, reliability, recoverability, maintainability,
-      serviceability, security, regulatory, manageability, environmental,
-      data integrity, interoperability fairness  
-  
-
 
