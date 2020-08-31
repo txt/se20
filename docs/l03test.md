@@ -25,7 +25,6 @@ Today:
   - unit test, systems test, integration test, acceptance test (alpha, beta), 
     contractual and regulatory
   - state space
-  - Coverage criteria: path, state, transition, function, statement, du, branch
   - Goals: functional (e.g. Performance), non-functional (e.g. the "ilities")
 - Testing is East: Test-driven development
   - is a useful process (for small teams)
@@ -41,6 +40,7 @@ Later:
   - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
     mutation, coverage)
   - white box, formal testing
+  - Coverage criteria: path, state, transition, function, statement, du, branch
 - Test case prioritization 
   - O'nite regression tests
     - Triage
