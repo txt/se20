@@ -13,6 +13,10 @@
 <br>
 <hr>
 
+XXX to do
+- fuzzing
+- metamorphic testing
+
 # Lecture: Testing
 - f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
   - Anonymous
