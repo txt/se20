@@ -100,13 +100,13 @@ Q: Does testing need requirements?
 The V-diagram says we must do requirements engineering to uncover the test cases needed
 for later life cycle
 
-1.  Is that possible
-  for  large Silicon Valley companies e.g. Facebook (where tens of thousands of programmers
-  update millions of lines per day).
-2. Is that avoidable  for safety critical community (who have to do
-  regulatory tests to certify that, say, planes
-  are safe to fly)
 3. If no requirements, what sort of things can you test?
+1.  Can requirements be kept up to date 
+  for  large Silicon Valley companies e.g. Facebook (where tens of thousands of programmers
+  update millions of lines per day)?
+2. Is an up-to-date requirements documentation avoidable  for safety critical community (who have to do
+  regulatory tests to certify that, say, planes
+  are safe to fly)?
 
 <br clear=all>
 
