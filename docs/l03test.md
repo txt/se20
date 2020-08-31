@@ -26,7 +26,7 @@ High points:
   - state space
   - black box, white box, formal testing
   - test driven development (red, green, refactor)
-  - Coverage criteria: path, state, transistion
+  - Coverage criteria: path, state, transiZstion
   - test case prioritization 
   - O'nite regression tests
     - Triage
@@ -170,16 +170,126 @@ Testing is most of our effort:
 - Coverage criteria (for finite-state machines)
   - _Test coverage_: cover every path: no feasible due to infinite number of paths (cycles)
   - _State coverage_: every node coverage (minimal testing criterion)
-  - _Tranistion coverage_: every edge convered
+  - _Transition coverage_: every edge covered
     - E.g. here are five tests covering every edge
 
 <img src="../etc/img/fsm1edges.png">
 
 - Is this still "just" functional testing.
 
+### Blackbox Fuzzing
+
+Dumb Fuzzing :
+
+- Fuzz testing was originally developed by Barton Miller at the University of Wisconsin in 1989.
+  - throw random cr\*p at a program till it crashed
+  - brute force mutation
+- History:
+  - 1981: Duran and Ntafos investigated the effectiveness of testing a program with random inputs.
+    - Previously: random testing had widely perceived to be worst means of testing
+    - Their analysis: random proves are a cost-effective alternative to more systematic testing
+  - 1983: Steve Capps developed "The Monkey", a tool that would generate random inputs for classic Mac OS applications, such as MacPaint.
+     - The figurative "monkey" refers to the infinite monkey theorem which states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will eventually type out the entire works of Shakespeare. In the case of testing, the monkey would write the particular sequence of inputs that will trigger a crash.
+
+  - 1988: Barton Miller: when he was logged to a modem during a storm, there was a lot of line noise generating junk characters and those characters caused programs to crash
+     - New term: _fuzzing = automatically generate random files and command-line parameters 
+       for the utility. 
+     - The project was designed to test the reliability of Unix programs by executing a large number of random inputs in quick succession until they crashed. 
+  - Recently, numerous examples where fuzzing found bugs other approaches missed 
+- Simple fuzzing: advantages:
+  - Very cheap to generate a test
+  - Exploit CPUs to explore a broad range of options
+  - Useful for dodging incorrect preconceptions of what the program should do
+  - Good for detecting events that lead to  buffer overflow, DOS (denial of service), 
+    cross-site scripting and SQL injection
+- Simple fuzzing: disadvantages: 
+  - It cannot provide a complete picture of the overall security, quality or effectiveness of a program
+  - Spends much time generating impossible inputs or very unlikely events
+
+Smarter fuzzing:
+
+- Express input as a grammar 
+- Generate from tree
+  - Generational fuzzing
+
+```python
+US_PHONE_GRAMMAR = {
+     "<start>": ["<phone-number>"],
+     "<phone-number>": ["(<area>)<exchange>-<line>"],
+     "<area>": ["<lead-digit><digit><digit>"],
+     "<exchange>": ["<lead-digit><digit><digit>"],
+     "<line>": ["<digit><digit><digit><digit>"],
+     "<lead-digit>": ["2", "3", "4", "5", "6", "7", "8", "9"],
+     "<digit>": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+}
+```
+
+- Example
+```
+[simple_grammar_fuzzer(US_PHONE_GRAMMAR) for i in range(5)]
+['(692)449-5179',
+ '(519)230-7422',
+ '(613)761-0853',
+ '(979)881-3858',
+ '(810)914-5475']
+```
+
+Mutational fuzzing:
+
+- Take a known valid input
+- Mutate it
+
+```python
+def mutate(s):
+    """Return s with a random mutation applied"""
+    mutators = [
+        delete_random_character,
+        insert_random_character,
+        flip_random_character
+    ]
+    mutator = random.choice(mutators)
+    # print(mutator)
+    return mutator(s)
+
+for i in range(10):
+    print(repr(mutate("A quick brown fox")))
+
+'A qzuick brown fox'
+' quick brown fox'
+'A quick Brown fox'
+'A qMuick brown fox'
+'A qu_ick brown fox'
+'A quick bXrown fox'
+'A quick brown fx'
+'A quick!brown fox'
+'A! quick brown fox'
+'A quick brownfox'
+```
+
+Coverage fuzzing
+
+- Track parts of the grammar seen so far
+- Fuzz to some new place.
+
+Mining examples to weight crammers:
+
+- Take a library of good examples
+- Weight sub-trees on (e.g.) Probability
+- Stochastic recursive descent:
+  - Stochastically select sub-trees according to their weights
+    - If weight = random then generational fuzzing
+    - If select to prefer min weights, then coverage fuzzing
+  - Recurs into sub tree.
+
+Smarter smarter fuzzing = genetic programming
+
+- We we dynamically adjust weights to prefer certain goals
+  - then "testing" becomes AI
+  - then "testing" becomes "mitigation" or "optimization"
+
 ###  Whitebox::
 
-Whitebox: we can open up the code and look inside:
+White box: we can open up the code and look inside:
 
 - Coverage criteria (for code)
   - Functions (all functions called once);
