@@ -6,7 +6,7 @@
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
-<a href="https://docs.google.com/spreadsheets/d/1x19m4lmf6eC3pm1l0P-3zHvzySy4ayjUy2AhWp7vrSE/edit#gid=0">groups</a> ::
+<a href="https://drive.google.com/drive/folders/1ZFn6H8-4kx5uP34bpFgIFonkz9Tw3nYM?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
@@ -59,16 +59,19 @@ Assess software options; i.e.
 <!-- -------------------------------- -->
 <dl>
 <dt>
+Lectures:
+<dd>
+<img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="http://tiny.cc/seng20aug20">Aug20</a>,<br>
+<a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
+<a href="http://tiny.cc/seng20aug13">Aug13</a>
+
+<dt>
 Introduction:
 <dd>
 <a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>
 
-<dt>
-Lectures:
-<dd>
-<a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
-<a href="http://tiny.cc/seng20aug13">Aug13</a>
 </dl>
 
 
@@ -83,8 +86,9 @@ Lectures:
 
 </td>
 <td align=center   valign=top xwidth="100px">
-   
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">one</a><br>
+<img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSym0GiQCS7mgEAEu6m10MqrBHFBogcwl_zlZYD3R_U7C6qQNbf00_xE1CW6xcRHdTID73pHCKquHyM/pub?start=false&loop=false&delayms=3000&slide=id.g91325eedd8_0_7">R2</a>,<br>  
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">R1</a><br>
   
 </td>
 <td valign=top>

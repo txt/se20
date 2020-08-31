@@ -12,3 +12,5 @@
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
 <br>
 <hr>
+
+# Homework: 2: Set up for Week 3
