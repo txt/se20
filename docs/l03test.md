@@ -117,7 +117,9 @@ Testing is most of our effort:
       - when processed by an
         [_all-pairs_](https://gist.github.com/timm/1c270e6d40715f4f9cfce123eea3badf/archive/a9102cd968e39b89824e669c8caa2f1f2b9f13ba.zip)
          generator   
-        `(ipo '(2 2 2 7 10))` :
+        `(ipo '(2 2 2 7 10))`  (see below)
+      - BTW, all pairs is an amazing heuristic for exploring a large
+        space
 
 ```lisp
 ((2 2 1 1 1) ; e.g. (true true true and first value of rest)
@@ -146,6 +148,10 @@ Testing is most of our effort:
  (0 0 0 1 7) (0 0 0 1 6) (0 0 0 1 5) 
  (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
 ```
+
+BTW, all pairs is an interesting way to explore large spaces
+
+<img src="ihttps://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
 
 ## TEsting for what?
 
