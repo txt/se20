@@ -18,18 +18,6 @@ XXX to do
 - metamorphic testing
 
 # Lecture: Testing
-- f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
-  - Anonymous
-- "Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence."<br>
-  -  Edsger Dijksra
-- If debugging is the process of removing bugs, then programming must be the process of putting them in.<br>
-  - Edsger Dijkstra
-- Beware of bugs in the above code; I have only proved it correct, not tried it.<br>
-  - Donald Knuth
-- ... it is a fundamental principle of testing that you must know in advance the answer 
-   each test case is supposed to produce. If you don't, you are not testing; you are experimenting."<br>
-  - Kernighan and Plauger
-
 High points:
 
 - Definitions
@@ -49,6 +37,30 @@ High points:
   - Infinitely good tests are infinitely expensive
 - Software works (usually). Why? How can we exploit that?
 
+## Quotes
+
+
+- f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
+  - Anonymous
+- "Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence."<br>
+  -  Edsger Dijkstra
+- If debugging is the process of removing bugs, then programming must be the process of putting them in.<br>
+  - Edsger Dijkstra
+- Beware of bugs in the above code; I have only proved it correct, not tried it.<br>
+  - Donald Knuth
+- ... it is a fundamental principle of testing that you must know in advance the answer 
+   each test case is supposed to produce. If you don't, you are not testing; you are experimenting."<br>
+  - Kernighan and Plauger
+- Debugging is like a mystery novel where you are both the
+  detective and the murderer.   
+  - Anon
+- It was on one of my journeys between the EDSAC room and the 
+  punching equipment that ‘hesitating at the angles of stairs the 
+  realization came over me with full force that a good part of the 
+  remainder of my life was going to be spent in find- ing errors in 
+  my own programs.
+  - Maurice Wilkes
+
 ## History
 
 Testing had to be invented
@@ -58,7 +70,7 @@ Testing had to be invented
 
 First bug
 
-<img src="https://www.globalapptesting.com/hs-fs/hubfs/the-first-ever-bug---debugging.jpg?width=2160&name=the-first-ever-bug---debugging.jpg">
+<img width=600 src="https://www.globalapptesting.com/hs-fs/hubfs/the-first-ever-bug---debugging.jpg?width=2160&name=the-first-ever-bug---debugging.jpg">
 
 XXX
 
@@ -148,7 +160,7 @@ Consider test some web-based app
   _C(p,n) = 1- (1-p)<sup>n</sup>_
 - That's a lot of tests
 
-<img src="../etc/img/testmaths.png">
+<img width=600 src="../etc/img/testmaths.png">
 
 Problems:
 - Infinite testing is infinitely expensive
@@ -161,14 +173,15 @@ Problems:
   - Events happen at probability _p_? 
   - What _p_?
 
-<img src="https://raw.githubusercontent.com/txt/ase16/master/img/notnorm8.png">
+<img width=600 src="https://raw.githubusercontent.com/txt/ase16/master/img/notnorm8.png">
 
 Also, what about rare events?
 
 <img src="../etc/img/spike.png">
 
 Can apply some non-simple stats to model arbitrary distributions as combinations of 
-(e.g.) Gaussian kernels
+(e.g.) Gaussian kernels (think wavlets or Fourier series, if you
+know that stuff).
 
 <img src="https://blogs.sas.com/content/iml/files/2016/07/kdecomponents1.png">
 
@@ -263,6 +276,13 @@ XXXX
 - Bugs are lazy. Clump together. Best predictor of next bug is the last bug.
   GCC clum
 
+It took several decades to find the experience required to build a size/defect relation- ship. In 1971, Fumio Akiyama described the first known “size” law, saying the number of defects D was a function of the number of lines of code; specifically
+D = 4.86+0.018⇤loc
+Alas, nothing is as simple as that. Lessons come from experience and, as our experience grows, those lessons get refined/replaced. In 1976, Thomas McCabe [290] argued that the number of lines of code was less important than the complexity of that code. He proposed “cyclomatic complexity”, or v(g), as a measure of that complexity and offered the now (in)famous rule that a program is more likely to be defective if:
+v(g) > 10
+At around the same time, other researchers were arguing that not only is programming an inherently buggy process, its also inherently time-consuming. Based on data from 63 projects, Barry Boehm [37] proposed in 1981 that linear increases in code size leads to exponential increases in development effort:
+effort=a⇥KLOCb ⇥Y(Emi ⇥Fi) (1.1) i
+Here, a, b are parameters that need tuning for particular projects and Emi are “effort multiplier” that control the impact of some project factor Fi on the effort. For example, if Fi is“analysts capbaility” and it moves from “very low” to “very high”, then accord- ing to Boehm’s 1981 model, Emi moves from 1.46 to 0.71 (i.e. better analysts let you deliver more systems, sooner).
 
 ## Testing for Safety crite systems
 
