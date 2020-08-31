@@ -26,6 +26,7 @@ High points:
   - state space
   - black box, white box, formal testing
   - test driven development (red, green, refactor)
+  - Coverage criteria: path, state, transistion
   - test case prioritization 
   - O'nite regression tests
     - Triage
@@ -103,23 +104,29 @@ Testing is most of our effort:
   - 300 boolean options = 2<sup>300</sup> states
     - Given numeric models, search space is infinite
   - Inside our software is more states than stars in the sky (10<sup>21</sup>)
-- Blackbox:
-  - Can't look inside the code
-  - Look for clusters in the inout or output sace
-    - e..g if age runs 0...120
-      - try -1 60 150  
-    - e.g. all pairs testing
-      - Let the inputs be a vector showing choices per input
-        - Find inouts that never use the same pair of values, twice.
-      - e.g. three binary inputs, one "days of week"
-        and something with a range of 10 inputs
-        - e.g. (2 2 2 7 10) 
-      - when processed by an
-        [_all-pairs_](https://gist.github.com/timm/1c270e6d40715f4f9cfce123eea3badf/archive/a9102cd968e39b89824e669c8caa2f1f2b9f13ba.zip)
-         generator   
-        `(ipo '(2 2 2 7 10))`  (see below)
-      - BTW, all pairs is an amazing heuristic for exploring a large
-        space
+
+## Types of Testing
+
+###  Blackbox:
+- Also known as _functional testing_
+- Can't look inside the code
+- e.g. reflect on input space to find interesting regions
+- e..g Look for clusters in the inout or output sace
+  - e..g if age runs 0...120
+    - try less-than-min, in-range, more-than-max
+    - e.g. 1 60 150  
+  - e.g. all pairs testing
+    - Let the inputs be a vector showing choices per input
+      - Find inouts that never use the same pair of values, twice.
+    - e.g. three binary inputs, one "days of week"
+      and something with a range of 10 inputs
+      - e.g. (2 2 2 7 10) 
+    - when processed by an
+      [_all-pairs_](https://gist.github.com/timm/1c270e6d40715f4f9cfce123eea3badf/archive/a9102cd968e39b89824e669c8caa2f1f2b9f13ba.zip)
+       generator   
+      `(ipo '(2 2 2 7 10))`  (see below)
+    - BTW, all pairs is an amazing heuristic for exploring a large
+      space
 ```lisp
 ((2 2 1 1 1) ; e.g. (true true true and first value of rest)
  (2 1 2 2 2) (1 2 2 3 3) (1 1 1 4 4) 
@@ -148,9 +155,71 @@ Testing is most of our effort:
  (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
 ```
 
-- BTW, all pairs is an interesting way to explore large spaces
 
 <img src="https://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
+
+- One trick in black box testing 
+  - Read the doc
+  - Doodle a model showing expectations
+  - Generate tests over that doodle
+
+<img src="../etc/img/fsm1doc.png">
+
+<img src="../etc/img/fsm1.png">
+
+- Coverage criteria (for finite-state machines)
+  - _Test coverage_: cover every path: no feasible due to infinite number of paths (cycles)
+  - _State coverage_: every node coverage (minimal testing criterion)
+  - _Tranistion coverage_: every edge convered
+    - E.g. here are five tests covering every edge
+
+<img src="../etc/img/fsm1edges.png">
+
+- Is this still "just" functional testing.
+
+###  Whitebox::
+
+Whitebox: we can open up the code and look inside:
+
+- Coverage criteria (for code)
+  - Functions (all functions called once);
+    - A very weak test
+  - Statement coverage 
+    - Supported by many tools
+  - du coverage: 
+    - find all paths between where a variable is _defined_ and _used_.
+  - Branch coverage: 
+    - has every condition in the program be explored;
+- Warning: you can succeed on all the above, and the code still crashes.
+
+Symbolic execution:
+- Find the abstract syntax tree of the code
+  - e.g. python3's `ctree` package
+
+```
+import ctree
+
+def f(a):
+    for x in range(10):
+        a[x] += x
+
+tree1 = ctree.get_ast(f)
+ctree.ipython_show_ast(tree1)
+```
+
+<img src="https://ucb-sejits.github.io/ctree-docs/_images/ipython_example_tree_1.png">
+
+Applications of symbolic exeuction:
+
+- Walk the tree to collect the constraints to build the tests. 
+- Can lead to spectacular reductions to black box testing
+- e.g. BigTest: White-Box Testing of Big Data Analytics [ESEC/FSE 2019]
+  - Scripts processing gigabytes of  data sets
+  - Is this a hard testing problem?
+    - Q: Do the tests have to handle all the possibe combinations in the data?
+    - A: No: they only need to cover all the branches of the code
+
+<img width=600 src="../etc/img/bigtest.png">
 
 ## TEsting for what?
 
