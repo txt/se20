@@ -163,7 +163,7 @@ Testing is most of our effort:
   - Doodle a model showing expectations
   - Generate tests over that doodle
 
-<img src="../etc/img/fsm1doc.png">
+<img width=500 src="../etc/img/fsm1doc.png">
 
 <img src="../etc/img/fsm1.png">
 
