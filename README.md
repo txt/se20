@@ -62,6 +62,7 @@ Assess software options; i.e.
 Lectures:
 <dd>
 <img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="docs/l03test.md">Aug31</a>,<br>
 <a href="http://tiny.cc/seng20aug20">Aug20</a>,<br>
 <a href="http://tiny.cc/seng20aug18">Aug18</a>,<br>
 <a href="http://tiny.cc/seng20aug13">Aug13</a>
