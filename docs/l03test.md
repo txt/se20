@@ -121,8 +121,9 @@ for later life cycle
 
 ## Testing is Easy (not): Test-driven-Development
 
-Have test cases!  
+Have lots of unit tests!  
 Run them, a lot!   
+Get them all passing before checking back to main!   
 Do not make them into a  religion!   
 
 <img src="../etc/img/tddscreen.png">
