@@ -151,7 +151,7 @@ Testing is most of our effort:
 
 BTW, all pairs is an interesting way to explore large spaces
 
-<img src="ihttps://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
+<img src="https://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
 
 ## TEsting for what?
 
