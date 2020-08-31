@@ -93,14 +93,18 @@ Testing is most of our effort:
     - 1/4 th unit testing
     - 1/4 th systems testing
 
-By way, saying that we do requirements engineering to uncover the test cases needed
+<img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
+Q: Does testing need requirements?
+The V-diagram says we must do requirements engineering to uncover the test cases needed
 for later life cycle
 
-- Is totally accepted by the safety critical community (who have to do
+1.  Is that possible
+  for  large Silicon Valley companies e.g. Facebook (where tens of thousands of programmers
+  update millions of lines per day).
+2. Is that avoidable  for safety critical community (who have to do
   regulatory tests to certify that, say, planes
   are safe to fly)
-- Is totally rejected by large Silicon Valley companies (where tens of thousands of programmers
-  update millions of lines per day).
+3. If no requirements, what sort of things can you test?
 
 ## Some Introductory Terms
 
@@ -190,7 +194,13 @@ Karac + Turhan (2018): TDD can't really be  defined or shown to be effective
   experiments employed a coarse-grained test-last process closer to the waterfall
   approach as a control group
 
-<img src="../etc/img/tddreview.png">
+<!-- img src="../etc/img/tddreview.png" -->
+
+<img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
+Q: How many/what kind of tests are you looking for in Project1 software?
+
+1. What are your "bad smells" for looking at a project and saying "...nah, not enough tests?"
+2. What guidelines should we offer people during Project1?
 
 
 
@@ -263,7 +273,11 @@ chunks, then reasons separately about each chunk:
 
 <img src="../etc/img/spiketree.png">
 
-**QUESTION** <em>Is this testing? Is it monitoring? Is learning and automatically re-learning
-this tree a better way to do "testing"?</em>
  
+<img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
+Q: How does testing work?
+
+- It should be impossible to test anything. So why does software work... at all? Ever?
+
+
 
