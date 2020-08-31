@@ -18,6 +18,8 @@
 
 Testing bingo: have we covered these terms?
 
+Today:
+
 - Definitions
   - V-diagram, requirements (are a dirty word?), 
   - unit test, systems test, integration test, acceptance test (alpha, beta), 
@@ -32,6 +34,9 @@ Testing bingo: have we covered these terms?
   - red, green, refactor
 - Testing is hard
   - Infinitely good tests are infinitely expensive
+
+Later: 
+
 - Types of testing
   - black box (aka functional), all-pairs, metamorphic testing, fuzzing (dumb, generational, 
     mutation, coverage)
