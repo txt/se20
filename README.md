@@ -88,6 +88,7 @@ Introduction:
 </td>
 <td align=center   valign=top xwidth="100px">
 <img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="docs/r3.md">R3</a>,<br>  
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSym0GiQCS7mgEAEu6m10MqrBHFBogcwl_zlZYD3R_U7C6qQNbf00_xE1CW6xcRHdTID73pHCKquHyM/pub?start=false&loop=false&delayms=3000&slide=id.g91325eedd8_0_7">R2</a>,<br>  
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vRNEgXP-wJrm-1OkzJFhSATxcb9updlEZlyKyM5crde3pAg1Xd7uecrKQPRZ4LcmSXfiPpzlW6b7rYw/pub?start=false&loop=false&delayms=3000&slide=id.g90c4847b47_3_2">R1</a><br>
   
