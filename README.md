@@ -76,7 +76,7 @@ Introduction:
 <dt>
 Videos:
 <dd>
-<a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a>:dt6e?NX1
+<a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a><br>dt6e?NX1
 </dl>
 
 
