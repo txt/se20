@@ -73,6 +73,10 @@ Introduction:
 <a href="docs/l00hello.md">Hello</a>, <br>
 <a href="docs/syllabus.md">Syllabus</a>
 
+<dt>
+Videos:
+<dd>
+<a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a>:dt6e?NX1
 </dl>
 
 
