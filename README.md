@@ -21,7 +21,7 @@
 <td align=center width=200><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
 <td align=center><img           src="etc/img/review.gif"></td>
-<td align=center width=150><img  width=64 src="etc/img/time.png"></td>
+<td align=center width=200><img  width=64 src="etc/img/time.png"></td>
 </tr>
 <tr>
 <td></td>
