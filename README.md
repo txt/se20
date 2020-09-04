@@ -18,7 +18,7 @@
 <table width="100%" border=0 align=center>
 <tr>
 <td></td>
-<td align=center><img           src="etc/img/lectures.gif"></td>
+<td align=center width=150><img           src="etc/img/lectures.gif"></td>
 <td align=center><img           src="etc/img/homework.png"></td>
 <td align=center><img           src="etc/img/review.gif"></td>
 <td align=center><img  width=64 src="etc/img/time.png"></td>
@@ -76,8 +76,8 @@ Introduction:
 <dt>
 Videos:
 <dd>
-<a href="https://ncsu.zoom.us/rec/share/bD2rujDXM1AM0ylvz05Cn3B83_rGD7Pv457bTKhm2lQ3g0UNIg0vyUhUmrUfHGk.cCwue_EnqEL-KjcN">Sep3</a><br>!6.yYr4%<br>
-<a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a><br>dt6e?NX1
+<a href="https://ncsu.zoom.us/rec/share/bD2rujDXM1AM0ylvz05Cn3B83_rGD7Pv457bTKhm2lQ3g0UNIg0vyUhUmrUfHGk.cCwue_EnqEL-KjcN">Sep3</a>&nbsp;!6.yYr4%<br>
+<a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a>&nbsp;dt6e?NX1
 </dl>
 
 
