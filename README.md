@@ -76,6 +76,8 @@ Introduction:
 <dt>
 Videos:
 <dd>
+<a href="https://ncsu.zoom.us/rec/share/50eBNCFnjaunMVSm75q-AHc6czx-amVeciqb0FNyflwA6PwDRuGfMe60lQ1sRD8g.4zmfFPmitbR7ZlLD">Sep10</a>&nbsp;f4?41J4P<br>
+<a href="https://ncsu.zoom.us/rec/share/njNugQRUuc2N1iKyAVp2RAMDGUgL7HAodBjOwDpPXHXqthozyoSaovDNqr4tGBBA.UbElLUZ1WWbGTQDg">Sep8</a>&nbsp;4x.FVdHA<br>
 <a href="https://ncsu.zoom.us/rec/share/bD2rujDXM1AM0ylvz05Cn3B83_rGD7Pv457bTKhm2lQ3g0UNIg0vyUhUmrUfHGk.cCwue_EnqEL-KjcN">Sep3</a>&nbsp;!6.yYr4%<br>
 <a href="https://ncsu.zoom.us/rec/share/tNFqFprc_WpJfIX35UbCAbwbIpymX6a80yYd-PEEzkxg35bCBl1Qs9SwlbPPRDwn">Aug27</a>&nbsp;dt6e?NX1
 </dl>
