@@ -278,7 +278,7 @@ Other examples:
 - [Truth-Functional Propositional Logic](https://www.cs.miami.edu/home/geoff/Courses/TPTPSYS/Practicum/EnglishToLogic.shtml)
 - always &#8704;, there exists at least one &#8707; 
 
-<img src="../etc/img/logic.png">
+<img src="../etc/img/english.png">
 
 - Temporal logic (add operators for until ("U") and always "[]" eventually "<>"
 
