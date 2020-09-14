@@ -282,9 +282,9 @@ Other examples:
 
 - Temporal logic (add operators for until ("U") and always "[]" eventually "<>"
 
-<img src="https://matthewbdwyer.github.io/psp/images/scopes.gif">
+<img src="../etc/img/scopes.png">
 
-- bounded existance (e.g. elevator door stays open between X and Y
+- e.g. elevator door stays open between X and Y
 
 <img src="../etc/img/ltl.png">
 
