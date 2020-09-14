@@ -20,17 +20,20 @@
 ###  Blackbox:
 - Also known as _functional testing_
 - Can't look inside the code
-- e.g. reflect on input space to find interesting regions
-- e..g Look for clusters in the inout or output sace
+- e.g. Reflect on input space to find interesting regions
+- e..g Look for clusters in the input or output space
   - e..g if age runs 0...120
     - try less-than-min, in-range, more-than-max
-    - e.g. 1 60 150  
+    - e.g. 1, 60, 150  
   - e.g. all pairs testing
     - Let the inputs be a vector showing choices per input
       - Find inouts that never use the same pair of values, twice.
     - e.g. three binary inputs, one "days of week"
       and something with a range of 10 inputs
-      - e.g. (2 2 2 7 10) 
+      - e.g. (happy:boolean rich:boolean healthy:boolean restDay:dayOfWeek exercise:1..10))
+      - ranges:  (2 2 2 7 10) 
+      - so fi wever you use happy=true and restDay=sunday then you can never test that pair again
+      - e.g. (t * * sunday *) can only appear once
     - when processed by an
       [_all-pairs_](https://gist.github.com/timm/1c270e6d40715f4f9cfce123eea3badf/archive/a9102cd968e39b89824e669c8caa2f1f2b9f13ba.zip)
        generator   
@@ -66,6 +69,8 @@
 ```
 
 <img src="https://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
+
+## Blackbox (model-based)
 
 - One trick in black box testing 
   - Read the doc
@@ -198,9 +203,25 @@ Smarter smarter fuzzing = genetic programming
 
 ### Metamorphic testing
 
-XXX
+How to test with an oracle for the specifics of the domain?
 
-###  Whitebox::
+Metamorphic relations (MRs) are _necessary properties_ of the intended functionality of the software
+- high-level statements that should be true across all inputs
+- e.g. conjunctions do not lead to more output
+   - RESULT1= "all males" 
+   - RESULT2="bald males" 
+   - RESULT2 should not be larger than RESULT1
+
+
+- e.g. When testing a booking website, a web search for RESULT1= accommodation in Sydney, Australia, returns 1,671 results
+    - RESULT2= Filter the price range or star rating and apply the search again;
+    - RESULT2 should be a subset of RESULT1
+
+A wonderful metamorphic testing result:  Z. Q. Zhou, T. H. Tse and M. Witheridge, 
+[Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors](https://www.cs.hku.hk/data/techreps/document/TR-2019-03.pdf) in IEEE Transactions on Software Engineering, doi: 10.1109/TSE.2019.2915065.
+
+
+##  Whitebox::
 
 White box: we can open up the code and look inside:
 
@@ -244,29 +265,30 @@ Applications of symbolic execution:
 
 <img width=600 src="../etc/img/bigtest.png">
 
-## Wy Does testing work
+## Formal methods 
 
-- Most software spent  most of its time within a small number of states
-- Druzdel
+Express english requirements as checkable logic, then use logic to reason about it
 
-XXXX
+<img src="../etc/img/chat80.png">
 
-- Bugs are lazy. Clump together. Best predictor of next bug is the last bug.
-  GCC clum
+Other examples:
 
-It took several decades to find the experience required to build a size/defect relation- ship. In 1971, Fumio Akiyama described the first known “size” law, saying the number of defects D was a function of the number of lines of code; specifically
-D = 4.86+0.018⇤loc
-Alas, nothing is as simple as that. Lessons come from experience and, as our experience grows, those lessons get refined/replaced. In 1976, Thomas McCabe [290] argued that the number of lines of code was less important than the complexity of that code. He proposed “cyclomatic complexity”, or v(g), as a measure of that complexity and offered the now (in)famous rule that a program is more likely to be defective if:
-v(g) > 10
-At around the same time, other researchers were arguing that not only is programming an inherently buggy process, its also inherently time-consuming. Based on data from 63 projects, Barry Boehm [37] proposed in 1981 that linear increases in code size leads to exponential increases in development effort:
-effort=a⇥KLOCb ⇥Y(Emi ⇥Fi) (1.1) i
-Here, a, b are parameters that need tuning for particular projects and Emi are “effort multiplier” that control the impact of some project factor Fi on the effort. For example, if Fi is“analysts capbaility” and it moves from “very low” to “very high”, then accord- ing to Boehm’s 1981 model, Emi moves from 1.46 to 0.71 (i.e. better analysts let you deliver more systems, sooner).
+- Product lines:
 
-## Testing for Safety crite systems
+- [Truth-Functional Propositional Logic](https://www.cs.miami.edu/home/geoff/Courses/TPTPSYS/Practicum/EnglishToLogic.shtml)
+- always &#8704;, there exists at least one &#8707; 
 
-testing for safety cirtical systems is a different animal. demand u mining isystem. eg. rules for safety critical. small size. on one main loop. if you can find it n 15 seconds go look got it sit safe way
+<img src="../etc/img/logic.png">
 
-## Formal methods at amaozon
+- Temporal logic (add operators for until ("U") and always "[]" eventually "<>"
+
+<img src="https://matthewbdwyer.github.io/psp/images/scopes.gif">
+
+- bounded existance (e.g. elevator door stays open between X and Y
+
+<img src="../etc/img/ltl.png">
+
+
 
 (From [One-Click Formal Methods](http://www0.cs.ucl.ac.uk/staff/b.cook/oneclick.pdf):
 
@@ -301,17 +323,4 @@ Recent experience at Amazon:
 
 <img width=600 src="../etc/img/3tiered.png">
 
-## Test Case Priorization
 
-Excessive test:
-- Google overdose three bullion
-- LN cant ick where tests codm from 
-
-XXX totod: add pointer to zeller's book
-
-## The Truth About Testing
-
-- "Don’t worry if it doesn’t work right.  If everything did, you’d be out of a job."    
-  -  Mosher’s Law of Software Engineering
-- "One (person)’s crappy software is another man’s full time job."     
-  -  Jessica Gaston
