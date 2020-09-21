@@ -77,6 +77,8 @@ Introduction:
 <dt>
 Videos:
 <dd>
+<a href="https://ncsu.zoom.us/rec/share/zP_gNKCkfHXw8irVkXGQ9DSFxxCfJ2vsqx_ANBclxavaaegIev3-5ASgMMTZlREq.j-PJlPEkKEJ5K-ti">Sep17</a>&nbsp; 7#e^f0$7<br>
+<a href="https://ncsu.zoom.us/rec/share/BVrgCqfB2c84lt3yriVdD5TuK9bcioCYlDCsTrt1kDAyOSyOUxOrS7a_VMMgtaCZ.H6rmSEFS9001djIy">Sep15</a>&nbsp;0=qGG&7^<br>
 <a href="https://ncsu.zoom.us/rec/share/50eBNCFnjaunMVSm75q-AHc6czx-amVeciqb0FNyflwA6PwDRuGfMe60lQ1sRD8g.4zmfFPmitbR7ZlLD">Sep10</a>&nbsp;f4?41J4P<br>
 <a href="https://ncsu.zoom.us/rec/share/njNugQRUuc2N1iKyAVp2RAMDGUgL7HAodBjOwDpPXHXqthozyoSaovDNqr4tGBBA.UbElLUZ1WWbGTQDg">Sep8</a>&nbsp;4x.FVdHA<br>
 <a href="https://ncsu.zoom.us/rec/share/bD2rujDXM1AM0ylvz05Cn3B83_rGD7Pv457bTKhm2lQ3g0UNIg0vyUhUmrUfHGk.cCwue_EnqEL-KjcN">Sep3</a>&nbsp;!6.yYr4%<br>
@@ -103,7 +105,8 @@ Videos:
   
 </td>
 <td valign=top>
-Next week: Proj1!<br>
+This Thursday: Pick Proj2!<br>
+This week: Proj1!<br>
 This week: videos!<br>
 HW3 due Sept3:2400<br>
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvSwqxtS70AV3qWWwmuLyZF4eceq7FCkyxsqeqJaZNdw6CPvffCBqsqGM5vH1WL62kJQkN0D4KWyim/pub?start=false&loop=false&delayms=3000&slide=id.g906decb5d4_0_72" >HW2</a> due Aug24:2400<br>
