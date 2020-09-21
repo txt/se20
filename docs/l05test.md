@@ -42,10 +42,10 @@ Let us consider the following clauses, represented using
 the DIMACS `cnf <http://en.wikipedia.org/wiki/Conjunctive_normal_form>`_
 format::
 
-   p cnf 5 3
-   1 -5 4 0
-   -1 5 3 4 0
-   -3 -4 0
+        p cnf 5 3
+        1 -5 4 0
+        -1 5 3 4 0
+        -3 -4 0
 
 Here, we have 5 variables and 3 clauses, the first clause being
 
@@ -59,25 +59,25 @@ sense to represent each solution also as a list of integers, where the sign
 corresponds to the Boolean value (+ for True and - for False) and the
 absolute value corresponds to i-th variable::
 
-   >>> import pycosat
-   >>> cnf = [[1, -5, 4], [-1, 5, 3, 4], [-3, -4]]
-   >>> pycosat.solve(cnf)
-   [1, -2, -3, -4, 5]
+        >>> import pycosat
+        >>> cnf = [[1, -5, 4], [-1, 5, 3, 4], [-3, -4]]
+        >>> pycosat.solve(cnf)
+        [1, -2, -3, -4, 5]
 
 This solution translates to: x1=x5=True,
 x2=x3=x4=False
 
 To find all solutions, use `itersolve`::
 
-   >>> for sol in pycosat.itersolve(cnf):
-   ...     print sol
-   ...
-   [1, -2, -3, -4, 5]
-   [1, -2, -3, 4, -5]
-   [1, -2, -3, 4, 5]
-   ...
-   >>> len(list(pycosat.itersolve(cnf)))
-   18
+        >>> for sol in pycosat.itersolve(cnf):
+        ...     print sol
+        ...
+        [1, -2, -3, -4, 5]
+        [1, -2, -3, 4, -5]
+        [1, -2, -3, 4, 5]
+        ...
+        >>> len(list(pycosat.itersolve(cnf)))
+        18
 
 In this example, there are a total of 18 possible solutions, which had to
 be an even number because x2 was left unspecified in the clauses.
@@ -87,9 +87,11 @@ and efficient for many types of operations.  For example, using
 the `itertools` module from the standard library, here is how one
 would construct a list of (up to) 3 solutions::
 
-   >>> import itertools
-   >>> list(itertools.islice(pycosat.itersolve(cnf), 3))
-   [[1, -2, -3, -4, 5], [1, -2, -3, 4, -5], [1, -2, -3, 4, 5]]
+        >>> import itertools
+        >>> list(itertools.islice(pycosat.itersolve(cnf), 3))
+        [[1, -2, -3, -4, 5], 
+         [1, -2, -3, 4, -5], 
+         [1, -2, -3, 4, 5]]
 
 ### Feature Models and Product Lines
 
