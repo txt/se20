@@ -14,6 +14,19 @@
 <hr>
 
 # Testing (the end)
+----- 
+<img src="https://raw.githubusercontent.com/txt/se20/master/etc/img/brain.png" align=right>
+
+Breakout session:  January to October 2013,
+Google ran 3 billion unit tests on their  global network of machines.
+Problems: running out of CPU,  less that 0.5% of those tests ever
+failed,  long lags from submission to “passed", developers leaving the organization cause Google was no longer "agile".
+
+Q: So, how to test less?
+
+-----
+
+<br clear=all>
 
 ## More on Formal Methods (example)
 
@@ -97,7 +110,7 @@ would construct a list of (up to) 3 solutions::
 
 [Software installation as a formal methods problem](http://cseweb.ucsd.edu/~lerner/papers/opium.pdf)
 
-Lets represent software dependancies in a logical framework:
+Lets represent software dependencies in a logical framework:
 
 <img src="../etc/img/opium.png">
 
@@ -130,7 +143,17 @@ problems, no one writes DIMACS manually.
 
 ### Scaling up SAT Solvers
 
-SAT solvers are great but as software gets really really big, they need help.
+In summary, in theory, it is can be useful to reformulate SE tasks as a SAT task. As Micheal Lowry said at a panel at ASE’15:
+
+-" It used to be that reduction to SAT proved a prob- lem’s intractability. But with the new SAT solvers, 
+  that reduction now demonstrates practicality."
+
+However, in practice, general SAT solvers, such as the Z3, MathSAT [29], vZ  et al., 
+are challenged by the complex- ity of real-world software models. For example, the largest benchmark 
+for SAT Competition 2017 [31] had 58,000 variables– which is far smaller than (e.g.) the 300,000 
+variable problems seen in the recent SE testing literature [4]. 
+
+So SAT solvers are great but as software gets really really big, they need help.
 
 - [Scalable product line configuration: A straw to break the camel's back](https://www.semanticscholar.org/paper/Scalable-product-line-configuration%3A-A-straw-to-the-Sayyad-Ingram/3384176ef4196797603ae2ca68ff353bb4233668)
   Abdel Salam Sayyad, Joseph Ingram, H. Ammar, Tim Menzies
@@ -140,9 +163,10 @@ SAT solvers are great but as software gets really really big, they need help.
 
 ### Scaling up TDD
 
-- Continuous integration at Google
-  - Continuous change to the code base
-  - Continuous testing
+##### Continuous integration at Google
+
+- Continuous change to the code base
+- Continuous testing
 - January to October 2013
   - Google ran 3 billion unit tests
   - Global network of machines
@@ -150,17 +174,103 @@ SAT solvers are great but as software gets really really big, they need help.
       - Running out of cpu 
       - less that 0.5% of those tests ever failed
       - Long lags from submission to “passed
-- Test case prioritzation
+- Test case prioritization
   - Select test if (a)new, or (b)recently failed or (c) not recently executed
   - Found more tests that failed, much earlier
   - Greatly reduced time for programmers to get feedback
 
 <img src="../etc/img/googletdd.png">
 
-- Very many priorization schemes
+- Very many prioritization schemes
   - Different according to what information they need
+  - [How Different is Test Case Prioritization for Open and Closed Source Projects?](https://arxiv.org/pdf/2008.00612.pdf),
+    Xiao Ling, Rishabh Agrawal, and Tim Menzies.
+
+
+##### Continuous  integration at Lexis Nexis
+
+<img src="../etc/img/lnseip.png">
+
+Large overnight run of all tests.
+- when something crashes, there is no link of crash back to line numbers. Pause. What?
+- Turns out, there is no information in that.
+  - When something crashed, it coes to an off shore team of experts to decide which teams (back in the USA) need to fix
+    the bug).
+
+General lesson:
+- Need to test  less
+
+- [TERMINATOR: Better Automated UI Test Case Prioritization](https://arxiv.org/pdf/1905.07019.pdf),
+  Zhe Yu, Fahmid Fahid, Tim Menzies, Gregg Rothermel, Kyle Patrick, Snehit Cherian,
+  (ESEC/FSE ’19, SEIP), August 26–30, 2019, Tallinn, Estonia.
+
+<img src="../etc/img/howprior.png">
+
+<img src="../etc/img/zhe.png">
 
 ## The Big Question
 
-Why does testing work?
+Q: Why does testing work?
+  - A: Software runs in a small part of the total space
+
+Marek Druzdzel, diagnosis
+- application for monitoring patients in intensive care. 
+- software had 525,312 possible internal states
+- the application reached few of them at run time: 
+   - one of the states occurred 52 percent of the time, 
+   - 49 states appeared 91 percent of the time.
+
+<img src="../etc/img/druzdel.png">
+
+NASA software data: Most faults lie in a small proportion of the files.
+
+- T. Menzies, J. Greenwald and A. Frank, "Data Mining Static Code
+Attributes to Learn Defect Predictors," in IEEE Transactions on
+Software Engineering, vol. 33, no. 1, pp. 2-13, Jan. 2007, doi:
+10.1109/TSE.2007.256941.
+
+AT&T software data: about 80% of the defects come from 20% of the files
+
+- Ostrand et al., “Where the Bugs Are,” Proc. ACM Int’l Symp. Software Testing and Analysis, 2004.
+
+Ditto for the GNU "C" compiler, GCC
+
+- Hamill, Goseva-Popstojanova, Common Trends in Software Fault and Failure Data IEEE TSE, 35(4) 2009
+
+<img src="../etc/img/gcc.png">
+
+Jospeh Horgan and Aditya Mathur reported in “Software Testing and
+Reliability” that testing often exhibits a “saturation effect”;
+i.e. most program paths get exercised early with little further
+coverage improvement as testing continues. 
+
+- see The Handbook of Software Reliability Engineering, 1996).
+
+As to mutation testing, Christopher Michael found that in 80 to 90\%
+of cases, there were no changes in the behavior of a range of
+programs despite numerous perturbations on data values using a
+program mutator  
+
+- C.C. Michael, ‘On the uniformity of error propagation in software’, Proceedings of the 12th Annual Confererence on Computer Assurance (COMPASS ’97) Gaithersburg, MD, 1997.
+
+So do not poke everything, everywhere 
+- Rather, poke around, some
+- Where anything starts to fail, 
+- Move in for a closer look
+
+Don't believe me? Well...
+
+- Fuzzing... works
+- Metamorphic testing... works
+
+But what about safety critical applications?
+
+- Demand vastly simpler code
+- Tested using vastly longer testing cycles
+- Test generated via a very thorough requirements process.
+
+For more see:
+- The Strangest Thing About Software. Available from:
+https://www.researchgate.net/publication/2961707_The_Strangest_Thing_About_Software
+
 
