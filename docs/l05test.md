@@ -145,7 +145,7 @@ problems, no one writes DIMACS manually.
 
 In summary, in theory, it is can be useful to reformulate SE tasks as a SAT task. As Micheal Lowry said at a panel at ASE’15:
 
--" It used to be that reduction to SAT proved a prob- lem’s intractability. But with the new SAT solvers, 
+- It used to be that reduction to SAT proved a prob- lem’s intractability. But with the new SAT solvers, 
   that reduction now demonstrates practicality."
 
 However, in practice, general SAT solvers, such as the Z3, MathSAT [29], vZ  et al., 
