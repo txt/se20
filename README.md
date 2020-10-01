@@ -108,6 +108,7 @@ Videos:
   
 </td>
 <td valign=top>
+Tuesday Oct6 3pm: Midterm!<br>
 This Thursday: Pick Proj2!<br>
 This week: Proj1!<br>
 This week: videos!<br>
