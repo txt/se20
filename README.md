@@ -78,6 +78,7 @@ Introduction:
 <dt>
 Videos:
 <dd>
+<a href="https://ncsu.zoom.us/rec/share/VPDZM8D5iw5ERABmMKIpFyjEdi4ue54t6_X4pp4S5rnHPNeSJYaSaIObEYgWjULF.Fk7w06Er9Hy01TwX">Sep29</a>&nsbp; 4s+4yUmA</a>
 <a href="https://ncsu.zoom.us/rec/share/zP_gNKCkfHXw8irVkXGQ9DSFxxCfJ2vsqx_ANBclxavaaegIev3-5ASgMMTZlREq.j-PJlPEkKEJ5K-ti">Sep17</a>&nbsp; 7#e^f0$7<br>
 <a href="https://ncsu.zoom.us/rec/share/BVrgCqfB2c84lt3yriVdD5TuK9bcioCYlDCsTrt1kDAyOSyOUxOrS7a_VMMgtaCZ.H6rmSEFS9001djIy">Sep15</a>&nbsp;0=qGG&7^<br>
 <a href="https://ncsu.zoom.us/rec/share/50eBNCFnjaunMVSm75q-AHc6czx-amVeciqb0FNyflwA6PwDRuGfMe60lQ1sRD8g.4zmfFPmitbR7ZlLD">Sep10</a>&nbsp;f4?41J4P<br>
@@ -99,6 +100,7 @@ Videos:
 </td>
 <td align=center   valign=top xwidth="100px">
 <img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="docs/r05.md">R5</a>,<br>  
 <a href="docs/r04.md">R4</a>,<br>  
 <a href="docs/r03.md">R3</a>,<br>  
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSym0GiQCS7mgEAEu6m10MqrBHFBogcwl_zlZYD3R_U7C6qQNbf00_xE1CW6xcRHdTID73pHCKquHyM/pub?start=false&loop=false&delayms=3000&slide=id.g91325eedd8_0_7">R2</a>,<br>  
