@@ -19,6 +19,8 @@ It is ethical to improve the profits of your company since that money becomes wa
 
 It is also ethical to change the design of AI software in order to ensure that (say) the software is not unduly discriminatory towards a particular social group (e.g. some groups characterized by age, race, or gender).
 
+<img src="../etc/img/dilema.png">
+
 ## Ethics
 SE is about choice.
 
