@@ -106,6 +106,10 @@ attribute values can be released
 
 ## Handling choice
 
+## Explore the choices
+
+<img src="../etc/img/12steps.png">
+
 ## How to fix Bias?
 
 ### How not to fix
