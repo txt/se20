@@ -1,4 +1,4 @@
-<a name=top>
+<[(https://ieeexplore.ieee.org/document/9173639)a name=top>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -56,10 +56,10 @@ images  has been found to have a much higher error rate for dark-skinned
 women  compared  to  light-skinned men
 -   A popular photo tagging
 app assigns animal category labels to dark skinned people.
-- 
-Some recidivism assessment models used by the criminal  justice
+- Some recidivism assessment models used by the criminal  justice
 system  are  more  likely  to  falsely label   black   defendants
 as   future   criminals   (at twice the rate as white defendants)
+   - But see also [Peter Sykacek](https://ieeexplore.ieee.org/document/9173639)'s comment on this. This issue here might have been that the software was actually age-biased, not racially-biased.
 -   Amazon.com stopped using automated recruiting tools after
 finding anti-women bias
 - Predictive policing software used to deploy police to where they are most likely needed has been found to overestimate crime rates in certain areas without taking into account the 
@@ -267,6 +267,7 @@ Intelligence Software
 Is Fair? Think Again](https://krvarshney.github.io/pubs/BellamyDHHHKLMMNRRSSSVZ_sm2019.pdf)
 Rachel K.E. Bellamy, Kuntal Dey, Michael Hind, Samuel C. Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay Lohia, Sameep Mehta, Aleksandra Mojsilovic, Seema Nagar, 
 Karthikeyan Natesan Ramamurthy, John Richards, Diptikalyan Saha, Prasanna Sattigeri, Moninder Singh, Kush R. Varshney, and Yunfeng Zhang. IEEE Software, July/August, 2019.
+  - See also the clairifaction from [Peter Sykacek[(https://ieeexplore.ieee.org/document/9173639)
 - [Preventing undesirable behavior of intelligent machines](https://thetalkingmachines.com/sites/default/files/2019-11/999.full_.pdf)
 Philip S. Thomas, Bruno Castro da Silva, Andrew G. Barto, Stephen Giguere, Yuriy Brun, Emma Brunskills, Science, 366, 999–1004 (2019)3
 
