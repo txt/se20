@@ -13,7 +13,7 @@
 <br>
 <hr>
 
-# About ehtics
+# About ETHICS
 
 It is ethical to improve the profits of your company since that money becomes wages which becomes groceries which becomes dinner so everyone and their kids can sleep better at night.
 
@@ -63,7 +63,7 @@ as   future   criminals   (at twice the rate as white defendants)
 -   Amazon.com stopped using automated recruiting tools after
 finding anti-women bias
 - Predictive policing software used to deploy police to where they are most likely needed has been found to overestimate crime rates in certain areas without taking into account the 
-possibility that more crime is observed there simply because more offibers have been sent there
+possibility that more crime is observed there simply because more offenders have been sent there
 in the past.
 
 ## Model stores
