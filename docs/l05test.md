@@ -37,7 +37,6 @@ of products.
 
 Question: what are the _different_ products we can pull from the following?
 
-
 <img src="https://www.researchgate.net/profile/Paolo_Vavassori3/publication/281701630/figure/fig1/AS:308695956246528@1450610259729/Example-of-a-Feature-Model.png">
 
 Now that was a small feature model. Suppose we are talking about something
@@ -114,12 +113,10 @@ Lets represent software dependencies in a logical framework:
 
 <img src="../etc/img/opium.png">
 
-
 If we run Picosat over these formulae then:
 
 - Any solution that satisfies all the constraints...
 - Is a different way to create a valid install of the program.
-
 
 Variants:
 
@@ -185,7 +182,6 @@ So SAT solvers are great but as software gets really really big, they need help.
   - Different according to what information they need
   - [How Different is Test Case Prioritization for Open and Closed Source Projects?](https://arxiv.org/pdf/2008.00612.pdf),
     Xiao Ling, Rishabh Agrawal, and Tim Menzies.
-
 
 ##### Continuous  integration at Lexis Nexis
 
@@ -272,5 +268,3 @@ But what about safety critical applications?
 For more see:
 - The Strangest Thing About Software. Available from:
 https://www.researchgate.net/publication/2961707_The_Strangest_Thing_About_Software
-
-

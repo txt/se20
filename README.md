@@ -62,6 +62,7 @@ Assess software options; i.e.
 Lectures:
 <dd>
 <img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="docs/l06ethics.md">Oct6</a>,<br>
 <a href="docs/l05test.md">Sep21</a>,<br>
 <a href="docs/l04test.md">Sep15</a>,<br>
 <a href="docs/l03test.md">Aug31</a>,<br>
@@ -78,7 +79,8 @@ Introduction:
 <dt>
 Videos:
 <dd>
-<a href="https://ncsu.zoom.us/rec/share/VPDZM8D5iw5ERABmMKIpFyjEdi4ue54t6_X4pp4S5rnHPNeSJYaSaIObEYgWjULF.Fk7w06Er9Hy01TwX">Sep29</a>&nsbp; 4s+4yUmA</a>
+<a href="https://ncsu.zoom.us/rec/share/_ChqDHhDxnSTxwbeDDOODPQosvBybyBWFs1LsABaqXEXXg5p5q0Y1EFGBkAl1ae-.vNAWjUH_V8-mz7xX">OCt1</a>&nbsp; @$d3=med</a>
+<a href="https://ncsu.zoom.us/rec/share/VPDZM8D5iw5ERABmMKIpFyjEdi4ue54t6_X4pp4S5rnHPNeSJYaSaIObEYgWjULF.Fk7w06Er9Hy01TwX">Sep29</a>&nbsp; 4s+4yUmA</a>
 <a href="https://ncsu.zoom.us/rec/share/zP_gNKCkfHXw8irVkXGQ9DSFxxCfJ2vsqx_ANBclxavaaegIev3-5ASgMMTZlREq.j-PJlPEkKEJ5K-ti">Sep17</a>&nbsp; 7#e^f0$7<br>
 <a href="https://ncsu.zoom.us/rec/share/BVrgCqfB2c84lt3yriVdD5TuK9bcioCYlDCsTrt1kDAyOSyOUxOrS7a_VMMgtaCZ.H6rmSEFS9001djIy">Sep15</a>&nbsp;0=qGG&7^<br>
 <a href="https://ncsu.zoom.us/rec/share/50eBNCFnjaunMVSm75q-AHc6czx-amVeciqb0FNyflwA6PwDRuGfMe60lQ1sRD8g.4zmfFPmitbR7ZlLD">Sep10</a>&nbsp;f4?41J4P<br>

@@ -6,7 +6,7 @@
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
-<a href="https://docs.google.com/spreadsheets/d/1x19m4lmf6eC3pm1l0P-3zHvzySy4ayjUy2AhWp7vrSE/edit#gid=0">groups</a> ::
+<a href="https://drive.google.com/drive/folders/1ZFn6H8-4kx5uP34bpFgIFonkz9Tw3nYM?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
@@ -40,7 +40,6 @@ High points:
 
 ## Quotes
 
-
 - f u cn rd ths, u cn gt a gd jb n sftwr tstng.<br>
   - Anonymous
 - "Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence."<br>
@@ -66,11 +65,9 @@ Testing had to be discovered:
   my own programs.
   - Maurice Wilkes
 
-
 First bug
 
 <img width=600 src="https://www.globalapptesting.com/hs-fs/hubfs/the-first-ever-bug---debugging.jpg?width=2160&name=the-first-ever-bug---debugging.jpg">
-
 
 Testing is most of our effort:
 
@@ -85,7 +82,6 @@ Testing is most of our effort:
     - 1/6 th coding
     - 1/4 th unit testing
     - 1/4 th systems testing
-
 
 ## Definitions
 
@@ -154,7 +150,6 @@ Testing is most of our effort:
  (0 0 0 1 7) (0 0 0 1 6) (0 0 0 1 5) 
  (0 0 0 1 4) (0 0 0 1 3) (0 0 0 1 2))
 ```
-
 
 <img src="https://docs.microsoft.com/en-us/previous-versions/software-testing/images/cc150619.601ed013-938e-4e9e-bdb5-9b66bb49a5e0(en-us,msdn.10).gif">
 
@@ -301,7 +296,6 @@ this tree a better way to do "testing"?</em>
  
 
 ## Test-driven-Development
-
 
 <img src="../etc/img/tddscreen.png">
 

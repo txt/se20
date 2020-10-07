@@ -212,14 +212,12 @@ Metamorphic relations (MRs) are _necessary properties_ of the intended functiona
    - RESULT2="bald males" 
    - RESULT2 should not be larger than RESULT1
 
-
 - e.g. When testing a booking website, a web search for RESULT1= accommodation in Sydney, Australia, returns 1,671 results
     - RESULT2= Filter the price range or star rating and apply the search again;
     - RESULT2 should be a subset of RESULT1
 
 A wonderful metamorphic testing result:  Z. Q. Zhou, T. H. Tse and M. Witheridge, 
 [Metamorphic Robustness Testing: Exposing Hidden Defects in Citation Statistics and Journal Impact Factors](https://www.cs.hku.hk/data/techreps/document/TR-2019-03.pdf) in IEEE Transactions on Software Engineering, doi: 10.1109/TSE.2019.2915065.
-
 
 ##  Whitebox::
 
@@ -286,8 +284,6 @@ Other examples:
 
 <img src="../etc/img/ltl.png">
 
-
-
 (From [One-Click Formal Methods](http://www0.cs.ucl.ac.uk/staff/b.cook/oneclick.pdf):
 
 - FORMAL METHODS: mathematically based approaches for specifying, building, 
@@ -320,5 +316,3 @@ Recent experience at Amazon:
     - and the size of the potential user community and the business value now justifies the cost of formal methods.
 
 <img width=600 src="../etc/img/3tiered.png">
-
-

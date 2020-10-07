@@ -6,13 +6,12 @@
 &nbsp;<a href="https://tiny.cc/seng20">home</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
-<a href="https://docs.google.com/spreadsheets/d/1x19m4lmf6eC3pm1l0P-3zHvzySy4ayjUy2AhWp7vrSE/edit#gid=0">groups</a> ::
+<a href="https://drive.google.com/drive/folders/1ZFn6H8-4kx5uP34bpFgIFonkz9Tw3nYM?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
 <a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
 <br>
 <hr>
-
 
 # Lecture: Testing
 
@@ -73,11 +72,9 @@ Testing had to be discovered:
   my own programs.
   - Maurice Wilkes 1951
 
-
 First bug
 
 <img width=600 src="https://www.globalapptesting.com/hs-fs/hubfs/the-first-ever-bug---debugging.jpg?width=2160&name=the-first-ever-bug---debugging.jpg">
-
 
 Testing is most of our effort:
 
@@ -209,7 +206,6 @@ Q: How many/what kind of tests are you looking for in Project1 software?
 1. What are your "bad smells" for looking at a project and saying "...nah, not enough tests?"
 2. What guidelines should we offer people during Project1?
 
-
 <br clear=all>
 
 -----
@@ -292,4 +288,3 @@ Q: How does testing work?
 <br clear=all>
 
 -----
-

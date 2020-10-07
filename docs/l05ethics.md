@@ -1,3 +1,18 @@
+<a name=top>
+<a href="http://tiny.cc/seng20"><img  width=700
+  src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
+<hr>
+<p>
+&nbsp;<a href="https://tiny.cc/seng20">home</a> ::
+<a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#top">syllabus</a> ::
+<a href="https://github.com/txt/se20/blob/master/docs/syllabus.md#timetable">timetable</a> ::
+<a href="https://drive.google.com/drive/folders/1ZFn6H8-4kx5uP34bpFgIFonkz9Tw3nYM?usp=sharing">groups</a> ::
+<a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
+<a href="http://seng20.slack.com">chat</a>  ::
+<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
+<br>
+<hr>
+
 ## Test Case Priorization
 
 Excessive test:
@@ -12,8 +27,6 @@ XXX totod: add pointer to zeller's book
   -  Mosher’s Law of Software Engineering
 - "One (person)’s crappy software is another man’s full time job."     
   Jessica Gaston
-
-
 
   -## Wy Does testing work
 
@@ -36,4 +49,3 @@ Here, a, b are parameters that need tuning for particular projects and Emi are �
 ## Testing for Safety crite systems
 
 testing for safety cirtical systems is a different animal. demand u mining isystem. eg. rules for safety critical. small size. on one main loop. if you can find it n 15 seconds go look got it sit safe way
-
