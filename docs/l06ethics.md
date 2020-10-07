@@ -13,7 +13,13 @@
 <br>
 <hr>
 
-# Ethics
+# About ehtics
+
+It is ethical to improve the profits of your company since that money becomes wages which becomes groceries which becomes dinner so everyone and their kids can sleep better at night.
+
+It is also ethical to change the design of AI software in order to ensure that (say) the software is not unduly discriminatory towards a particular social group (e.g. some groups characterized by age, race, or gender).
+
+## Ethics
 SE is about choice.
 
 - mySQL makefile: 3 billion choices.
@@ -103,12 +109,59 @@ the  patient  as  the  model shows high probability of readmission,
 while another patient with same other attributes but different protected
 attribute values can be released
 
+## Kinds of Ethics
+
+The Institute for Electronics and Electrical Engineers (IEEE) has recently discussed general principles for implementing autonomous and intelligent systems (A/IS). They propose that the design of such A/IS systems satisfy certain criteria:
+
+- Human Rights: A/IS shall be created and operated to respect, promote, and protect internationally recognized human rights.
+- Well-being: A/IS creators shall adopt increased human well-being as a primary success criterion for development.
+- Data Agency: A/IS creators shall empower individuals with the ability to access and securely share their data, to maintain people’s capacity to have control over their identity.
+- Effectiveness: A/IS creators and operators shall provide evidence of the effectiveness and fitness for purpose of A/IS.
+- Transparency: The basis of a particular A/IS decision should always be discoverable.
+- Accountability: A/IS shall be created and operated to provide an unambiguous rationale for all decisions made.
+- Awareness of Misuse: A/IS creators shall guard against all potential misuses and risks of A/IS in operation.
+
+Other organizations, like Microsoft offer their own principles for AI:
+
+- Transparency AI systems should be understandable
+- Fairness: AI systems should treat all people fairly
+- Inclusiveness AI systems should empower everyone and engage people
+- Reliability & Safety AI systems should perform reliably and safely
+- Privacy & Security: AI systems should be secure and respect privacy
+- Accountability: AI systems should have algorithmic accountability
+- Ethics is a rapidly evolving concept so it hardly surprising to say that mapping the stated ethical concerns of one organization (Microsoft) into another (IEEE) is not easy.
+
+Nevertheless, the following table shows one way we might map together these two sets of ethical concerns. Note that:
+
+- “accountability” and “transparency” appear in both the IEEE and Microsoft lists. Clearly these are concerns shared by many people.
+- Missing from the Microsoft list is “effectiveness” but we would argue that what IEEE calls “effectiveness” can be expressed in terms of other Microsoft terms (see below).
+- Assessed in terms of the Microsoft terminology, the IEEE goals or “well-being” and “awareness of misuse” are synonyms since they both reply on “fairness and “reliability and safely”.
+
+<img src="../etc/img/ethicsy.png">
+
+The reader might dispute this mapping, perhaps saying that we have missed, or missed out, or misrepresented, some vital ethical concern. This would be a good thing since that would mean you are now engaging in discussions about software and ethics. In fact, the best thing that could happen below is that you say “that is wrong; a better way to do that would be…” As George Box said, all models are wrong; but some are useful.
+
+
+In any case, what the above table does demonstrate is that:
+
+- Large organizations are now very concerned with ethics.
+- When they talk about ethics, there is much overlap in what they say.
+- This is a pressing need to extend our current design thinking to include ethical considerations
+
+
+
 
 ## Handling choice
 
 ## Explore the choices
 
 <img src="../etc/img/12steps.png">
+
+## Ethics: Take the lead
+
+From the IEEE:
+
+<img src="../etc/img/ethicsHow.png">
 
 ## How to fix Bias?
 
@@ -203,6 +256,8 @@ Not clear that legal and political institutions are keeping up with the technolo
 
 ## References
 
+- Microsoft's notes on AI and ethics:  2019. https://www.microsoft.com/en-us/ai/our-approach-to-ai
+- IEEE and ethics: https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead/ead-for-business.pdf
 - [Fairway: A Way to Build Fair ML Software](https://arxiv.org/pdf/2003.10354.pdf)
 Authors: Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu, Tim Menzies, FSE'20
 - [Think Your Artificial
