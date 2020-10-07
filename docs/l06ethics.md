@@ -177,3 +177,20 @@ SE people can make  bad choices or better choices
 
 Not clear that legal and political institutions are keeping up with the technology choice space in this area.
 - So It is up to us.
+
+## References
+
+- [Fairway: A Way to Build Fair ML Software](https://arxiv.org/pdf/2003.10354.pdf)
+Authors: Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu, Tim Menzies, FSE'20
+- [Think Your Artificial
+Intelligence Software
+Is Fair? Think Again](https://krvarshney.github.io/pubs/BellamyDHHHKLMMNRRSSSVZ_sm2019.pdf)
+Rachel K.E. Bellamy, Kuntal Dey, Michael Hind, Samuel C. Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay Lohia, Sameep Mehta, Aleksandra Mojsilovic, Seema Nagar, 
+Karthikeyan Natesan Ramamurthy, John Richards, Diptikalyan Saha, Prasanna Sattigeri, Moninder Singh, Kush R. Varshney, and Yunfeng Zhang. IEEE Software, July/August, 2019.
+- [Preventing undesirable behavior of intelligent machines](https://thetalkingmachines.com/sites/default/files/2019-11/999.full_.pdf)
+Philip S. Thomas, Bruno Castro da Silva, Andrew G. Barto, Stephen Giguere, Yuriy Brun, Emma Brunskills, Science, 366, 999–1004 (2019)3
+
+
+
+
+
