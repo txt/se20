@@ -197,6 +197,10 @@ SE people can make  bad choices or better choices
 Not clear that legal and political institutions are keeping up with the technology choice space in this area.
 - So It is up to us.
 
+## Case Studies
+
+[(https://www.onlineethics.org/18876/Resources?resource-type=29_772&q=software%20engineering](https://www.onlineethics.org/18876/Resources?resource-type=29_772&q=software%20engineering)
+
 ## References
 
 - [Fairway: A Way to Build Fair ML Software](https://arxiv.org/pdf/2003.10354.pdf)
