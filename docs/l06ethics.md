@@ -165,7 +165,7 @@ From the IEEE:
 
 <img src="../etc/img/ethicsHow.png">
 
-## How to fix Bias?
+## How to fix Bias? (with algorithms)
 
 ### How not to fix
 
