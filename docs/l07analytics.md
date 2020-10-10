@@ -81,25 +81,20 @@ Prior to the 21st century, researchers often only had access to data from one or
 7.   Tim Menzies, William Nichols, Forrest Shull, and Lucas Layman. 2017. Are delayed issues harder to resolve? Revisiting cost-to-fix of defects throughout the lifecycle. Empirical Softw. Engg. 22, 4 (August 2017), 1903-1935. [h]   Krishna, R., Menzies, T., & Layman, L. (2017). Less is more: Minimizing code reorganization using XTREE. Information and Software Technology, 88, 53-66.
 8.    Miryung Kim, Thomas Zimmermann, and Nachiappan Nagappan. A field study of refactoring challenges and benefits. . FSE’12 .
 
-
-The good news is that, using software analytics, we can correct
-those misconceptions. For example,
-after examining a project, certain coding styles could be seen as
-more bug prone (and should be avoided).
-
-
-Using software analytics, we can correct those misconceptions.
-
 ## Example Applications
 
-So many applications of software analytics
-Here is a longer list of some of the things
-studied within software analytics. For more examples, see
-[this IEEE Software Article](https://www.researchgate.net/publication/260649759_Software_Analytics_So_What)
-as well as recent conference
-proceedings of the PROMISE conference, the Mining Software
-Repositories (MSR) conference, and any other conference or journal
-on software engineering.
+The good news is that, using software analytics, we can correct
+those misconceptions. For example, after examining a project, certain
+coding styles could be seen as more bug prone (and should be avoided).
+
+Using software analytics, we can correct those misconceptions.  So
+many applications of software analytics Here is a longer list of
+some of the things studied within software analytics. For more
+examples, see [this IEEE Software
+Article](https://www.researchgate.net/publication/260649759_Software_Analytics_So_What)
+as well as recent conference proceedings of the PROMISE conference,
+the Mining Software Repositories (MSR) conference, and any other
+conference or journal on software engineering.
 
 As Abram Hindle and colleagues explain:
 
