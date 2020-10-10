@@ -259,3 +259,86 @@ autonomous cars or drones; etc.
    In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM,
    New York, NY, USA, 402-413. DOI: https://doi.org/10.1145/2568225.2568266
 5. Li, Z., Jing, X. Y., Zhu, X., Zhang, H., Xu, B., & Ying, S. (2017). On the Multiple Sources and Privacy Preservation Issues for Heterogeneous Defect Prediction. IEEE Transactions on Software Engineering.
+
+
+## Cheat's Guide to Analytics
+
+### Evaluation Metrics (for Numeric  Classes)
+
+- predicted = p
+- actual = a
+- RE = releative error = abs(p - a)/a
+- MRE = mean RE = sum( abs(p - a)/a ) / N
+- Median RE = sort all numbers, take the number in the middle
+
+### Evaluation Metrics (for Discrete Classes)
+
+```
+    truth     |  
+no    | yes   | learner
+------|-------|-------
+a=TN  | c=FN  | silent
+b=FP  | d=TP  | loud
+```
+
+- accuracy : (a+d) / (a+b+c+d)
+- precision : how many of the predicted are right : d/(b+d)
+- recall : how many we found d/(c+d)
+- false alarm : b/(a+b)
+
+- More recall means more false alarm
+  - If you cover everything, you'll catch some mistakes
+  - If you make no mistakes, you won't cover a thing
+
+<img src="../etc/img/rocpdpf.png">
+
+When the target class is rare (c+d) << (a+b) then
+
+- Accuracy isn't accurate: in the following accuracy = 98% and  recall = 33%
+- Precision isn't precise: precision = 100% (but we are still missing 33% of the data).
+
+```
+    truth     |  
+no    | yes   | learner
+------|-------|-------
+a=97  | c=2   | silent
+b=0   | d=1   | loud
+```
+
+### Cross-Validation
+
+- M times, reorder data (remove spurious order effects)
+  - N times divide into B bins
+    - For b in B bins
+      - For learner Learner1, Learner2, Learner3,....
+        - Training: Model = Learner(Data - Bins[b])
+        - Test: apply Model to Bins[b]
+
+- For N=M=5, this generates 25 numbers for each Learner
+  - e.g. Learner1's recall 
+   -  L1 = (81,81,82,84.85,85,86,87,88,88,89,89,89,90,90,91,91,92,92,93)
+  - e.g. Learner2's recall 
+   -  L2 = (70,71,73,74,75,76,76,76,77,78,78,79,79,70,81,81,82,84.85,85)
+  - So now you need stats to compare different learners L1, L2
+  - Distinguishable (pick  any number from L1: can you tell it belongs to L1 or L2)?
+    - Also called a "significance test" for some strange reason
+    - If the variances are large, hard to distinguish
+  - Small effect (is the middle of L1  too close to L2?)
+  - One learner is better than another:
+    - if is _distinguishable_ by more than a _small effect_?
+  - Parametric tests faster, easier, more naive than non-parametric tests
+
+|significance (distinguisable) | effect size  | code                                                                        | notes |
+|------------------------------|--------------|-----------------------------------------------------------------------------|-------|
+|t-test                        | hedges       |[stats.py](https://gist.github.com/timm/33578871be53e604da83679dc7ccbcc5)    | "parametetic" (assumes "normal" data) | 
+|------------------------------|--------------|--------|--------------------------------------------------------------------|---------------------|
+|bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"    |
+|------------------------------|--------------|--------|--------------------------------------------------------------------|---------------------|
+
+
+### Temporal-Validation
+
+
+- Fixing class imbalance (SMOTE)
+  - Note:
+
