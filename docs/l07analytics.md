@@ -1,5 +1,4 @@
-
-<[(https://ieeexplore.ieee.org/document/9173639)a name=top>
+<a name=top>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -14,10 +13,10 @@
 <br>
 <hr>
 
-# About Analytics
+# Software Analytics
 
-<a href="https://www.youtube.com/embed/nO6X0azR0nw"
-><img src="../etc/img/ieeesoft.png" width=500></a>
+<a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img 
+   src="../etc/img/ieeesoft.png" width=500></a>
 
 
 Software development is a complex process:
@@ -29,7 +28,15 @@ Software development is a complex process:
 
 <img src="../etc/img/results1.png">
 
-Software analytics lets us “trust, but verify” human intuitions.
+Many organizations now pay handsomely to hire large teams of data
+scientists. For example, at the time of this writing, there are
+1000+ Microsoft employees exploring project data using software
+analytics. These teams are performing tasks that, a decade, would
+have been called cutting-edge research. But now we call that work
+“standard operating procedure”.
+
+Software analytics lets us “trust, but verify” human intuitions:
+
 - If  someone claims that “this or that”  is important for a successful
 software project, analytics lets us treat that claim as something
 to be verified (rather than a sacred law that cannot be questioned).
@@ -37,7 +44,8 @@ to be verified (rather than a sacred law that cannot be questioned).
 check  if   “this or that” is now overcome by subsequent developments.
 
 Knowing what factors control software projects is very useful since,
-sometimes, human do not understand those factors.
+sometimes, human do not understand those factors:
+
 -  Anthropologists
 studying software projects warn that developers usually develop
 their personal  ideas about good and bad software  based on just a
@@ -75,7 +83,7 @@ Prior to the 21st century, researchers often only had access to data from one or
 
 
 The good news is that, using software analytics, we can correct
-those misconceptions (for examples, see Figure 2). For example,
+those misconceptions. For example,
 after examining a project, certain coding styles could be seen as
 more bug prone (and should be avoided).
 
@@ -91,7 +99,40 @@ studied within software analytics. For more examples, see
 as well as recent conference
 proceedings of the PROMISE conference, the Mining Software
 Repositories (MSR) conference, and any other conference or journal
-on software engineering:
+on software engineering.
+
+As Abram Hindle and colleagues explain: 
+
+- <em>“Programming languages, in theory, are complex, flexible and 
+   powerful, but the programs that real people actually write are 
+   mostly simple and rather repetitive, and thus they have usefully 
+  predictable statistical properties that can be captured in statistical 
+  language models and leveraged for software engineering tasks.”</em>
+
+For example, here  are just some of the many applications in this growing area on research:
+
+- patterns in the tokens of software can recognize  code that is unexpected and bug prone; 
+- sentiment analysis tools can gauge the mood of the developers, just by reading their issue comments (26). 
+- clustering tools can explore complex spaces like StackOverflow to automatically detect related questions (27).
+
+
+-  For one set of projects, software analytics  
+   could predict 87 percent of code defects, decrease inspection 
+   efforts by 72 percent and hence, reduces post-release defects 
+   by 44 percent (23)
+- when multiple models are combined using ensemble learning, very good estimates 
+  can be generated (very low variance in their predictions) and these predictors 
+   can be  incrementally updated to handle changing condition (24)
+- is there too much data for a manual analysis, it is possible to 
+  automatically analyze data from hundreds to 
+  thousands of projects using software analytics (25)
+
+
+
+
+
+
+
 
 -  combining software product information
 with apps store data (1,2); 
@@ -152,8 +193,74 @@ copy/paste in software (21,22)
 20. M. Würsch et al., “Supporting Developers with Natural Language Queries,” Proc. Int’l Conf. Software Eng., IEEE CS, 2010, pp. 165–174. 
 21. M. Kim et al., “An Empirical Study of Code Clone Genealogies,” Proc. European Software Eng. Conf., ACM, 2005, pp. 187–196. 
 22. C. Kapser and M.W. Godfrey, “Cloning Considered Harmful,” Proc. Working Conf. Reverse Eng., IEEE, 2006, pp. 19–28 
+23. Misirli et al. “AI-Based Defect Predictors: Applications and Benefits in a Case Study”, AI Magazine June 2011
+24. Minku, L. L., & Yao, X. (2013). Ensembles and locality: Insight on improving software effort estimation. Information and Software Technology, 55(8), 1512-1528
+25. R. Krisha, A. Agrawal, A. Rahman, A. Sobran, T.Menzies, What is the Connection Between Issues, Bugs, and Enhancements? 
+    (Lessons Learned from 800+ Software Projects), ICSE-SEIP, 2018
+26. Alessandro Murgia, Parastou Tourani, Bram Adams, and Marco Ortu. 2014. Do developers feel emotions? an exploratory analysis of emotions in software artifacts. MSR’14
+27. B. Xu, D. Ye, Z. Xing, X. Xia, G. Chen and S. Li, "Predicting semantically linkable knowledge in developer online forums via convolutional neural network,"  ASE’16
 
-## Definitions
 
 
-## References
+## Futures
+
+- _Green engineering:_  Fancy cellphones become hunks of dead plastic if they run out of power. 
+  Hence, taming power consumption is now a primary design concern.  
+
+- Another emerging area is _social patterns in software engineering_.
+  - Our society grants different authority to different groups in
+society. 
+  - Those biases transfer to software projects and software
+products (1). 
+  - By   adopting the perspectives of different social
+groupings, it is possible to build better software (2). 
+  - Models built from social factors (like how rarely someone updates part of the
+code) can be more effective for predicting code quality prediction
+than  code factors  (like  function size or number of arguments).
+For example, when studying software built in multiple countries, a
+good predictor for bugs is the complexity of the organizational chart
+ (least bugs are introduced when people working on the same functions
+ report to the same manager, even if they are in different countries) (3)
+- Software analytics also studies the interactions of developers using biometric sensors. 
+  - Just as we mine software (and the social processes that develop them), so too can we 
+    mine data, collected at the millisecond level, from computer programmers. 
+    For example, using eye-tracking software or sensors for skin and brain activity, 
+    software analytics can determine what code is important or most difficult for developers (4).
+- When trading-off different goals, the  data mining algorithms used in conventional software engineering 
+  often use hard-wired choices. 
+  - These choices may be irrelevant or even antithetical to the concerns of the business 
+    users who are funding the analysis. 
+  - For example, one way to maximize accuracy in unbalanced data sets (where, say,  
+    most of the examples are not defective) is to obsess on maximizing the true negative score. 
+  - This can mean that, by other measures such as precision or recall, the learner fails. 
+  - What is required are “learners” that guide the reasoning according to  user-specified goal.  
+  - Such “search-based software engineering” tools can implement other useful tasks such as 
+     automatically tuning the control parameters of a data mining algorithm (which, for most 
+     developers, is a black art).
+- Privacy and security are issues. 
+  - Legislation being enacted around the world (e.g., the European General Data Protection Regulation, GDPR) 
+    means that vendors collecting data will face large fines unless they address privacy concerns. 
+   - One way to privatize data is to obfuscate it (a.k.a. mutate it) in reduce the odds that an malevolent 
+    agent can identify who or what generated that data.  
+   -  But this raises a problem- the more we mutate data, the harder it becomes to learn an 
+     effective model from it.  Recent results suggest  that sometimes this problem can be solved, 
+     but much more work is required on how to share data  without compromising confidentialityi (5).
+- Once someone can apply data mining algorithms to their data, they
+can now build and ship innovative AI tools. While sometimes those
+tools solve SE problems (e.g. recommending what to change in source
+code), they can can also be used on a wider range of problems.
+That is, we see software analytics as the training ground for the
+next generation of AI-literate software engineer working on
+applications such as   image recognition; large-scale text mining;
+autonomous cars or drones; etc.
+
+
+
+1. Sainyam Galhotra, Yuriy Brun, and Alexandra Meliou, Fairness Testing: Testing Software for Discrimination, in European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), pages 498-510, Paderborn, Germany, September 2017.
+2. Burnett, Margaret, Simone Stumpf, Jamie Macbeth, Stephann Makri, Laura Beckwith, Irwin Kwan, Anicia Peters, and William Jernigan. "GenderMag: A method for evaluating software's gender inclusiveness." Interacting with Computers 28, no. 6 (2016): 760-787.
+3. Bird C, Nagappan N, Devanbu PT, Gall HC, Murphy B. Does distributed development affect software quality? An empirical case study of Windows Vista. In: Proceedings of the 31st international conference on software engineering, ICSE 2009, May 16–24. Vancouver, Canada
+4. Thomas Fritz, Andrew Begel, Sebastian C. Müller, Serap Yigit-Elliott, and Manuela Züger. 2014. 
+   Using psycho-physiological measures to assess task difficulty in software development. 
+   In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM, 
+   New York, NY, USA, 402-413. DOI: https://doi.org/10.1145/2568225.2568266 
+5. Li, Z., Jing, X. Y., Zhu, X., Zhang, H., Xu, B., & Ying, S. (2017). On the Multiple Sources and Privacy Preservation Issues for Heterogeneous Defect Prediction. IEEE Transactions on Software Engineering.
