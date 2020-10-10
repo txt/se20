@@ -16,4 +16,144 @@
 
 # About Analytics
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nO6X0azR0nw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.youtube.com/embed/nO6X0azR0nw"
+><img src="../etc/img/ieeesoft.png" width=500></a>
+
+
+Software development is a complex process:
+-  Human developers may not always understand all the factors that influence their projects. 
+- Software analytics is an excellent choice for discovering, verifying, and monitoring the factors that affect software development.
+- Software analytics distills large amounts of low-value data into small chunks of very high-value information
+- These chunks reveal the factors matter the most for software projects. For example
+
+
+<img src="../etc/img/results1.png">
+
+Software analytics lets us “trust, but verify” human intuitions.
+- If  someone claims that “this or that”  is important for a successful
+software project, analytics lets us treat that claim as something
+to be verified (rather than a sacred law that cannot be questioned).
+- Also, once verified, analytics can act as a monitor to continually
+check  if   “this or that” is now overcome by subsequent developments.
+
+Knowing what factors control software projects is very useful since,
+sometimes, human do not understand those factors.
+-  Anthropologists
+studying software projects warn that developers usually develop
+their personal  ideas about good and bad software  based on just a
+few past projects.
+- All too often, these ideas are assumed to be
+apply to all projects, rather than just the few seen lately.
+-  This
+can lead to too much reuse of to many old, and now outdated, ideas.
+- A recent study  of 564 software developers found that: 
+  - <em> “(a) programmers
+do indeed have very strong beliefs on certain topics;  (b) their
+beliefs are primarily formed based on personal experience, rather
+than on findings in empirical research; (c) beliefs can vary with
+each project, but do not necessarily correspond with actual evidence.”</em>
+
+Prior to the 21st century, researchers often only had access to data from one or two projects. This meant theories of software development were built from limited data. But in the data-rich 21st century,  researchers have access to all the data they need to test the truisms of the past. And what they’ve found is most surprising: 
+
+- In stark contrast to the assumptions of much prior research, pre-and post-release failures not connected (1).
+- Static code analyzers no better than simple statistical predictors (2).
+- The language construct “goto”, as used in contemporary practice, is rarely considered harmful (3).
+- Strongly typed languages are not associated with successful projects (4).
+- Developer beliefs are rarely backed by any empirical evidence (5).
+- Test-driven development not any better than “test-last” (6).
+- Delayed issues are not exponentially more expensive to fix (7).
+- Most “bad smells” should not be fixed (8,).
+
+1.   Norman E. Fenton and Niclas Ohlsson. 2000. Quantitative Analysis of Faults and Failures in a Complex Software System. IEEE Trans. Softw. Eng. 26, 8 (August 2000), 797-814. DOI=http://dx.doi.org/10.1109/32.879815
+2.   Foyzur Rahman, Sameer Khatri, Earl T. Barr, and Premkumar Devanbu. 2014. Comparing static bug finders and statistical prediction. In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). 
+3.   Meiyappan Nagappan, Romain Robbes, Yasutaka Kamei, Éric Tanter, Shane McIntosh, Audris Mockus, and Ahmed E. Hassan. 2015. An empirical study of goto in C code from GitHub repositories. FSE’15.
+4.   Baishakhi Ray, Daryl Posnett, Vladimir Filkov, and Premkumar Devanbu. 2014. A large scale study of programming languages and code quality in github. FSE’15.
+5.   Prem Devanbu, Thomas Zimmermann, and Christian Bird. Belief & evidence in empirical software engineering. In Proceedings of the 38th International Conference on Software Engineering, pages 108–119. ACM, 2016
+6.    D. Fucci, H. Erdogmus, B. Turhan, M. Oivo and N. Juristo, "A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?," in IEEE Transactions on Software Engineering, 43(7), pp. 597-614, 1 2017.
+7.   Tim Menzies, William Nichols, Forrest Shull, and Lucas Layman. 2017. Are delayed issues harder to resolve? Revisiting cost-to-fix of defects throughout the lifecycle. Empirical Softw. Engg. 22, 4 (August 2017), 1903-1935. [h]   Krishna, R., Menzies, T., & Layman, L. (2017). Less is more: Minimizing code reorganization using XTREE. Information and Software Technology, 88, 53-66.
+8.    Miryung Kim, Thomas Zimmermann, and Nachiappan Nagappan. A field study of refactoring challenges and benefits. . FSE’12 .
+
+
+The good news is that, using software analytics, we can correct
+those misconceptions (for examples, see Figure 2). For example,
+after examining a project, certain coding styles could be seen as
+more bug prone (and should be avoided).
+
+
+Using software analytics, we can correct those misconceptions.
+
+## Example Applications
+
+So many applications of software analytics
+Here is a longer list of some of the things
+studied within software analytics. For more examples, see
+[this IEEE Software Article](https://www.researchgate.net/publication/260649759_Software_Analytics_So_What)
+as well as recent conference
+proceedings of the PROMISE conference, the Mining Software
+Repositories (MSR) conference, and any other conference or journal
+on software engineering:
+
+-  combining software product information
+with apps store data (1,2); 
+-  using process data to predict overall
+project effort (3);
+-  using software process models to learn effective
+project changes (4); 
+- using operating system logs that predict software
+power consumption (5);  
+-  exploring product line models to configure
+new applications (6);
+-  mining natural language requirements to find
+links between components (7);
+-  mining performance data (8,9);
+-  using XML
+descriptions of design patterns to recommend particular designs (10);
+-  using email lists to understand the human networks inside software
+teams (11); 
+- linking emails to source code artifacts and classifying
+their content (12);
+- using execution traces to learn normal interface
+usage patterns (13); 
+-  using bug databases to learn defect predictors
+that guide inspection teams to where the code is most likely to
+fail (14 –16) and to classify changes as clean or buggy (17); 
+-  using
+security data to identify indicators for software vulnerabilities (18);
+- using visualization to support program comprehension (19);
+-  using
+software ontologies to enable natural language queries( 20); and
+- mining code clones to assess the implications of cloning and
+copy/paste in software (21,22)
+
+
+1. M. Harman, Y. Jia, and Y. Zhang, “App Store Mining and Analysis: MSR for App Stores,” Proc. Mining Software Repositories, IEEE, 2012, pp. 108–111.  
+2. I.J.M. Ruiz et al., “Understanding Reuse in the Android Market,” Proc. 20th IEEE Int’l Conf. Program Comprehension (ICPC), IEEE, 2012, pp. 113–122. 
+3. E. Kocaguneli, T. Menzies, and J. Keung, “On the Value of Ensemble Effort 
+    Estimation,” to be published in IEEE Trans. Software Eng.; http://menzies.us/pdf/11comba.pdf.   
+4.  D. Rodríguez et al., “Multiobjective Simulation Optimisation in Software Project Management,” Proc. Genetic and Evolutionary Computation Conf., ACM, 2011, pp. 1883–1890.  
+5. A. Hindle, “Green Mining: A Methodology of Relating Software Change to Power Consumption,” Proc. Mining Software Repositories, IEEE, 2012, pp. 78–87.   
+6. A. Salam Sayyad, T. Menzies, and H. Ammar, “On the Value of User Preferences in Search-Based Software Engineering: 
+   A Case Study in Software Product Lines,” to be published in Proc. Int’l Conf. Software Eng., IEEE CS, 2013.   
+7. J. Huffman Hayes et al., “Advancing Candidate Link Generation for Require-ments Tracing: The Study of Methods,” IEEE Trans. Software Eng., vol. 32, no. 1, 2006, pp. 4–19.  
+8. Z. Ming Jiang et al., “Automated Performance Analysis of Load Tests,” Proc. Intl. Conf. Software Maintenance, IEEE, 2009, pp. 125–134.  
+9. S. Han et al., âPerformance Debugging in the Large via Mining Millions of Stack Traces,” Proc. Int’l Conf. Software Eng., IEEE CS, 2012, pp. 145–155. 
+10. F. Palma, H. Farzin, and Y.-G. Gueheneuc, “Recommendation System for Design Patterns in Software Development: A DPR Overview,” Proc. 3rd Int’l Workshop 
+   Recommendation Systems for Software Eng., IEEE, 2012, pp. 1–5. 
+11. C. Bird et al., “Mining Email Social Networks,” Proc. Mining Software Repositories, ACM, 2006, pp. 137–143. 
+12. A. Bacchelli et al., “Content Classification of Development Emails,” Proc. Int’l Conf. Software Eng., IEEE CS, 2012, pp. 375–385. 
+13. N. Gruska, A. Wasylkowski, and A. Zeller, “Learning from 6,000 Projects: Lightweight Cross-Project Anomaly Detection,” Proc. 19th Int’l Symp. Software Testing and Analysis (ISSTA), ACM, 2010, pp. 119–130. 14. T. Men 
+14. T. Menzies, J. Greenwald, and A. Frank, “Data Mining Static Code  Attributes to Learn Defect Predictors,” IEEE Trans. Software Eng., Jan. 2007; http://menzies.us/pdf/06learnPredict.pdf.  
+15. T.J. Ostrand, E.J. Weyuker, and R.M. Bell, “Where the Bugs Are,” Proc. 2004 ACM SIGSOFT Int’l Symp. Software Testing and Analysis, ACM, 2004, pp. 86–96. 
+16. S. Kim et al., “Predicting Faults from Cached History,” Proc. Int’l Conf. Software Eng., IEEE CS, 2007, pp. 489-498. 
+17. S. Kim, E.J. Whitehead Jr., and Y. Zhang, “Classifying Software Changes: Clean or Buggy?,” IEEE Trans. Software Eng., vol. 34, no. 2, 2008, pp. 181–196. 
+18. Y. Shin et al., “Evaluating Complexity, Code Churn, and Developer Activity Metrics as Indicators of Software Vulnerabilities,” IEEE Trans. Software Eng., 
+    vol. 37, no. 6, 2011, pp. 772–787. 
+19. R. Wettel, M. Lanza, and R. Robbes, “Software Systems as Cities: A Controlled Experiment,” Proc. Int’l Conf. Software Eng., IEEE CS, 2011, pp. 551–560. 
+20. M. Würsch et al., “Supporting Developers with Natural Language Queries,” Proc. Int’l Conf. Software Eng., IEEE CS, 2010, pp. 165–174. 
+21. M. Kim et al., “An Empirical Study of Code Clone Genealogies,” Proc. European Software Eng. Conf., ACM, 2005, pp. 187–196. 
+22. C. Kapser and M.W. Godfrey, “Cloning Considered Harmful,” Proc. Working Conf. Reverse Eng., IEEE, 2006, pp. 19–28 
+
+## Definitions
+
+
+## References
