@@ -328,12 +328,10 @@ b=0   | d=1   | loud
     - if is _distinguishable_ by more than a _small effect_?
   - Parametric tests faster, easier, more naive than non-parametric tests
 
-|significance (distinguisable) | effect size  | code                                                                        | notes |
-|------------------------------|--------------|-----------------------------------------------------------------------------|-------|
+|significance (distinguisable) | effect size  | code                                                                        | notes                                 |
+|------------------------------|--------------|-----------------------------------------------------------------------------|---------------------------------------|
 |t-test                        | hedges       |[stats.py](https://gist.github.com/timm/33578871be53e604da83679dc7ccbcc5)    | "parametetic" (assumes "normal" data) | 
-|------------------------------|--------------|--------|--------------------------------------------------------------------|---------------------|
-|bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"    |
-|------------------------------|--------------|--------|--------------------------------------------------------------------|---------------------|
+|bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"                      |
 
 
 ### Temporal-Validation
