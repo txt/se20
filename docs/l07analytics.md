@@ -304,7 +304,7 @@ Changing those parameters can really improve these learners:
       in fine enough detail to handle all options for all
       data, too slow!
 
-<img width=500 src="../etc/img/tune.png">
+<img width=500 align=right src="../etc/img/tune.png">
 
 - Better way to tune: <em>differential evolution</em>
   - (np, cf, f) = (20, 0.3, 0.3)
