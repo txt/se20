@@ -291,13 +291,12 @@ test on the latest one
   - e.g. Learner2's recall 
     - L2 = (70,71,73,74,75,76,76,76,77,78,78,79,79,70,81,81,82,84.85,85)
   - So now you need stats to compare different learners L1, L2
-  - Distinguishable (pick  any number from L1: can you tell it belongs to L1 or L2)?
-    - Also called a "significance test" for some strange reason
-    - If the variances are large, hard to distinguish
-  - Small effect (is the middle of L1  too close to L2?)
   - One learner is different than another:
     - if is _distinguishable_ by more than a _small effect_?
-    - Parametric tests faster, easier, but more naive than non-parametric tests
+  - _Distinguishable_ (pick  any number from L1: can you tell it belongs to L1 or L2)?
+    - Also called a "significance test" for some strange reason
+    - If the variances are large, hard to distinguish
+  - _Small effect_ (is the middle of L1  too close to L2?)
 
 |significance (distinguishable)| effect size  | code                                                                        | notes                                 |
 |------------------------------|--------------|-----------------------------------------------------------------------------|---------------------------------------|
