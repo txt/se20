@@ -307,18 +307,37 @@ You can't always get what you want
 
 Learners have magic control variables.
 
+- e.g. Discretization: how many bins to use for the numbers
+- e.g. Feature selection:  in SMOTE, how to balance the data
+- e.g. Neural nets: how many layers
+- e.g. Decision trees: when to stop growing the tree
+- e.g. Nearest neighbor reasoning: how many neighbors do we look at?
+
+Changing those parameters can really improve these learners:
+
+
 - Dumb way to tune
   - Grid Search (loop through all options)
-    - Amateur hour!
+    - Amateur hour! To explore all the options
+      in fine enough detail to handle all options for all
+      data, too slow!
 
-[differential evolution](https://gist.github.com/pablormier/0caff10a5f76e87857b44f63757729b0#file-differential_evolution-py)
+<img src="../etc/img/tune.png">
 
-<script src="https://gist.github.com/nisrulz/11c0d63428b108f10c83.js"></script>
-
-### Deep Learning
-
-So much to say here. Become my grad student
-and we can explore.
+- Better way to tune: <em>differential evolution</em>
+  - (np, cf, f) = (20, 0.3, 0.3)
+  - Given N tuning options (O1,O2,O3,O4...On)
+  - Pick np choices at random, to make population0 = np vectors
+  - For G generations do
+    - for each old item in population
+      - pick three other items from population, a,b,c
+      - new = a 
+      - for each options n &in; N
+        - if cf < rand()
+          - new<sub>n</sub> = f*(c<sub>n</sub>-b<sub>n</sub>)
+      - get performance scores from building a learner from _new_ and _old_
+        - if new better than old, replace old with new 
+  - [really, really simple code](https://gist.github.com/pablormier/0caff10a5f76e87857b44f63757729b0#file-differential_evolution-py)
 
 ### Temporal-Validation
 
