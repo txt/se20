@@ -209,9 +209,10 @@ copy/paste in software (21,22)
 
 ### Data Hacking
 
-<img width=500 align=right src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bagging.png">
 
 *Ensembles (simple)*
+
+<img width=500 align=right src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bagging.png">
 
 - N slightly different experts are better than one
 - Take train and test data,
@@ -252,8 +253,9 @@ copy/paste in software (21,22)
 |130| n   |
 |50 | y   |
 
-<img src="../etc/img/fss.png" align=right width=500>
 *Feature selection*
+
+<img src="../etc/img/fss.png" align=right width=500>
 
 - Many methods, but if you want something real simple,
 - CFS: look for combinations of attributes that are 
@@ -265,8 +267,9 @@ copy/paste in software (21,22)
 
 <br clear=all>
 
-<img src="../etc/img/smote.png" align=right width=500>
 *Class rebalancing*
+
+<img src="../etc/img/smote.png" align=right width=500>
 
 - SMOTE:  Balance the distributions in the train data
  - Never mess with the test data.
