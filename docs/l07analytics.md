@@ -9,7 +9,7 @@
 <a href="https://drive.google.com/drive/folders/1ZFn6H8-4kx5uP34bpFgIFonkz9Tw3nYM?usp=sharing">groups</a> ::
 <a href="https://moodle-courses2021.wolfware.ncsu.edu/course/view.php?id=3873">moodle</a> ::
 <a href="http://seng20.slack.com">chat</a>  ::
-<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>
+<a href="https://github.com/txt/se20/blob/master/LICENSE.md#top">&copy; 2020</a>  
 <br>
 <hr>
 
@@ -18,13 +18,11 @@
 <a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img
    src="../etc/img/ieeesoft.png" width=500></a>
 
-
 Software development is a complex process:
 -  Human developers may not always understand all the factors that influence their projects.
 - Software analytics is an excellent choice for discovering, verifying, and monitoring the factors that affect software development.
 - Software analytics distills large amounts of low-value data into small chunks of very high-value information
 - These chunks reveal the factors matter the most for software projects. For example
-
 
 <img src="../etc/img/results1.png">
 
@@ -110,7 +108,6 @@ For example, here  are just some of the many applications in this growing area o
 - sentiment analysis tools can gauge the mood of the developers, just by reading their issue comments (26).
 - clustering tools can explore complex spaces like StackOverflow to automatically detect related questions (27).
 
-
 -  For one set of projects, software analytics
    could predict 87 percent of code defects, decrease inspection
    efforts by 72 percent and hence, reduces post-release defects
@@ -121,13 +118,6 @@ For example, here  are just some of the many applications in this growing area o
 - is there too much data for a manual analysis, it is possible to
   automatically analyze data from hundreds to
   thousands of projects using software analytics (25)
-
-
-
-
-
-
-
 
 -  combining software product information
 with apps store data (1,2);
@@ -161,7 +151,6 @@ software ontologies to enable natural language queries( 20); and
 - mining code clones to assess the implications of cloning and
 copy/paste in software (21,22)
 
-
 1. M. Harman, Y. Jia, and Y. Zhang, “App Store Mining and Analysis: MSR for App Stores,” Proc. Mining Software Repositories, IEEE, 2012, pp. 108–111.
 2. I.J.M. Ruiz et al., “Understanding Reuse in the Android Market,” Proc. 20th IEEE Int’l Conf. Program Comprehension (ICPC), IEEE, 2012, pp. 113–122.
 3. E. Kocaguneli, T. Menzies, and J. Keung, “On the Value of Ensemble Effort
@@ -194,8 +183,6 @@ copy/paste in software (21,22)
     (Lessons Learned from 800+ Software Projects), ICSE-SEIP, 2018
 26. Alessandro Murgia, Parastou Tourani, Bram Adams, and Marco Ortu. 2014. Do developers feel emotions? an exploratory analysis of emotions in software artifacts. MSR’14
 27. B. Xu, D. Ye, Z. Xing, X. Xia, G. Chen and S. Li, "Predicting semantically linkable knowledge in developer online forums via convolutional neural network,"  ASE’16
-
-
 
 ## Futures
 
@@ -249,8 +236,6 @@ next generation of AI-literate software engineer working on
 applications such as   image recognition; large-scale text mining;
 autonomous cars or drones; etc.
 
-
-
 1. Sainyam Galhotra, Yuriy Brun, and Alexandra Meliou, Fairness Testing: Testing Software for Discrimination, in European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), pages 498-510, Paderborn, Germany, September 2017.
 2. Burnett, Margaret, Simone Stumpf, Jamie Macbeth, Stephann Makri, Laura Beckwith, Irwin Kwan, Anicia Peters, and William Jernigan. "GenderMag: A method for evaluating software's gender inclusiveness." Interacting with Computers 28, no. 6 (2016): 760-787.
 3. Bird C, Nagappan N, Devanbu PT, Gall HC, Murphy B. Does distributed development affect software quality? An empirical case study of Windows Vista. In: Proceedings of the 31st international conference on software engineering, ICSE 2009, May 16–24. Vancouver, Canada
@@ -259,7 +244,6 @@ autonomous cars or drones; etc.
    In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM,
    New York, NY, USA, 402-413. DOI: https://doi.org/10.1145/2568225.2568266
 5. Li, Z., Jing, X. Y., Zhu, X., Zhang, H., Xu, B., & Ying, S. (2017). On the Multiple Sources and Privacy Preservation Issues for Heterogeneous Defect Prediction. IEEE Transactions on Software Engineering.
-
 
 ## Cheat's Guide to Analytics
 
@@ -310,7 +294,6 @@ b=0   | d=1   | loud
 Sort data into time (releases), train on six prior releases,
 test on the latest one
 
-
 ### Cross-Validation
 
 - M times, reorder data (remove spurious order effects)
@@ -322,7 +305,16 @@ test on the latest one
 - "Stratified" CVV:
   - mimic distributions of all data within the test suites
 - "Synthetic train data":
-  - Never mess with the training data.
+  - SMOTE
+    - Balance the distributions in the ttrain data
+     - Never mess with the test data.
+       - But do anything you like with the training data
+    - Down sample (prune) the majority class at random
+    - Up sample (make stuff up) the minoritty class
+      - For each minority example EG
+        - From K nearest neighbors
+          - Pick X at random
+          - Make up something (interpolate between X and EG)
 
 ### Statistical Analysis
 
@@ -363,6 +355,5 @@ test on the latest one
 <img src="../etc/img/sk.png" width=600>
 
 Note "blurring" (15==12, 11==8,16==15)
-
 
 [Bigger example (a nearest neighbor calculation)](https://docs.google.com/spreadsheets/d/1AfL5C6aXcaaiX8KtcNZEwvnDtbw1vIrX18HIbJJknJs/edit?usp=sharing)

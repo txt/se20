@@ -1,4 +1,4 @@
-<[(https://ieeexplore.ieee.org/document/9173639)a name=top>
+<a name=top>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -28,9 +28,7 @@ SE is about choice.
 - Linux kernel feature map = 7000 variables + 300,000 constraints
   - So very many ways to configure that kernel!
 
-
 What if those choices have ethical implications?
-
 
 Maybe, maybe not.
 
@@ -92,7 +90,6 @@ unwittingly unleash models that are highly discriminatory.
 yet, given the ubiquity of the internet, these discriminatory models
 could be unleashed on large sections of the general public.
 
-
 Examples:
 
 - hyScoreis an NLP tool which, amongst other things, performs sentiment
@@ -143,15 +140,11 @@ Nevertheless, the following table shows one way we might map together these two 
 
 The reader might dispute this mapping, perhaps saying that we have missed, or missed out, or misrepresented, some vital ethical concern. This would be a good thing since that would mean you are now engaging in discussions about software and ethics. In fact, the best thing that could happen below is that you say “that is wrong; a better way to do that would be…” As George Box said, all models are wrong; but some are useful.
 
-
 In any case, what the above table does demonstrate is that:
 
 - Large organizations are now very concerned with ethics.
 - When they talk about ethics, there is much overlap in what they say.
 - This is a pressing need to extend our current design thinking to include ethical considerations
-
-
-
 
 ## Handling choice
 
@@ -184,7 +177,6 @@ Why not just remove the protected attribute (age, gender,etc)
     - Poor observed correlation zip code to race
     - But connected via the labels "good Delvers" "slower Delivery"
       - Data catute jistoricall, over many years.
-
 
 ###  Recognize that bias is  inevitable
 
@@ -238,7 +230,6 @@ Divide data into groups (e.g. divide on gender, age, nationality, anything reall
     - and minimize accuracy for Y
   - So the learner you use, by definition, knows nothing of Y
 
-
 Demo: [AI360](https://aif360.mybluemix.net/compare)
 
 ## More generally
@@ -270,8 +261,3 @@ Karthikeyan Natesan Ramamurthy, John Richards, Diptikalyan Saha, Prasanna Sattig
   - See also the clairifaction from [Peter Sykacek[(https://ieeexplore.ieee.org/document/9173639)
 - [Preventing undesirable behavior of intelligent machines](https://thetalkingmachines.com/sites/default/files/2019-11/999.full_.pdf)
 Philip S. Thomas, Bruno Castro da Silva, Andrew G. Barto, Stephen Giguere, Yuriy Brun, Emma Brunskills, Science, 366, 999–1004 (2019)3
-
-
-
-
-
