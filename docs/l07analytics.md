@@ -271,7 +271,7 @@ test on the latest one
         - Test: apply Model to Bins[b]
 - "Stratified" CVV:
   - mimic distributions of all data within the test suites
-- "Synthetic train data":
+- "Synthetic training":
   - SMOTE
     - Balance the distributions in the ttrain data
      - Never mess with the test data.
