@@ -258,6 +258,8 @@ You can't always get what you want
 
 ### Data Hacking
 
+<img width=500 src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bagging.png">
+
 *Ensembles (simple)*
 
 - N slightly different experts are better than one
@@ -273,6 +275,7 @@ You can't always get what you want
 - Build N experts, one at a time, (N+1)th expert learned from
   examples that confused the N-th expert (known as _boosting_).
 
+<img align=right src="https://media.geeksforgeeks.org/wp-content/uploads/20190508222632/0f67a451-4895-4a17-9e5f-3bd80f7d2545-300x200.png">
 *Discretization*
 -  split numerics into a small number of bins
 - only split if the class is different in both splits
