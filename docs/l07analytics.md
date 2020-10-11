@@ -278,12 +278,12 @@ test on the latest one
     - Balance the distributions in the train data
      - Never mess with the test data.
        - But do anything you like with the training data
-    - Down sample (prune) the majority class at random
-    - Up sample (make stuff up) the minority class
+    - Down sample (prune) the majority class, at random
+    - Up sample (make stuff up) the minority class, at random
       - For each minority example EG
-        - From K nearest neighbors
-          - Pick X at random
-          - Make up something (interpolate between X and EG)
+        - Find EG's  K nearest neighbors
+        - Pick one at random (call it X)
+        - Make up something (interpolate randomly between X and EG)
 
 ### Statistical Analysis
 
