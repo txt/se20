@@ -322,7 +322,7 @@ Changing those parameters can really improve these learners:
       in fine enough detail to handle all options for all
       data, too slow!
 
-<img src="../etc/img/tune.png">
+<img width=500 src="../etc/img/tune.png">
 
 - Better way to tune: <em>differential evolution</em>
   - (np, cf, f) = (20, 0.3, 0.3)
@@ -330,11 +330,11 @@ Changing those parameters can really improve these learners:
   - Pick np choices at random, to make population0 = np vectors
   - For G generations do
     - for each old item in population
-      - pick three other items from population, a,b,c
-      - new = a 
+      - pick three other items from population, one,two,three
+      - new = copy(one) 
       - for each options n &in; N
         - if cf < rand()
-          - new<sub>n</sub> = f*(c<sub>n</sub>-b<sub>n</sub>)
+          - new<sub>n</sub> = f*(three<sub>n</sub> - two<sub>n</sub>)
       - get performance scores from building a learner from _new_ and _old_
         - if new better than old, replace old with new 
   - [really, really simple code](https://gist.github.com/pablormier/0caff10a5f76e87857b44f63757729b0#file-differential_evolution-py)
