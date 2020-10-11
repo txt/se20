@@ -303,6 +303,23 @@ You can't always get what you want
         - Pick one at random (call it X)
         - Make up something (interpolate randomly between X and EG)
 
+### HyperParameter Optimization
+
+Learners have magic control variables.
+
+- Dumb way to tune
+  - Grid Search (loop through all options)
+    - Amateur hour!
+
+[differential evolution](https://gist.github.com/pablormier/0caff10a5f76e87857b44f63757729b0#file-differential_evolution-py)
+
+<script src="https://gist.github.com/nisrulz/11c0d63428b108f10c83.js"></script>
+
+### Deep Learning
+
+So much to say here. Become my grad student
+and we can explore.
+
 ### Temporal-Validation
 
 Sort data into time (releases), train on six prior releases,
