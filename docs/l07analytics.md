@@ -252,6 +252,7 @@ copy/paste in software (21,22)
 |130| n   |
 |50 | y   |
 
+<img src="../etc/img/fss.png" align=right width=500>
 *Feature selection*
 
 - Many methods, but if you want something real simple,
