@@ -451,7 +451,7 @@ You can't always get what you want
 
 Here are two recent pretty darn good results:
 
-<img width=500 align=right src="../etc/img/dt.png">
+<img width=600 align=right src="../etc/img/dt.png">
 
 - Suvodeep Majumder's product predictions: where bugs are
   in 700+ Github projects
@@ -461,6 +461,7 @@ Here are two recent pretty darn good results:
 
 
 
+<br clear=all>
 
 ## Futures
 
