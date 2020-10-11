@@ -305,6 +305,12 @@ a=97  | c=2   | silent
 b=0   | d=1   | loud
 ```
 
+### Temporal-Validation
+
+Sort data into time (releases), train on six prior releases,
+test on the latest one
+
+
 ### Cross-Validation
 
 - M times, reorder data (remove spurious order effects)
@@ -313,6 +319,12 @@ b=0   | d=1   | loud
       - For learner Learner1, Learner2, Learner3,....
         - Training: Model = Learner(Data - Bins[b])
         - Test: apply Model to Bins[b]
+- "Stratified" CVV:
+  - mimic distributions of all data within the test suites
+- "Synthetic train data":
+  - Never mess with the training data.
+
+### Statistical Analysis
 
 - For N=M=5, this generates 25 numbers for each Learner
   - e.g. Learner1's recall 
@@ -338,7 +350,7 @@ b=0   | d=1   | loud
   - N = size(learners)
   - Seek  m that  most (\*) divides the data into most different regions (diff=distinguishable+small effect)
     - If none, left everyone gets the same rank
-    - Else reak the data, left and right, recurs on each half
+    - Else break the data, left and right, recurs on each half
 
 (\*) Givens cores on N learners, find argmax V:
 - For m= 2 to N
@@ -348,8 +360,8 @@ b=0   | d=1   | loud
   - if left and right distinguishable by more than a small effect
   - V = m/N \* abs(mu1 - mu0)<sup>2</sup> + (N-m)/N \* abs(mu2 - mu0)<sup>2</sup>
 
-### Temporal-Validation
+<img src="../etc/img/sk.png" width=600>
 
-- Fixing class imbalance (SMOTE)
-  - Note:
+Mote "blurrring" (bottom left)
 
+44=32
