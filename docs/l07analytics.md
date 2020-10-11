@@ -305,6 +305,8 @@ test on the latest one
 |t-test                        | hedges       |[stats.py](https://gist.github.com/timm/33578871be53e604da83679dc7ccbcc5)    | "parametetic" (assumes "normal" data) | 
 |bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"                      |
 
+<img align=right src="../etc/img/sk.png" width=600>
+
 - Scott knott test
   - Sort learners by their median score
   - N = size(learners)
@@ -320,7 +322,6 @@ test on the latest one
   - if left and right distinguishable by more than a small effect
     - V = m/N \* abs(mu1 - mu0)<sup>2</sup> + (N-m)/N \* abs(mu2 - mu0)<sup>2</sup>
 
-<img src="../etc/img/sk.png" width=600>
 
 Note "blurring" (15==12, 11==8,16==15)
 
