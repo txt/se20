@@ -290,22 +290,25 @@ copy/paste in software (21,22)
 
 Learners have magic control variables.
 
+<img src="../etc/img/hpo.png" align=right width=500>
+
 - e.g. Discretization: how many bins to use for the numbers
 - e.g. Feature selection:  in SMOTE, how to balance the data
 - e.g. Neural nets: how many layers
 - e.g. Decision trees: when to stop growing the tree
 - e.g. Nearest neighbor reasoning: how many neighbors do we look at?
 
-<img src="../etc/img/hpo.png" align=right width=500>
 Changing those parameters can really improve these learners:
+
+<div clear=all>
+
+<img width=500 align=right src="../etc/img/tune.png">
 
 - Dumb way to tune
   - Grid Search (loop through all options)
     - Amateur hour! To explore all the options
       in fine enough detail to handle all options for all
       data, too slow!
-
-<img width=500 align=right src="../etc/img/tune.png">
 
 - Better way to tune: <em>differential evolution</em>
   - (np, cf, f) = (20, 0.3, 0.3)
@@ -433,7 +436,6 @@ You can't always get what you want
   - If you cover everything, you'll catch some mistakes
   - If you make no mistakes, you won't cover a thing
 
-
 - The nature of the data controls what we can learn
   from it.
     - neg/pos = (a + c) / (b + d)
@@ -448,6 +450,8 @@ You can't always get what you want
 ## How to do it
 
 Here are two recent pretty darn good results:
+
+<img width=500 align=right src="../etc/img/dt.png">
 
 - Suvodeep Majumder's product predictions: where bugs are
   in 700+ Github projects
