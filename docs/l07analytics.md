@@ -13,6 +13,24 @@
 <br>
 <hr>
 
+XXX kdd cycle
+XXX seip paper cycle
+XXX add max's screend esign cycle
+XXX abdrah simplicity (suspicious) 
+XXX show suvodee['s conclusions
+XXX enebsmel1 example: combining weak experts makes stronger experts
+XXX discretization: keopgh
+XXX ai tools ahve to che tuned to se. e.g whch; e.g. kewen
+XXX data selection :process, herleb's hyptoegsos
+XXX featur selection: program complexity at jpl
+XXX feature selection: iee software paper. throw data away
+XXX eval. not othe only choices
+XXX 2 traditions: what is, look see
+XXX   that darns example of peple under the light
+XXX    dem-se-tutorual-v3 deebdakc you ending upanswwers
+XXX        questions u never say in the first palce
+XXX much of data mining is in the feature engineering
+
 # Software Analytics
 
 <a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img
@@ -29,10 +47,14 @@ Software development is a complex process:
 <img src="../etc/img/results1.png">
 
 Many organizations now pay handsomely to hire large teams of data
-scientists. For example, at the time of this writing, there are
+scientists.
+
+-  For example, at the time of this writing, there are
 1000+ Microsoft employees exploring project data using software
-analytics. These teams are performing tasks that, a decade, would
-have been called cutting-edge research. But now we call that work
+analytics.
+- These teams are performing tasks that, a decade, would
+have been called cutting-edge research.
+- But now we call that work
 “standard operating procedure”.
 
 Software analytics lets us “trust, but verify” human intuitions:
@@ -87,14 +109,6 @@ The good news is that, using software analytics, we can correct
 those misconceptions. For example, after examining a project, certain
 coding styles could be seen as more bug prone (and should be avoided).
 
-Using software analytics, we can correct those misconceptions.  So
-many applications of software analytics Here is a longer list of
-some of the things studied within software analytics. For more
-examples, see [this IEEE Software
-Article](https://www.researchgate.net/publication/260649759_Software_Analytics_So_What)
-as well as recent conference proceedings of the PROMISE conference,
-the Mining Software Repositories (MSR) conference, and any other
-conference or journal on software engineering.
 
 As Abram Hindle and colleagues explain:
 
@@ -303,6 +317,7 @@ Changing those parameters can really improve these learners:
 <div clear=all>
 
 <img width=500 align=right src="../etc/img/tune.png">
+<div clear=all>
 
 - Dumb way to tune
   - Grid Search (loop through all options)
