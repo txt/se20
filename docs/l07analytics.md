@@ -16,7 +16,7 @@
 # Software Analytics
 
 <a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img
-   src="../etc/img/ieeesoft.png" width=500></a>
+   aign=right src="../etc/img/ieeesoft.png" width=500></a>
 
 
 Software development is a complex process:
@@ -25,6 +25,7 @@ Software development is a complex process:
 - Software analytics distills large amounts of low-value data into small chunks of very high-value information
 - These chunks reveal the factors matter the most for software projects. For example
 
+<br clear=all>
 
 <img src="../etc/img/results1.png">
 
@@ -241,7 +242,7 @@ You can't always get what you want
   - If you cover everything, you'll catch some mistakes
   - If you make no mistakes, you won't cover a thing
 
-<img width=500 src="../etc/img/rocpdpf.png">
+<img width=500 align=right src="../etc/img/rocpdpf.png">
 
 - The nature of the data controls what we can learn
   from it.
@@ -273,11 +274,11 @@ test on the latest one
   - mimic distributions of all data within the test suites
 - "Synthetic training":
   - SMOTE
-    - Balance the distributions in the ttrain data
+    - Balance the distributions in the train data
      - Never mess with the test data.
        - But do anything you like with the training data
     - Down sample (prune) the majority class at random
-    - Up sample (make stuff up) the minoritty class
+    - Up sample (make stuff up) the minority class
       - For each minority example EG
         - From K nearest neighbors
           - Pick X at random
