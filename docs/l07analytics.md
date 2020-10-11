@@ -237,12 +237,13 @@ a=97  | c=2   | silent
 b=0   | d=1   | loud
 ```
 
+<img width=500 align=right src="../etc/img/rocpdpf.png">
+
 You can't always get what you want
 - More recall means more false alarm
   - If you cover everything, you'll catch some mistakes
   - If you make no mistakes, you won't cover a thing
 
-<img width=500 align=right src="../etc/img/rocpdpf.png">
 
 - The nature of the data controls what we can learn
   from it.
