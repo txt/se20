@@ -222,6 +222,27 @@ b=FP  | d=TP  | loud
 - precision : how many of the predicted are right : d/(b+d)
 - recall : how many we found d/(c+d)
 - false alarm : b/(a+b)
+
+When the target class is rare (c+d) << (a+b) then
+
+- Accuracy isn't accurate: in the following accuracy = 98% and  recall = 33%
+- Precision isn't precise: precision = 100% (but we are still missing 33% of the data).
+
+```
+    truth     |  
+no    | yes   | learner
+------|-------|-------
+a=97  | c=2   | silent
+b=0   | d=1   | loud
+```
+
+You can't always get what you want
+- More recall means more false alarm
+  - If you cover everything, you'll catch some mistakes
+  - If you make no mistakes, you won't cover a thing
+
+<img width=500 src="../etc/img/rocpdpf.png">
+
 - these variables are connected:
   - neg/pos = (a + c) / (b + d)
   - prec= d / (d + c) 
@@ -237,24 +258,6 @@ b=FP  | d=TP  | loud
         and high recall and low false alarms
     
 
-- More recall means more false alarm
-  - If you cover everything, you'll catch some mistakes
-  - If you make no mistakes, you won't cover a thing
-
-<img width=500 src="../etc/img/rocpdpf.png">
-
-When the target class is rare (c+d) << (a+b) then
-
-- Accuracy isn't accurate: in the following accuracy = 98% and  recall = 33%
-- Precision isn't precise: precision = 100% (but we are still missing 33% of the data).
-
-```
-    truth     |  
-no    | yes   | learner
-------|-------|-------
-a=97  | c=2   | silent
-b=0   | d=1   | loud
-```
 
 ### Temporal-Validation
 
