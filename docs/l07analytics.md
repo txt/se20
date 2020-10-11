@@ -290,7 +290,7 @@ b=FP  | d=TP  | loud
   - If you cover everything, you'll catch some mistakes
   - If you make no mistakes, you won't cover a thing
 
-<img src="../etc/img/rocpdpf.png">
+<img width=500 src="../etc/img/rocpdpf.png">
 
 When the target class is rare (c+d) << (a+b) then
 
