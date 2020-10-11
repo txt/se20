@@ -227,7 +227,10 @@ copy/paste in software (21,22)
 - Build N experts, one at a time, (N+1)th expert learned from
   examples that confused the N-th expert (known as _boosting_).
 
+<br clear=all>
+
 <img align=right src="https://media.geeksforgeeks.org/wp-content/uploads/20190508222632/0f67a451-4895-4a17-9e5f-3bd80f7d2545-300x200.png">
+
 *Discretization*
 
 -  split numerics into a small number of bins
