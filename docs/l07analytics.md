@@ -239,6 +239,7 @@ b=0   | d=1   | loud
 <img width=500 align=right src="../etc/img/rocpdpf.png">
 
 You can't always get what you want
+
 - More recall means more false alarm
   - If you cover everything, you'll catch some mistakes
   - If you make no mistakes, you won't cover a thing
@@ -257,14 +258,28 @@ You can't always get what you want
 
 ### Data Hacking
 
-- "Stratified" CVV:
-  - mimic distributions of all data within the test suites
-- Discretization: split numerics into a small number of bins
-  - only split if the class is different in both splits
-  - e.g. 
-    - don't divide this (e.g.) groups of 25
-    - instead, try divide into below and above 100
-      - why?
+*Ensembles (simple)*
+
+- N slightly different experts are better than one
+- Take train and test data,
+- For the train data,
+    N times, pull (e.g.) sqrt of the attributes (picked at random)
+    and some of the rows (e.g. 1000 picked at random)
+- Build N models, apply them all the test data
+  - Report (say) the average conclusion across the ensemble
+
+*Ensembles (more complex)*
+
+- Build N experts, one at a time, (N+1)th expert learned from
+  examples that confused the N-th expert (known as _boosting_).
+
+*Discretization*
+-  split numerics into a small number of bins
+- only split if the class is different in both splits
+- e.g. 
+  - don't divide this (e.g.) groups of 25
+  - instead, try divide into below and above 100
+    - why?
 
 |age| dead|
 |---|-----|
@@ -282,26 +297,27 @@ You can't always get what you want
 |130| n   |
 |50 | y   |
 
-- Feature selection:
-  - Many methods, but if you want something real simple,
-    - CFS
-      - look for combinations of attributes that are 
-        loosely connected to each other and tightly
-        connected to the class variable
-      - grow combinations from small to large
-      - if bigger no better than smaller, quit growing
-      - [really, really simple code](https://github.com/ai-se/GENERAL/blob/master/src/CFS.py#L311-L356)
-- "Synthetic training":
-  - SMOTE
-    - Balance the distributions in the train data
-     - Never mess with the test data.
-       - But do anything you like with the training data
-    - Down sample (prune) the majority class, at random
-    - Up sample (make stuff up) the minority class, at random
-      - For each minority example EG
-        - Find EG's  K nearest neighbors
-        - Pick one at random (call it X)
-        - Make up something (interpolate randomly between X and EG)
+*Feature selection*
+
+- Many methods, but if you want something real simple,
+- CFS: look for combinations of attributes that are 
+      loosely connected to each other and tightly
+      connected to the class variable
+- grow combinations from small to large
+- if bigger no better than smaller, quit growing
+- [really, really simple code](https://github.com/ai-se/GENERAL/blob/master/src/CFS.py#L311-L356)
+
+*Class rebalancing*
+
+- SMOTE:  Balance the distributions in the train data
+ - Never mess with the test data.
+   - But do anything you like with the training data
+- Down sample (prune) the majority class, at random
+- Up sample (make stuff up) the minority class, at random
+  - For each minority example EG
+    - Find EG's  K nearest neighbors
+    - Pick one at random (call it X)
+    - Make up something (interpolate randomly between X and EG)
 
 ### HyperParameter Optimization
 
@@ -314,7 +330,6 @@ Learners have magic control variables.
 - e.g. Nearest neighbor reasoning: how many neighbors do we look at?
 
 Changing those parameters can really improve these learners:
-
 
 - Dumb way to tune
   - Grid Search (loop through all options)
@@ -338,6 +353,11 @@ Changing those parameters can really improve these learners:
       - get performance scores from building a learner from _new_ and _old_
         - if new better than old, replace old with new 
   - [really, really simple code](https://gist.github.com/pablormier/0caff10a5f76e87857b44f63757729b0#file-differential_evolution-py)
+- More complications tuning methods
+  - See Jmetal, Pygamo, Optuna, Hyperopt, etc, etc
+- State of the art, very fast tuners]:
+  [Flash](https://arxiv.org/pdf/1801.02175.pdf),
+  [Dodge](https://arxiv.org/pdf/2008.07334.pdf).
 
 ### Temporal-Validation
 
@@ -352,6 +372,10 @@ test on the latest one
       - For learner Learner1, Learner2, Learner3,....
         - Training: Model = Learner(Data - Bins[b])
         - Test: apply Model to Bins[b]
+
+"Stratified" CVV*
+
+- mimic distributions of all data within the test suites
 
 ### Statistical Analysis
 
