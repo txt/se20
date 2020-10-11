@@ -18,7 +18,6 @@
 <a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img
    align=right src="../etc/img/ieeesoft.png" width=500></a>
 
-
 Software development is a complex process:
 -  Human developers may not always understand all the factors that influence their projects.
 - Software analytics is an excellent choice for discovering, verifying, and monitoring the factors that affect software development.
@@ -271,8 +270,38 @@ test on the latest one
       - For learner Learner1, Learner2, Learner3,....
         - Training: Model = Learner(Data - Bins[b])
         - Test: apply Model to Bins[b]
+
+
+### Data Hacking
+
 - "Stratified" CVV:
   - mimic distributions of all data within the test suites
+- Discretization: split numerics into a small number of bins
+  - only split if the class is different in both splits
+  - e.g. 
+    - don't divide this (e.g.) groups of 25
+    - instead, try divide into below and above 100
+
+|age| dead|
+|---|-----|
+|10 | n   |
+| 5 | y   |
+| 1 | y   |
+|20 | y   |
+|30 | y   |
+|40 | y   |
+|50 | y   |
+|60 | y   |
+|70 | y   |
+|100| n   |
+|110| n   |
+|120| n   |
+|130| n   |
+
+
+
+- Feature selection:
+  -  
 - "Synthetic training":
   - SMOTE
     - Balance the distributions in the train data
@@ -327,6 +356,18 @@ Note "blurring" (15==12, 11==8,16==15)
 
 
 [Bigger example (a nearest neighbor calculation)](https://docs.google.com/spreadsheets/d/1AfL5C6aXcaaiX8KtcNZEwvnDtbw1vIrX18HIbJJknJs/edit?usp=sharing)
+
+## How to do it
+
+Here are two recent pretty darn good results:
+
+- Suvodeep Majumder's product predictions: where bugs are
+  in 700+ Github projects
+- Process predictions: health indicators
+  1,3,6,12 months into the future (e.g. number of commits)
+  for 1400+ Github projects
+
+
 
 
 ## Futures
