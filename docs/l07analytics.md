@@ -222,6 +222,20 @@ b=FP  | d=TP  | loud
 - precision : how many of the predicted are right : d/(b+d)
 - recall : how many we found d/(c+d)
 - false alarm : b/(a+b)
+- these variables are connected:
+  - neg/pos = (a + c) / (b + d)
+  - prec= d / (d + c) 
+  - Divide top and bottom by D:
+    - p = 1 / (1 + c/d)
+    - p = 1 / (1 + neg / pos \* pf / recall ) 
+    - which can be rearranged to:
+      - pf = pos / neg \* ( (1- prec) / prec ) \* recall
+      - which is a complicated way to saying that you can't
+        always get what you want
+      - i.e. we
+        can't expect all data sets to geneate high precision
+        and high recall and low false alarms
+    
 
 - More recall means more false alarm
   - If you cover everything, you'll catch some mistakes
