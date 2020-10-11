@@ -298,10 +298,15 @@ test on the latest one
 |120| n   |
 |130| n   |
 
-
-
 - Feature selection:
-  -  
+  - Many methods, but if you want something real simple,
+    - CFS
+      - look for combinations of attributes that are 
+        loosely connected to each other and tightly
+        connected to the class variable
+      - grow combinations from small to large
+      - if bigger no better than smaller, quit growing
+      - [really, really simple code](https://github.com/ai-se/GENERAL/blob/master/src/CFS.py#L311-L356)
 - "Synthetic training":
   - SMOTE
     - Balance the distributions in the train data
