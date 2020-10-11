@@ -324,18 +324,31 @@ b=0   | d=1   | loud
     - Also called a "significance test" for some strange reason
     - If the variances are large, hard to distinguish
   - Small effect (is the middle of L1  too close to L2?)
-  - One learner is better than another:
+  - One learner is different than another:
     - if is _distinguishable_ by more than a _small effect_?
-  - Parametric tests faster, easier, more naive than non-parametric tests
+    - Parametric tests faster, easier, but more naive than non-parametric tests
 
 |significance (distinguisable) | effect size  | code                                                                        | notes                                 |
 |------------------------------|--------------|-----------------------------------------------------------------------------|---------------------------------------|
 |t-test                        | hedges       |[stats.py](https://gist.github.com/timm/33578871be53e604da83679dc7ccbcc5)    | "parametetic" (assumes "normal" data) | 
 |bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"                      |
 
+- Scott knott test
+  - Sort learners by their median score
+  - N = size(learners)
+  - Seek  m that  most (\*) divides the data into most different regions (diff=distinguishable+small effect)
+    - If none, left everyone gets the same rank
+    - Else reak the data, left and right, recurs on each half
+
+(\*) Givens cores on N learners, find argmax V:
+- For m= 2 to N
+  - left = learners[:m]
+  - right = leanres[m:]
+  - mu0, mu1, mu2 = mean(all), mean(left), mean(right)
+  - if left and right distinguishable by more than a small effect
+  - V = m/N \* abs(mu1 - mu0)<sup>2</sup> + (N-m)/N \* abs(mu2 - mu0)<sup>2</sup>
 
 ### Temporal-Validation
-
 
 - Fixing class imbalance (SMOTE)
   - Note:
