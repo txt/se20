@@ -296,6 +296,7 @@ Learners have magic control variables.
 - e.g. Decision trees: when to stop growing the tree
 - e.g. Nearest neighbor reasoning: how many neighbors do we look at?
 
+<img src="../etc/img/hpo.png" align=right width=500>
 Changing those parameters can really improve these learners:
 
 - Dumb way to tune
