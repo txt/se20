@@ -255,23 +255,6 @@ You can't always get what you want
         - pf = pos / neg \* ( (1- prec) / prec ) \* recall
       
 
-
-### Temporal-Validation
-
-Sort data into time (releases), train on six prior releases,
-test on the latest one
-
-
-### Cross-Validation
-
-- M times, reorder data (remove spurious order effects)
-  - N times divide into B bins
-    - For b in B bins
-      - For learner Learner1, Learner2, Learner3,....
-        - Training: Model = Learner(Data - Bins[b])
-        - Test: apply Model to Bins[b]
-
-
 ### Data Hacking
 
 - "Stratified" CVV:
@@ -281,6 +264,7 @@ test on the latest one
   - e.g. 
     - don't divide this (e.g.) groups of 25
     - instead, try divide into below and above 100
+      - why?
 
 |age| dead|
 |---|-----|
@@ -288,15 +272,15 @@ test on the latest one
 | 5 | y   |
 | 1 | y   |
 |20 | y   |
-|30 | y   |
-|40 | y   |
-|50 | y   |
-|60 | y   |
-|70 | y   |
 |100| n   |
+|40 | y   |
+|30 | y   |
+|70 | y   |
 |110| n   |
 |120| n   |
+|60 | y   |
 |130| n   |
+|50 | y   |
 
 - Feature selection:
   - Many methods, but if you want something real simple,
@@ -318,6 +302,20 @@ test on the latest one
         - Find EG's  K nearest neighbors
         - Pick one at random (call it X)
         - Make up something (interpolate randomly between X and EG)
+
+### Temporal-Validation
+
+Sort data into time (releases), train on six prior releases,
+test on the latest one
+
+### Cross-Validation
+
+- M times, reorder data (remove spurious order effects)
+  - N times divide into B bins
+    - For b in B bins
+      - For learner Learner1, Learner2, Learner3,....
+        - Training: Model = Learner(Data - Bins[b])
+        - Test: apply Model to Bins[b]
 
 ### Statistical Analysis
 
