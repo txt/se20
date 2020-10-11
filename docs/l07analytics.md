@@ -340,7 +340,7 @@ test on the latest one
     - if is _distinguishable_ by more than a _small effect_?
     - Parametric tests faster, easier, but more naive than non-parametric tests
 
-|significance (distinguisable) | effect size  | code                                                                        | notes                                 |
+|significance (distinguishable)| effect size  | code                                                                        | notes                                 |
 |------------------------------|--------------|-----------------------------------------------------------------------------|---------------------------------------|
 |t-test                        | hedges       |[stats.py](https://gist.github.com/timm/33578871be53e604da83679dc7ccbcc5)    | "parametetic" (assumes "normal" data) | 
 |bootstrap                     | cliffs-delta | [sk.py](https://gist.github.com/timm/41b3a8790c1adce26d63c5874fbea393)      | "non-parametric"                      |
@@ -362,6 +362,7 @@ test on the latest one
 
 <img src="../etc/img/sk.png" width=600>
 
-Mote "blurrring" (bottom left)
+Note "blurring" (15==12, 11==8,16==15)
 
-44=32
+
+[Bigger example (a nearest neighbor calculation)](https://docs.google.com/spreadsheets/d/1AfL5C6aXcaaiX8KtcNZEwvnDtbw1vIrX18HIbJJknJs/edit?usp=sharing)
