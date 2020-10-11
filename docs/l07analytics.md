@@ -200,61 +200,12 @@ copy/paste in software (21,22)
 
 ## Cheat's Guide to Analytics
 
-### Evaluation Metrics (for Numeric  Classes)
+### Data Selection
 
-- predicted = p
-- actual = a
-- RE = releative error = abs(p - a)/a
-- MRE = mean RE = sum( abs(p - a)/a ) / N
-- Median RE = sort all numbers, take the number in the middle
-
-### Evaluation Metrics (for Discrete Classes)
-
-```
-    truth     |  
-no    | yes   | learner
-------|-------|-------
-a=TN  | c=FN  | silent
-b=FP  | d=TP  | loud
-```
-
-- accuracy : (a+d) / (a+b+c+d)
-- precision : how many of the predicted are right : d/(b+d)
-- recall : how many we found d/(c+d)
-- false alarm : b/(a+b)
-
-When the target class is rare (c+d) << (a+b) then
-
-- Accuracy isn't accurate: in the following accuracy = 98% and  recall = 33%
-- Precision isn't precise: precision = 100% (but we are still missing 33% of the data).
-
-```
-    truth     |  
-no    | yes   | learner
-------|-------|-------
-a=97  | c=2   | silent
-b=0   | d=1   | loud
-```
-
-<img width=500 align=right src="../etc/img/rocpdpf.png">
-
-You can't always get what you want
-
-- More recall means more false alarm
-  - If you cover everything, you'll catch some mistakes
-  - If you make no mistakes, you won't cover a thing
+- Process data can be more predictive for (say)
+  defects than process data.
 
 
-- The nature of the data controls what we can learn
-  from it.
-    - neg/pos = (a + c) / (b + d)
-    - prec= d / (d + c) 
-    - Divide top and bottom by D:
-      - p = 1 / (1 + c/d)
-      - p = 1 / (1 + neg / pos \* pf / recall ) 
-      - which can be rearranged to:
-        - pf = pos / neg \* ( (1- prec) / prec ) \* recall
-      
 
 ### Data Hacking
 
@@ -377,7 +328,7 @@ test on the latest one
         - Training: Model = Learner(Data - Bins[b])
         - Test: apply Model to Bins[b]
 
-"Stratified" CVV*
+*"Stratified" CVV*
 
 - mimic distributions of all data within the test suites
 
@@ -423,6 +374,63 @@ Note "blurring" (15==12, 11==8,16==15)
 
 
 [Bigger example (a nearest neighbor calculation)](https://docs.google.com/spreadsheets/d/1AfL5C6aXcaaiX8KtcNZEwvnDtbw1vIrX18HIbJJknJs/edit?usp=sharing)
+
+
+### Evaluation Metrics (for Numeric  Classes)
+
+- predicted = p
+- actual = a
+- RE = releative error = abs(p - a)/a
+- MRE = mean RE = sum( abs(p - a)/a ) / N
+- Median RE = sort all numbers, take the number in the middle
+
+### Evaluation Metrics (for Discrete Classes)
+
+```
+    truth     |  
+no    | yes   | learner
+------|-------|-------
+a=TN  | c=FN  | silent
+b=FP  | d=TP  | loud
+```
+
+- accuracy : (a+d) / (a+b+c+d)
+- precision : how many of the predicted are right : d/(b+d)
+- recall : how many we found d/(c+d)
+- false alarm : b/(a+b)
+
+When the target class is rare (c+d) << (a+b) then
+
+- Accuracy isn't accurate: in the following accuracy = 98% and  recall = 33%
+- Precision isn't precise: precision = 100% (but we are still missing 33% of the data).
+
+```
+    truth     |  
+no    | yes   | learner
+------|-------|-------
+a=97  | c=2   | silent
+b=0   | d=1   | loud
+```
+
+<img width=500 align=right src="../etc/img/rocpdpf.png">
+
+You can't always get what you want
+
+- More recall means more false alarm
+  - If you cover everything, you'll catch some mistakes
+  - If you make no mistakes, you won't cover a thing
+
+
+- The nature of the data controls what we can learn
+  from it.
+    - neg/pos = (a + c) / (b + d)
+    - prec= d / (d + c) 
+    - Divide top and bottom by D:
+      - p = 1 / (1 + c/d)
+      - p = 1 / (1 + neg / pos \* pf / recall ) 
+      - which can be rearranged to:
+        - pf = pos / neg \* ( (1- prec) / prec ) \* recall
+      
 
 ## How to do it
 
