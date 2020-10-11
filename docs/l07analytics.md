@@ -263,6 +263,9 @@ copy/paste in software (21,22)
 - if bigger no better than smaller, quit growing
 - [really, really simple code](https://github.com/ai-se/GENERAL/blob/master/src/CFS.py#L311-L356)
 
+<br clear=all>
+
+<img src="../etc/img/smote.png" align=right width=500>
 *Class rebalancing*
 
 - SMOTE:  Balance the distributions in the train data
@@ -274,6 +277,8 @@ copy/paste in software (21,22)
     - Find EG's  K nearest neighbors
     - Pick one at random (call it X)
     - Make up something (interpolate randomly between X and EG)
+
+<br clear=all>
 
 ### HyperParameter Optimization
 
