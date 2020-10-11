@@ -16,7 +16,7 @@
 # Software Analytics
 
 <a href="https://www.youtube.com/watch?v=nO6X0azR0nw"><img
-   aign=right src="../etc/img/ieeesoft.png" width=500></a>
+   align=right src="../etc/img/ieeesoft.png" width=500></a>
 
 
 Software development is a complex process:
