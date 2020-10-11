@@ -343,7 +343,7 @@ b=0   | d=1   | loud
 (\*) Givens cores on N learners, find argmax V:
 - For m= 2 to N
   - left = learners[:m]
-  - right = leanres[m:]
+  - right = learners[m:]
   - mu0, mu1, mu2 = mean(all), mean(left), mean(right)
   - if left and right distinguishable by more than a small effect
   - V = m/N \* abs(mu1 - mu0)<sup>2</sup> + (N-m)/N \* abs(mu2 - mu0)<sup>2</sup>
