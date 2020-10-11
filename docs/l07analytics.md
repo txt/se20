@@ -197,69 +197,6 @@ copy/paste in software (21,22)
 
 
 
-## Futures
-
-- _Green engineering:_  Fancy cellphones become hunks of dead plastic if they run out of power.
-  Hence, taming power consumption is now a primary design concern.
-
-- Another emerging area is _social patterns in software engineering_.
-  - Our society grants different authority to different groups in
-society.
-  - Those biases transfer to software projects and software
-products (1).
-  - By   adopting the perspectives of different social
-groupings, it is possible to build better software (2).
-  - Models built from social factors (like how rarely someone updates part of the
-code) can be more effective for predicting code quality prediction
-than  code factors  (like  function size or number of arguments).
-For example, when studying software built in multiple countries, a
-good predictor for bugs is the complexity of the organizational chart
- (least bugs are introduced when people working on the same functions
- report to the same manager, even if they are in different countries) (3)
-- Software analytics also studies the interactions of developers using biometric sensors.
-  - Just as we mine software (and the social processes that develop them), so too can we
-    mine data, collected at the millisecond level, from computer programmers.
-    For example, using eye-tracking software or sensors for skin and brain activity,
-    software analytics can determine what code is important or most difficult for developers (4).
-- When trading-off different goals, the  data mining algorithms used in conventional software engineering
-  often use hard-wired choices.
-  - These choices may be irrelevant or even antithetical to the concerns of the business
-    users who are funding the analysis.
-  - For example, one way to maximize accuracy in unbalanced data sets (where, say,
-    most of the examples are not defective) is to obsess on maximizing the true negative score.
-  - This can mean that, by other measures such as precision or recall, the learner fails.
-  - What is required are “learners” that guide the reasoning according to  user-specified goal.
-  - Such “search-based software engineering” tools can implement other useful tasks such as
-     automatically tuning the control parameters of a data mining algorithm (which, for most
-     developers, is a black art).
-- Privacy and security are issues.
-  - Legislation being enacted around the world (e.g., the European General Data Protection Regulation, GDPR)
-    means that vendors collecting data will face large fines unless they address privacy concerns.
-   - One way to privatize data is to obfuscate it (a.k.a. mutate it) in reduce the odds that an malevolent
-    agent can identify who or what generated that data.
-   -  But this raises a problem- the more we mutate data, the harder it becomes to learn an
-     effective model from it.  Recent results suggest  that sometimes this problem can be solved,
-     but much more work is required on how to share data  without compromising confidentialityi (5).
-- Once someone can apply data mining algorithms to their data, they
-can now build and ship innovative AI tools. While sometimes those
-tools solve SE problems (e.g. recommending what to change in source
-code), they can can also be used on a wider range of problems.
-That is, we see software analytics as the training ground for the
-next generation of AI-literate software engineer working on
-applications such as   image recognition; large-scale text mining;
-autonomous cars or drones; etc.
-
-
-
-1. Sainyam Galhotra, Yuriy Brun, and Alexandra Meliou, Fairness Testing: Testing Software for Discrimination, in European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), pages 498-510, Paderborn, Germany, September 2017.
-2. Burnett, Margaret, Simone Stumpf, Jamie Macbeth, Stephann Makri, Laura Beckwith, Irwin Kwan, Anicia Peters, and William Jernigan. "GenderMag: A method for evaluating software's gender inclusiveness." Interacting with Computers 28, no. 6 (2016): 760-787.
-3. Bird C, Nagappan N, Devanbu PT, Gall HC, Murphy B. Does distributed development affect software quality? An empirical case study of Windows Vista. In: Proceedings of the 31st international conference on software engineering, ICSE 2009, May 16–24. Vancouver, Canada
-4. Thomas Fritz, Andrew Begel, Sebastian C. Müller, Serap Yigit-Elliott, and Manuela Züger. 2014.
-   Using psycho-physiological measures to assess task difficulty in software development.
-   In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM,
-   New York, NY, USA, 402-413. DOI: https://doi.org/10.1145/2568225.2568266
-5. Li, Z., Jing, X. Y., Zhu, X., Zhang, H., Xu, B., & Ying, S. (2017). On the Multiple Sources and Privacy Preservation Issues for Heterogeneous Defect Prediction. IEEE Transactions on Software Engineering.
-
 
 ## Cheat's Guide to Analytics
 
@@ -376,5 +313,68 @@ Note "blurring" (15==12, 11==8,16==15)
 
 [Bigger example (a nearest neighbor calculation)](https://docs.google.com/spreadsheets/d/1AfL5C6aXcaaiX8KtcNZEwvnDtbw1vIrX18HIbJJknJs/edit?usp=sharing)
 
+
+## Futures
+
+- _Green engineering:_  Fancy cellphones become hunks of dead plastic if they run out of power.
+  Hence, taming power consumption is now a primary design concern.
+
+- Another emerging area is _social patterns in software engineering_.
+  - Our society grants different authority to different groups in
+society.
+  - Those biases transfer to software projects and software
+products (1).
+  - By   adopting the perspectives of different social
+groupings, it is possible to build better software (2).
+  - Models built from social factors (like how rarely someone updates part of the
+code) can be more effective for predicting code quality prediction
+than  code factors  (like  function size or number of arguments).
+For example, when studying software built in multiple countries, a
+good predictor for bugs is the complexity of the organizational chart
+ (least bugs are introduced when people working on the same functions
+ report to the same manager, even if they are in different countries) (3)
+- Software analytics also studies the interactions of developers using biometric sensors.
+  - Just as we mine software (and the social processes that develop them), so too can we
+    mine data, collected at the millisecond level, from computer programmers.
+    For example, using eye-tracking software or sensors for skin and brain activity,
+    software analytics can determine what code is important or most difficult for developers (4).
+- When trading-off different goals, the  data mining algorithms used in conventional software engineering
+  often use hard-wired choices.
+  - These choices may be irrelevant or even antithetical to the concerns of the business
+    users who are funding the analysis.
+  - For example, one way to maximize accuracy in unbalanced data sets (where, say,
+    most of the examples are not defective) is to obsess on maximizing the true negative score.
+  - This can mean that, by other measures such as precision or recall, the learner fails.
+  - What is required are “learners” that guide the reasoning according to  user-specified goal.
+  - Such “search-based software engineering” tools can implement other useful tasks such as
+     automatically tuning the control parameters of a data mining algorithm (which, for most
+     developers, is a black art).
+- Privacy and security are issues.
+  - Legislation being enacted around the world (e.g., the European General Data Protection Regulation, GDPR)
+    means that vendors collecting data will face large fines unless they address privacy concerns.
+   - One way to privatize data is to obfuscate it (a.k.a. mutate it) in reduce the odds that an malevolent
+    agent can identify who or what generated that data.
+   -  But this raises a problem- the more we mutate data, the harder it becomes to learn an
+     effective model from it.  Recent results suggest  that sometimes this problem can be solved,
+     but much more work is required on how to share data  without compromising confidentialityi (5).
+- Once someone can apply data mining algorithms to their data, they
+can now build and ship innovative AI tools. While sometimes those
+tools solve SE problems (e.g. recommending what to change in source
+code), they can can also be used on a wider range of problems.
+That is, we see software analytics as the training ground for the
+next generation of AI-literate software engineer working on
+applications such as   image recognition; large-scale text mining;
+autonomous cars or drones; etc.
+
+
+
+1. Sainyam Galhotra, Yuriy Brun, and Alexandra Meliou, Fairness Testing: Testing Software for Discrimination, in European Software Engineering Conference and ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), pages 498-510, Paderborn, Germany, September 2017.
+2. Burnett, Margaret, Simone Stumpf, Jamie Macbeth, Stephann Makri, Laura Beckwith, Irwin Kwan, Anicia Peters, and William Jernigan. "GenderMag: A method for evaluating software's gender inclusiveness." Interacting with Computers 28, no. 6 (2016): 760-787.
+3. Bird C, Nagappan N, Devanbu PT, Gall HC, Murphy B. Does distributed development affect software quality? An empirical case study of Windows Vista. In: Proceedings of the 31st international conference on software engineering, ICSE 2009, May 16–24. Vancouver, Canada
+4. Thomas Fritz, Andrew Begel, Sebastian C. Müller, Serap Yigit-Elliott, and Manuela Züger. 2014.
+   Using psycho-physiological measures to assess task difficulty in software development.
+   In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM,
+   New York, NY, USA, 402-413. DOI: https://doi.org/10.1145/2568225.2568266
+5. Li, Z., Jing, X. Y., Zhu, X., Zhang, H., Xu, B., & Ying, S. (2017). On the Multiple Sources and Privacy Preservation Issues for Heterogeneous Defect Prediction. IEEE Transactions on Software Engineering.
 
 
