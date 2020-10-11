@@ -243,20 +243,16 @@ You can't always get what you want
 
 <img width=500 src="../etc/img/rocpdpf.png">
 
-- these variables are connected:
-  - neg/pos = (a + c) / (b + d)
-  - prec= d / (d + c) 
-  - Divide top and bottom by D:
-    - p = 1 / (1 + c/d)
-    - p = 1 / (1 + neg / pos \* pf / recall ) 
-    - which can be rearranged to:
-      - pf = pos / neg \* ( (1- prec) / prec ) \* recall
-      - which is a complicated way to saying that you can't
-        always get what you want
-      - i.e. we
-        can't expect all data sets to geneate high precision
-        and high recall and low false alarms
-    
+- The nature of the data controls what we can learn
+  from it.
+    - neg/pos = (a + c) / (b + d)
+    - prec= d / (d + c) 
+    - Divide top and bottom by D:
+      - p = 1 / (1 + c/d)
+      - p = 1 / (1 + neg / pos \* pf / recall ) 
+      - which can be rearranged to:
+        - pf = pos / neg \* ( (1- prec) / prec ) \* recall
+      
 
 
 ### Temporal-Validation
