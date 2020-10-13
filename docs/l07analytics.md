@@ -13,10 +13,6 @@
 <br>
 <hr>
 
-XXX 2 traditions: what is, look see
-XXX   that darns example of peple under the light
-XXX    dem-se-tutorual-v3 deebdakc you ending upanswwers
-XXX        questions u never say in the first palce
 
 # Software Analytics
 
@@ -233,7 +229,7 @@ For more on this seea
 
 Maybe 5% of your effort on the "data mining" part
 
-<img src="../etc/img/kddycle.png">
+<img src="../etc/img/kddcycle.png">
 
 As to the rest:
 
@@ -241,15 +237,19 @@ As to the rest:
 Saleema Amershi, Andrew Begel, Christian Bird, Rob DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, Thomas Zimmermann
 - Maybe 5 hours per week in "model training"
 
-<img src="../etc/img/seip">
+<img src="../etc/img/seip.png">
+
+-  Much of data mining is in the feature engineering
 
 ### Data Selection
 
 - Process data can be more predictive for (say)
   defects than process data.
+- For really interesting reasons
 
+<img src="../etc/img/process.png">
+<br clear=all>
 
--  Much of data mining is in the feature engineering
 
 ### Data Hacking
 
@@ -445,7 +445,7 @@ Note "blurring" (15==12, 11==8,16==15)
 
 - predicted = p
 - actual = a
-- RE = releative error = abs(p - a)/a
+- RE = relative error = abs(p - a)/a
 - MRE = mean RE = sum( abs(p - a)/a ) / N
 - Median RE = sort all numbers, take the number in the middle
 
@@ -501,6 +501,7 @@ You can't always get what you want
 Here are two recent pretty darn good results:
 
 <img width=600 align=right src="../etc/img/dt.png">
+<br clear=all>
 
 Suvodeep Majumder's product predictions: where bugs are
   in 700+ Github projects
@@ -509,19 +510,26 @@ Suvodeep Majumder's product predictions: where bugs are
   - CFS
   - Ensembles (Random Forests)
 
-<img src="../etc/img/suvo512.png">
+<img src="../etc/img/suvo750.png">
+<br clear=all>
 
 <img src="../etc/img/suvowhat.png">
+<br clear=all>
 
 <img src="../etc/img/process.png">
+<br clear=all>
 
 
 
 
 Process predictions: health indicators
-  1,3,6,12 months into the future (e.g. number of commits)
+-  1,3,6,12 months into the future (e.g. number of commits)
   for 1400+ Github projects
+- Decision trees (for numeric variables), so actually "regression trees"
+- Differential evolution for tuning
+- process metrics
 
+<img src="../etc/img/health.png">
 
 
 <br clear=all>
