@@ -13,23 +13,10 @@
 <br>
 <hr>
 
-XXX kdd cycle
-XXX seip paper cycle
-XXX add max's screend esign cycle
-XXX abdrah simplicity (suspicious) 
-XXX show suvodee['s conclusions
-XXX enebsmel1 example: combining weak experts makes stronger experts
-XXX discretization: keopgh
-XXX ai tools ahve to che tuned to se. e.g whch; e.g. kewen
-XXX data selection :process, herleb's hyptoegsos
-XXX featur selection: program complexity at jpl
-XXX feature selection: iee software paper. throw data away
-XXX eval. not othe only choices
 XXX 2 traditions: what is, look see
 XXX   that darns example of peple under the light
 XXX    dem-se-tutorual-v3 deebdakc you ending upanswwers
 XXX        questions u never say in the first palce
-XXX much of data mining is in the feature engineering
 
 # Software Analytics
 
@@ -148,7 +135,8 @@ with apps store data (1,2);
 -  using process data to predict overall
 project effort (3);
 -  using software process models to learn effective
-project changes (4);
+project changes (4);<br>
+<img src="../etc/img/energyGUI.png">
 - using operating system logs that predict software
 power consumption (5);
 -  exploring product line models to configure
@@ -214,19 +202,61 @@ copy/paste in software (21,22)
 
 ## Cheat's Guide to Analytics
 
+### Two Cultures
+
+1. "Is it X?" : Hypothesis-driven
+2. "What is?  : Hypothesis-less.  Ideas change as we learn more about the data.
+
+<img src="../etc/img/keys.png">
+
+That old joke about how to find keys
+
+- Everyone says "isn't that man silly"
+- I say "you want hom to find his keys? And drive home drunk? Maybe over in the light he'll find tracks of a bus
+   that take him to a bus stop which takes him to a bus which takes him home. And no one gets killed by a drunk driver."
+
+<img src="../etc/img/evolve.png">
+
+
+- "When the facts change, I change my mind. What do you do?..." John Maynard Keynes
+
+For more on this seea
+
+- [Statistical Modeling: The Two Cultures](http://www2.math.uu.se/~thulin/mm/breiman.pdf)
+  Leo Breimam
+  Statistical Science, Vol. 16, No. 3 (Aug., 2001), pp. 199-215
+  - The algorithm culture: Find a function _f(x)_ -an algorithm that operates on x to predict the responses y. 
+  - The data modeling  culture: Assume a distribution, then fill in its parameters.
+
+
+### Much of Data Mining is not about Data Mining
+
+Maybe 5% of your effort on the "data mining" part
+
+<img src="../etc/img/kddycle.png">
+
+As to the rest:
+
+- ICSE 2019, SEIP, Software Engineering for Machine Learning: A Case Study
+Saleema Amershi, Andrew Begel, Christian Bird, Rob DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, Thomas Zimmermann
+- Maybe 5 hours per week in "model training"
+
+<img src="../etc/img/seip">
+
 ### Data Selection
 
 - Process data can be more predictive for (say)
   defects than process data.
 
 
+-  Much of data mining is in the feature engineering
 
 ### Data Hacking
 
 
 *Ensembles (simple)*
 
-<img width=500 align=right src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bagging.png">
+<img width=500 align=right src="../etc/img/ensemble.png">
 
 - N slightly different experts are better than one
 - Take train and test data,
@@ -269,6 +299,10 @@ copy/paste in software (21,22)
 |60 | y   |
 |130| n   |
 |50 | y   |
+
+Using for (e.g.) simplifying time series
+
+<img src="../etc/img/sax.png">
 
 *Feature selection*
 
@@ -468,9 +502,23 @@ Here are two recent pretty darn good results:
 
 <img width=600 align=right src="../etc/img/dt.png">
 
-- Suvodeep Majumder's product predictions: where bugs are
+Suvodeep Majumder's product predictions: where bugs are
   in 700+ Github projects
-- Process predictions: health indicators
+  - Process metrics
+  - SMOTE
+  - CFS
+  - Ensembles (Random Forests)
+
+<img src="../etc/img/suvo512.png">
+
+<img src="../etc/img/suvowhat.png">
+
+<img src="../etc/img/process.png">
+
+
+
+
+Process predictions: health indicators
   1,3,6,12 months into the future (e.g. number of commits)
   for 1400+ Github projects
 
