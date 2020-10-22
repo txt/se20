@@ -36,7 +36,7 @@ Create an overleaf.com account
 - Hit "open as template"
 - Add your name and email to list of authors.
 -  Add these lines before `\begin{document}`
-  
+
      \usepackage[switch]{lineno}
      \linenumbers
 
