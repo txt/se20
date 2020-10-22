@@ -95,6 +95,7 @@ Videos:
 <!-- -------------------------------- -->
 
 </td><td align=center valign=top xwidth="100px">
+<a href="docs/essay.md">Essay</a>,<br>
 <a href="docs/proj3.md">Project3</a>,<br>
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvSwqxtS70AV3qWWwmuLyZF4eceq7FCkyxsqeqJaZNdw6CPvffCBqsqGM5vH1WL62kJQkN0D4KWyim/pub?start=false&loop=false&delayms=3000&slide=id.g906decb5d4_0_65">Homework3</a>,<br>
 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvSwqxtS70AV3qWWwmuLyZF4eceq7FCkyxsqeqJaZNdw6CPvffCBqsqGM5vH1WL62kJQkN0D4KWyim/pub?start=false&loop=false&delayms=3000&slide=id.g906decb5d4_0_72">Homework2</a>, <br>
