@@ -15,7 +15,8 @@
 
 # Essay
 
-<img src="https://www.essayjack.com/hubfs/Practical%20ways%20to%20improve%20your%20essay%20writing-2.jpeg" align=right width=500>
+<img src="https://www.essayjack.com/hubfs/Practical%20ways%20to%20improve%20your%20essay%20writing-2.jpeg" align=right 
+width=600>
 Work solo.
 
 
@@ -26,6 +27,8 @@ Work solo.
 Feel free to have fun with it. 
 - E.g. Switch to `Dr. Evil` mode and describe how to do the most socially irresponsible,human damaging
   thing possible.
+
+<br clear=all>
 
 ## How to write
 
