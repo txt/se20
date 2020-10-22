@@ -15,6 +15,7 @@
 
 # Essay
 
+<img src="https://www.essayjack.com/hubfs/Practical%20ways%20to%20improve%20your%20essay%20writing-2.jpeg" align=right width=500>
 Work solo.
 
 
