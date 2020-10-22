@@ -46,7 +46,7 @@ Create an overleaf.com account
          \linenumbers
 
 
-- Write at least a 1500 word paper
+- Write at least a 1200 word paper
   - Measured using their  "Word Count" tool (under menu top right)
   - Add that count to title
 - Hit the "recompile" button
