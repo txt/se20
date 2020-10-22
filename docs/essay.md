@@ -37,8 +37,10 @@ Create an overleaf.com account
 - Add your name and email to list of authors.
 -  Add these lines before `\begin{document}`
 
-     \usepackage[switch]{lineno}
-     \linenumbers
+
+         \usepackage[switch]{lineno}
+         \linenumbers
+
 
 - Write a 1500 word paper
   - Measures using their  "Word Count" tool (under menu top right), count the words
