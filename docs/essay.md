@@ -42,9 +42,9 @@ Create an overleaf.com account
          \linenumbers
 
 
-- Write a 1500 word paper
-  - Measures using their  "Word Count" tool (under menu top right), count the words
-  - add that count to title
+- Write at least a 1500 word paper
+  - Measured using their  "Word Count" tool (under menu top right)
+  - Add that count to title
 - Hit the "recompile" button
 - Look to the right of "recompile: for the download icon
 - Submit to Moodle
