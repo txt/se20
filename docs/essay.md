@@ -15,17 +15,18 @@
 
 # Essay
 
-Work in Solo.
+Work solo.
 
 
-What to write
-- Suing these [7 steps](https://github.com/txt/se20/blob/master/etc/img/12steps.png) as an outline
+## What to write
+- Using these [7 steps](https://github.com/txt/se20/blob/master/etc/img/12steps.png) as an outline
 - Address one of the [case studies](https://www.onlineethics.org/18876/Resources?resource-type=29_772&q=software%20engineering)
 
 Feel free to have fun with it. 
 - E.g. Switch to `Dr. Evil` mode and describe how to do the most socially irresponsible,human damaging
   thing possible.
 
+## How to write
 
 Create an overleaf.com account
 
@@ -33,6 +34,7 @@ Create an overleaf.com account
 - Select :IEEE Bare Demo Template for conferences"
   -  https://www.overleaf.com/latex/templates/ieee-bare-demo-template-for-conferences/ypypvwjmvtdf
 - Hit "open as template"
+- Add your name and email to list of authors.
 -  Add these lines before `\begin{document}`
   
      \usepackage[switch]{lineno}
