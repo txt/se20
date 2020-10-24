@@ -300,7 +300,8 @@ lis.py> (map fib (range 0 20))
 (1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765)
 ```  
 
-<img src="https://camo.githubusercontent.com/c84bd9db4bc8d854c4a3e66bcf64ec81bbf8a27c/68747470733a2f2f696d67732e786b63642e636f6d2f636f6d6963732f6c6973702e6a7067"
+<img s
+rc="https://camo.githubusercontent.com/c84bd9db4bc8d854c4a3e66bcf64ec81bbf8a27c/68747470733a2f2f696d67732e786b63642e636f6d2f636f6d6963732f6c6973702e6a7067">
 
 
 interesting ideas. multip methods. glue for all
