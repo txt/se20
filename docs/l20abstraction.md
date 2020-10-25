@@ -49,6 +49,9 @@ But
     - Second time, be concrete again, but make a little note
     - Third time: "not you again? time to abstract!"
 
+(Aside: personally, I think the history of computer science is the chase for
+useful abstractions.)
+
 
 ## Abstraction in computer science had to be invented.
 
@@ -89,6 +92,8 @@ resources.
  - Think of the _layers_ pattern, on steroids
      - Where you grab whole layers and move them to another piece hardware
  - Under the hood, again, this is abstraction.
+
+## Kinds of abstractions
 
 Abstraction  has been applied, successfully, dozens of times in the history of computing
 - All these following use the same idea... abstraction
