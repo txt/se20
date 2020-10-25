@@ -33,6 +33,7 @@ Historically, abstraction has enabled:
   - Is this the core of everything we do?
   - Is the whole history of computer science is the search for
     usefuls, implementable,  abstractions?
+  - Is the whole history of science trying to prove "x" (where "x" is an abstraction standing in for multiple concrete things)
 
 ## What is abstraction?
 
@@ -496,4 +497,3 @@ If iterators and error handlers are "little abstractions", then operating system
 - Step3: design patterns to allow for interactions
   - Uniform file representation (everything is "ASCII test", no special binary formats for each fie).
   - Use pipes
-
