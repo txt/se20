@@ -17,6 +17,9 @@
 
 <img src="../etc/img/abstract.png">
 
+Aside: personally, I think the history of computer science is the chase for
+useful abstractions.
+
 ## The Abstraction Test
 
 
@@ -49,8 +52,6 @@ But
     - Second time, be concrete again, but make a little note
     - Third time: "not you again? time to abstract!"
 
-(Aside: personally, I think the history of computer science is the chase for
-useful abstractions.)
 
 
 ## Abstraction in computer science had to be invented.
