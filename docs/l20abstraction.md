@@ -63,10 +63,10 @@ But
       - if we delete states,  do we also delete cities?
       - if we delete countries,  do we also delete states?
  - If after doing "it",
-  - You, and other people, are going to want to do "it" a thousand more times
-  - And you want to support very large communities not just doing "it0" but also "it1, it2..."
-  - And you want to build something unique that might be the basis for an entirely new industry 
-    - Supporting billions of dollars in IT acquisitions
+   - And if you want to support very large communities not just doing "it0" but also "it1, it2..."
+   - And you want to build something unique that might be the basis for an entirely new industry 
+     - Supporting billions of dollars in IT acquisitions
+   - Then you need abstraction.
 
 ## Kinds of abstractions
 
