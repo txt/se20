@@ -16,6 +16,7 @@
 # Abstraction
 
 <img src="../etc/img/abstract.png">
+
 ## The Abstraction Test
 
 Which is best?
@@ -96,17 +97,17 @@ the essential idea of _abstraction_ is used  throughout
 We say abstractions can be sorted by their memory size. The following list is sorted
 largest to smallest:
 
-6.  Operating systems
-5. Virtual machines
-4. Containers
-3. Serverless systems
-2. Erlang's trick
-1. Pipes
-1. Iterators and error handlers
-   - This last one is not the same as the rest
-   - Iterators and error handlers are abstraction tricks for programmers are smaller than
-     - Invented by Barbara Liskov
-   - While the  rest allow you jump computation around a CPU farm
+1.  Operating systems
+2. Virtual machines
+3. Containers
+4. Serverless systems
+5. Erlang's trick
+6. Pipes
+7. Iterators and error handlers
+   - These last two is not the same as the rest
+     - Iterators and error handlers are abstraction tricks for programmers are smaller than
+     - Implemented and popularized by Barbara Liskov
+   - The  rest allow you jump computation around a CPU farm
 
 ## Queuing Theory 
 
