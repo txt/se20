@@ -29,7 +29,7 @@ What is abstraction?
 Example:
 
 1. Concrete: Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
-2. Abstract: Things, at level `i` have sub-things at level `i+``.
+2. Abstract: Things, at level `i` have sub-things at level `i+`.
    - Note that number 2, would need some tools for instance creation
    - Maybe something as simple as a yaml config file to make your country
 
