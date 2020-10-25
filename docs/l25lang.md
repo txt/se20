@@ -266,7 +266,11 @@ XXXX python lambda dby example
 
 Smalltalk class hierarchy (somewhere in the 1980s):
 
-<img align=right src="https://gregsedwards.files.wordpress.com/2015/08/080315_1926_themicrosof15.png?w=525">
+rpcedural control in elaves. east cutomzation
+
+<img align=right src="https://i.pinimg.com/originals/e2/c1/4a/e2c14a7f83ea042e9dc8e0031e5e1a72.jpg">
+
+
 ```
 Object
 |    Behavior
