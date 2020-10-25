@@ -17,19 +17,23 @@
 
 <img src="../etc/img/abstract.png">
 
-Aside: personally, I think the history of computer science is the chase for
-useful abstractions.
 
-## The Abstraction Test
+Historically, abstraction has enabled:
 
+- hardware-independent  programming language and operating systems
+- cloud computing
+- billion dollar acquisitions (see below)
+- And, well, everything
+  - Is the whole history of computer science is the search for
+    usefuls, implementable,  abstractions?
 
-What is abstraction?
+## What is abstraction?
 
-- Between the programmer and the lower-level details (e.g. the hardware) there is a  layers of abstraction
+Between the programmer and the lower-level details (e.g. the hardware) there is a  layers of abstraction
 - Programmers talk to the abstraction
 - Automated tools map the  abstraction to the hardware
 
-Example:
+Concrete example of abstraction:
 
 1. Concrete: Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
 2. Abstract: Things, at level `i` have sub-things at level `i+`.
@@ -52,6 +56,29 @@ But
     - Second time, be concrete again, but make a little note
     - Third time: "not you again? time to abstract!"
 
+
+## Kinds of abstractions
+
+Abstraction  has been applied, successfully, dozens of times in the history of computing
+- All these following use the same idea... abstraction
+- The following list is sorted
+  by their memory footprint, largest to smallest:
+
+1. Operating systems
+2. Virtual machines
+3. Containers
+4. Serverless systems
+5. Erlang's trick
+6. Unix Pipes
+7. Iterators and error handlers
+   - These last two is not the same as the rest
+     - Iterators and error handlers are abstraction tricks for programmers are smaller than
+     - Implemented and popularized by Barbara Liskov
+   - The  rest allow you jump computation around a CPU farm
+
+Also, for other notes on abstraction that lead to different
+ programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
+- see next lecture
 
 
 ## Abstraction in computer science had to be invented.
@@ -93,29 +120,6 @@ resources.
  - Think of the _layers_ pattern, on steroids
      - Where you grab whole layers and move them to another piece hardware
  - Under the hood, again, this is abstraction.
-
-## Kinds of abstractions
-
-Abstraction  has been applied, successfully, dozens of times in the history of computing
-- All these following use the same idea... abstraction
-- The following list is sorted
-  by their memory footprint, largest to smallest:
-
-1. Operating systems
-2. Virtual machines
-3. Containers
-4. Serverless systems
-5. Erlang's trick
-6. Unix Pipes
-7. Iterators and error handlers
-   - These last two is not the same as the rest
-     - Iterators and error handlers are abstraction tricks for programmers are smaller than
-     - Implemented and popularized by Barbara Liskov
-   - The  rest allow you jump computation around a CPU farm
-
-Also, for other notes on abstraction that lead to different
- programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
-- see next lecture
 
 ## Error handling
 
