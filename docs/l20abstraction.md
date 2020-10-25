@@ -109,39 +109,6 @@ largest to smallest:
      - Implemented and popularized by Barbara Liskov
    - The  rest allow you jump computation around a CPU farm
 
-## Queuing Theory 
-
-Before we start... this is going to seem a digression, but just stay with me here
-
-The point of this little digression is that it is useful to jump around things
-between service providers. 
-- And the smaller the thing, the faster we can jump it
-- And the more little gaps we can jump them into
-
-N tellers/ checkout people. How many lines? One? N?
-
-<img src="https://csbcorrespondent.com/sites/default/files/WSJ%20Teller%20Graphic_050418%20v.4.jpg" width=500>
-
-Answer: see [7 insights into Queue Theory](http://www.treewhimsy.com/TECPB/Articles/SevenInsights.pdf)
-
-[According to the RIOT paper](https://arxiv.org/pdf/1708.08127.pdf)
-Computers
-execute in highly dynamic environment.
-
-- For example, Schad et al. [11] found that the
-runtime of a widely used benchmarks suite can vary by up
-to 33% even when run on supposedly identical instances
-within the same cloud environment. 
-- Not only CPU, but
-also bandwidth can be highly variable within the cloud.
-  - Schad et al. report that network bandwidth between the
-same type of EC2 instances can vary from 410KB/s to
-890KB/s. 
-- Hence, even after a workflow is planned and
-deployed, it is important to monitor instances and repeat
-the scheduling process during deployment when necessary.
-- If repeated rescheduling are too slow, then there is much waste of computer rescues.
-
 ## Error handling
 
 Throw a ball into a stadium, wait for what returns while holding a catchers mitt.
@@ -318,11 +285,44 @@ Problems with pipes:
 - Also, I've had problems with pipes and concurrency: sending data off on long retrevial arcs (e.g. from another part of the network)
   - But that's just me
 
+## Queuing Theory 
+
+Before going on... this is going to seem a digression, but just stay with me here
+
+The point of this little digression is that it is useful to jump around things
+between service providers. 
+- And the smaller the thing, the faster we can jump it
+- And the more little gaps we can jump them into
+
+N tellers/ checkout people. How many lines? One? N?
+
+<img src="https://csbcorrespondent.com/sites/default/files/WSJ%20Teller%20Graphic_050418%20v.4.jpg" width=500>
+
+Answer: see [7 insights into Queue Theory](http://www.treewhimsy.com/TECPB/Articles/SevenInsights.pdf)
+
+[According to the RIOT paper](https://arxiv.org/pdf/1708.08127.pdf)
+Computers
+execute in highly dynamic environment.
+
+- For example, Schad et al. [11] found that the
+runtime of a widely used benchmarks suite can vary by up
+to 33% even when run on supposedly identical instances
+within the same cloud environment. 
+- Not only CPU, but
+also bandwidth can be highly variable within the cloud.
+  - Schad et al. report that network bandwidth between the
+same type of EC2 instances can vary from 410KB/s to
+890KB/s. 
+- Hence, even after a workflow is planned and
+deployed, it is important to monitor instances and repeat
+the scheduling process during deployment when necessary.
+- If repeated rescheduling are too slow, then there is much waste of computer rescues.
+
 ## Erlang's Trick
 
-Some languages are designed for concurrency.
+Some languages are designed for concurrency. To do so, they use new abstractions.
 
-Consider the prorgram:
+Consider the following block-structured programs (where variables in a sub-block can access variables in parent blocks):
 
 ```python
 def aa(x):
@@ -341,8 +341,8 @@ Here's a small database language that can derive child info from a database on `
 child(X,Y) :- mother(X,Y).  # clause1
 child(X,Y) :- father(X,Y).  # clause2
 
-descendent(X,Y) :- child(X,Y).                  # clause3
-descendent(X,Y) :- child(X,Z), ancestor(Z,Y).   # clause4
+descendant(X,Y) :- child(X,Y).                    # clause3
+descendant(X,Y) :- child(X,Z), descendant(Z,Y).   # clause4
 
 father(tim,don).            # clause
 father(janet,don).          # clause6
@@ -351,7 +351,7 @@ mother(tim,jane).           # clause7
 mother(janet,don).          # clause8
 ```
 
-Note now that the clauses can all be run seperately on different CPUs since everything we need to know about (eg) `descendent`
+Note now that the clauses can all be run seperately on different CPUs since everything we need to know about (eg) `descendant`
 is available locally when we call that function.
 
 Now Erlang's _unit of swap_ is really, really small. From
@@ -367,6 +367,31 @@ Now Erlang's _unit of swap_ is really, really small. From
   - That's actually too big.
   - If you add more memory to your machine – you have the same number of bits that protects the memory 
     so the granularity of the page tables goes up – you end up using say 64kB for a process you know running in a few hundred bytes.
+
+Sounds like a crazy idea, right? Well, its actually a crazy 19 billion dollar idea.
+
+- 2015 WhatsApp aqcuired by Facebook
+- 50 engineers running software for a billion users
+- Erlang particularly suited to juggling communications from a huge number of users, and it lets engineers deploy new code on the fly
+- E.g. [watch at home (NSFW)](https://www.youtube.com/watch?v=rRbY3TMUcgQ). 
+  - See their intro-demo: a chat bot with 300,000 users sending near instant updates to each other.
+
+And its not just one company:
+
+-  Cisco ships 2 million devices per year running Erlang (comments at the Code BEAM Stockholm conference in 2018).
+  -  This translates to 90% of all internet traffic going through routers and switches controlled by Erlang. 
+-  Ericsson has Erlang at the core of its GPRS, 3G, 4G and 5G infrastructure. 
+   - With a market share of 40%, there’s a high probability a program written in Erlang assigned the IP address your smartphone is using today 
+     (amongst other things).
+   - Since being released as open source, Erlang has been spreading beyond Telecoms, establishing itself in other verticals such as 
+       FinTech, Gaming, Healthcare, Automotive, IoT and Blockchain. 
+- For more see [here](https://www.erlang-solutions.com/blog/which-companies-are-using-erlang-and-why-mytopdogstatus.html)
+  - e.g. English National Health Service (NHS). 
+  -  The NHS obviously requires high availability and handles over 65 million record requests every day through its 
+     Spine, a centralised point allowing the exchange of information across national and local systems. 
+     Using Riak (written in Erlang), the NHS has managed 99.999% availability for over five years.
+  
+See also Elixr (Erlang + prettier syntax, not sure it has the same systems advantage as Erlang).
 
 ## Containers and Virtual Machines
 
