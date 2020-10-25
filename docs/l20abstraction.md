@@ -69,7 +69,7 @@ resources.
      - Where you grab whole layers and move them to another piece hardware
  - Under the hood, again, this is abstraction.
 
-This tactic has been applied, successfully, dozens of times in the history of computing
+Abstraction  has been applied, successfully, dozens of times in the history of computing
 All these following use the same idea... abstraction
 
 - Language features that simplify programming complex systems
@@ -97,7 +97,7 @@ the essential idea of _abstraction_ is used  throughout
 We say abstractions can be sorted by their memory size. The following list is sorted
 largest to smallest:
 
-1.  Operating systems
+1. Operating systems
 2. Virtual machines
 3. Containers
 4. Serverless systems
@@ -108,6 +108,9 @@ largest to smallest:
      - Iterators and error handlers are abstraction tricks for programmers are smaller than
      - Implemented and popularized by Barbara Liskov
    - The  rest allow you jump computation around a CPU farm
+
+Also, for other notes on abstraction and programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
+- see next lecture
 
 ## Error handling
 

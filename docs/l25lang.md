@@ -13,6 +13,8 @@
 <br>
 <hr>
 
+XXX to dao. add memoing and my memos trick
+
 # Programming Languages and Abstraction
 
 ## LISP
