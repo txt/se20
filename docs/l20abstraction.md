@@ -21,6 +21,7 @@
 Historically, abstraction has enabled:
 
 - millions of useful tools, class libraries
+- billions of  dollars in the  acquisition of novel tech companies (see below)
 - the teaching of software engineering (since it lets us teach  many concrete ideas with a smaller number of abstractions);
 - testing
   - abstracting lots of functionality into 
@@ -28,7 +29,6 @@ Historically, abstraction has enabled:
     - that cover much of the functionality
 - hardware-independent  programming language and operating systems
 - cloud computing
-- billion dollar acquisitions (see below)
 - And, well, everything
   - Is this the core of everything we do?
   - Is the whole history of computer science is the search for
