@@ -192,7 +192,8 @@ The `csv` iterator reader is below. This iterator calls a sub-iterator `getline`
 ```awk
 # iterator code
 
-function csv(a,file,     i,j,b4, ok,line,x,y) {
+function csv(a,file,                  # arguments     
+             i,j,b4, ok,line,x,y) {   # locals
   file  = file ? file : "-"     # [1]................ read from standard input or file       
   ok = getline < file
   if (ok <0) {                  # [2]...,,,,,,,...... complain if missing file
