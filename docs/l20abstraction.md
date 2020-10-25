@@ -94,8 +94,8 @@ Also, for other notes on abstraction that lead to different
 
 Why abstraction? well?
 
-- If you underlying data structures are complex, you want some way to talk to them
-  without having to know everything about them
+- If you underlying data structures are complex, 
+  - you want some way to talk to them without having to know everything about them
 - If you want to run your code on a range of different hardware
   -  you want to write code in  hardware independent manner
      - so code can run all over the place
