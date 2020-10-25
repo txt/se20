@@ -19,14 +19,35 @@
 
 ## The Abstraction Test
 
-Which is best?
 
-1. Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
-2. Things, at level `i` have sub-things at level `i+``.
+What is abstraction?
+
+- Between the programmer and the lower-level details (e.g. the hardware) there is a  layers of abstraction
+- Programmers talk to the abstraction
+- Automated tools map the  abstraction to the hardware
+
+Example:
+
+1. Concrete: Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
+2. Abstract: Things, at level `i` have sub-things at level `i+``.
+   - Note that number 2, would need some tools for instance creation
+   - Maybe something as simple as a yaml config file to make your country
 
 If you are only building one application, the clearly number 1
+- And if you racing to get "it" out the door then there is clearly a case for using the first, most obvious design.
 
-But number 2, which would need some tools to support it, is more extensible.
+But
+- If after doing "it",
+  - You, and other people, are going to want to do "it" a thousand more times
+  - And you want to support very large communites not just doing "it0" but also "it1, it2..."
+  - And you want to build something unique that might be the basis for an entirely new industry 
+    - Supporting billions of dollars in IT acqusitions
+- If you've got the experience to see across multiple applications
+  - And if you've got enough to test out the practicality, utility of things like number2
+  - Suggestion: rule of three
+    - First time, just do concretely
+    - Second time, be concrete again, but make a little note
+    - Thied time: "not you again? time to abstract!"
 
 
 ## Abstraction in computer science had to be invented.
@@ -84,13 +105,6 @@ All these following use the same idea... abstraction
   - Virtual machines
   - Containers
   - Serverless computing
-
-Note that while the applications are different, and occur at very different scales,
-the essential idea of _abstraction_ is used  throughout
-
-- Between the programmer and the hardware there are layers of abstraction
-- Programmers talk to the abstraction
-- Automated tools make abstraction to the hardware
 
 ## Kinds of Abstractions
 
