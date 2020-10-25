@@ -24,6 +24,7 @@ Historically, abstraction has enabled:
 - cloud computing
 - billion dollar acquisitions (see below)
 - And, well, everything
+  - Is this the core of everything we do?
   - Is the whole history of computer science is the search for
     usefuls, implementable,  abstractions?
 
