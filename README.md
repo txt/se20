@@ -62,6 +62,7 @@ Assess software options; i.e.
 Lectures:
 <dd>
 <img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
+<a href="docs/l20abstraction.md">Oct24</a>,<br>
 <a href="docs/l07analytics.md">Oct13</a>,<br>
 <a href="docs/l06ethics.md">Oct6</a>,<br>
 <a href="docs/l05test.md">Sep21</a>,<br>
