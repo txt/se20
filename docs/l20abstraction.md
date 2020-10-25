@@ -345,7 +345,12 @@ Problems with pipes:
 
 ## OO Class Hierachies
 
-Smalltalk class hierarchy (somewhere in the 1980s):
+Smalltalk class hierarchy (somewhere in the 1980s)
+- Count the "abstract classes" (mostly, the non-leaf classes)
+  - i.e. classes that will never be instantiated
+  - but exist to defined shared properties of the subclasses.
+  - my counts is 40% "abstract"; i.e. nearly half.
+    - That's a lot of abstraction!
 
 <img align=right src="https://i.pinimg.com/originals/e2/c1/4a/e2c14a7f83ea042e9dc8e0031e5e1a72.jpg">
 
@@ -511,6 +516,10 @@ of this become so acrimonious that  [Python's founder resigned from the communit
  ;; ⇒ "9 does not equal NIL."
 ```
 
+LISP is not so popular these days. For cool languages that support macros:
+
+- use LISP (hey, still lots of support and development)
+- but look at JULIA also (a hot new language)!
 
 ## Queuing Theory 
 
