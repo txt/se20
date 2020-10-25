@@ -408,15 +408,6 @@ And its not just one company:
   
 See also Elixr (Erlang + prettier syntax, not sure it has the same systems advantage as Erlang).
 
-## Containers and Virtual Machines
-
-If iterators is small abstraction
-- and OS is large abstraction
-- then containers are in the middle
-
-<img src="https://imesh.github.io/images/contvsvm.png">
-
-
 ## Serverless
 
 Servless is an abstraction that is smaller than containers
@@ -442,6 +433,15 @@ Servless is an abstraction that is smaller than containers
     - Configuration: can't make _any_ assumptions about background utilities from
       "the operating system" cause their ain't one
       - You have to do it all.
+
+## Containers and Virtual Machines
+
+If iterators is small abstraction
+- and OS is large abstraction
+- then containers are in the middle
+
+<img src="https://imesh.github.io/images/contvsvm.png">
+
 
 
 
