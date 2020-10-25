@@ -28,9 +28,10 @@ Historically, abstraction has enabled:
     - a small number of tests 
     - that cover much of the functionality
 - hardware-independent  programming language and operating systems
+  - so very large communities of programmers to co-ordinate with each other 
 - cloud computing
 - And, well, everything
-  - Is this the core of everything we do?
+  - Is abstraction the core of everything we do?
   - Is the whole history of computer science is the search for
     usefuls, implementable,  abstractions?
 
