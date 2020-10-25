@@ -108,20 +108,20 @@ Why abstraction? well?
 - If computing environments are dynamic, we want to bounce our
 computation around the hardware to take full advantage of unused
 resources.
- - And when we bounce a "program", we want to bounce with it:
-     - all the current
-   variable settings, 
-     - contents of RAM, 
-     - activation records of current
-   functions, 
-     - return addresses for when those functions return, 
-     - network
-   connections, 
-     - hooks to GUIs and databases, etc etc. 
- - Think of the _layers_ pattern, on steroids
-     - Where you grab whole layers and move them to another piece hardware
- - Under the hood, again, this is abstraction.
-
+   - And when we bounce a "program", we want to bounce with it:
+       - all the current
+     variable settings, 
+       - contents of RAM, 
+       - activation records of current
+     functions, 
+       - return addresses for when those functions return, 
+       - network
+     connections, 
+       - hooks to GUIs and databases, etc etc. 
+   - Think of the _layers_ pattern, on steroids
+       - Where you grab whole layers and move them to another piece hardware
+   - Under the hood, again, this is abstraction.
+  
 ## Error handling
 
 Throw a ball into a stadium, wait for what returns while holding a catchers mitt.
