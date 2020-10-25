@@ -42,19 +42,22 @@ deployed, it is important to monitor instances and repeat
 the scheduling process during deployment when necessary.
 - If repeated rescheduling are too slow, then there is much waste of computer rescues.
 
-## Virtualization
+## Virtualisation
 
-If computing environments are dynamic, we want to bounce our computation around the hardware
-to take full advantage of unused resources.
+If computing environments are dynamic, we want to bounce our
+computation around the hardware to take full advantage of unused
+resources.
 
-And we bounce a "program", we want to bounce with it all the current variable settings, 
-contents of RAM, activation records
-of current functions, return addresses for when those functions return, network connections, 
-hooks to GUIs and databases, etc etc. e.g. virtual machines (which are big) or containers (which are much smaller, easy to
-bounce around, fits into all the smaller
-gaps 
-in the available resources.
+And we bounce a "program", we want to bounce with it all the current
+variable settings, contents of RAM, activation records of current
+functions, return addresses for when those functions return, network
+connections, hooks to GUIs and databases, etc etc. e.g. virtual
+machines (which are big) or containers (which are much smaller,
+easy to bounce around, fits into all the smaller gaps in the available
+resources.
 
+- Think of the _layers_ pattern, on steroids
+- Where you grab whole layers and move them to another piece hardware
 
 The harder the computational model, harder to bounce around.
 
@@ -62,18 +65,59 @@ The simpler the model the easier the implementation of the _virtual machine_ tha
 
 This tactic has been applied, successfully, dozens of times in the history of computing
 
+- Add an abstraction layer between
+  - operating systems below and
+  - the application above
+  - Once you get "it" going for one OS on one machine
+    - It runs wherever that OS runs
+  - e g. UNIX
+- Languages implemented via virtual machines (LISP, Smalltalk, Java, JavaScript, Erlan,...)
+- Languages implemented via transpiles
+- "Jump technologies" 
+  - Virtual machines
+  - Containers
+  - Serverless computing
+
+## UNIX
+
+<img align=right width=500 src="https://upload.wikimedia.org/wikipedia/commons/4/49/Baby_Bells.svg">
+
+- Pre-unix: operating systems were hardware-specific
+- The breakup of the Bell System was mandated on January 8, 1982
+  - So after laying down all that copper
+    - Bell Corporation was not allowed to use it all. 
+    - And they actually set up commercial competitors!
+- They needed someway for different organizations to work together
+  - The ultimate "why can't we all get along"
+- Step1: a hardware independent systems language "C"
+- Step2: an operating system written in "C"
+- Step3: design patterns to allow for interactions
+  - Uniform file representation (everything is "ASCII test", no special binary formats for each fie).
+  - Enter the _pipe_ pattern
+
+## LISP
 - 1955: LISP: a minimal virtual machine. Code these (small set of primitives) on any hardware
   you like then, on top of all that, code written in LISP runs everywhere
   - Well, not really. 
     - Turns out, code does more than "computes". 
     - It also "connects" (to GUIs, databases, networks)
     - It also "explores"; i.e. Cognitive support for humans  exploring the world with software 
-  -  
-- 1974 Smalltalk VM
-  - Which, later on, was used to design the Java VM (why does JAVA have single parent inheritance? cause of Smalltalk)
 
-- Virtual Machines
-- Containers
+## Smalltalk
+
+<img align=right width=500
+ src="https://lh3.googleusercontent.com/-ezZ4lM0y5rE/WezC7wsnC2I/AAAAAAABFgc/3NuHmtD8q20B11eRKpL141huA2nC5JnpQCHMYBhgL/w606/smalltalk-desktop.jpg">
+
+- 1974 Smalltalk VM
+  - Its the source man
+  - [Smalltalk-80 in a TV show](https://www.youtube.com/watch?v=AuXCc7WSczM)
+  - [Smalltalk article 1980](http://dreammachin.es/Kay_SciAm_77.pdf)
+  - Later on, was used to design the Java VM 
+    - Q: Why does JAVA have single parent inheritance? 
+    - A: Cause of Smalltalk
+
+## Virtual Machines and Contains
+
 <img src="https://imesh.github.io/images/contvsvm.png">
 
 - Another useful example is UNIX
@@ -110,12 +154,7 @@ This tactic has been applied, successfully, dozens of times in the history of co
     - Security: more tiny components, less protection frpm other OS facilites (which
       not execist in your tiny comptuational slice)
     - Vendor lock-in : 
-      - hey, there's a reason we evolved for operating
-        systems which underneath can run on many machines and above which we can run
-        many services.
-        - Once you get "it" going for one OS on one machine
-        - It runs wherever that OS runs
-      - But in the serveless world, no OS abstraction between comptuation and support
+          - But in the serveless world, no OS abstraction between comptuation and support
         environment
         - So not "write once, run everywhre" 
     - Configuration: can't make _any_ assumptions about background utilities from
