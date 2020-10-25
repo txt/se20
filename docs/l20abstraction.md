@@ -347,6 +347,7 @@ Problems with pipes:
 Smalltalk class hierarchy (somewhere in the 1980s):
 
 <img align=right src="https://gregsedwards.files.wordpress.com/2015/08/080315_1926_themicrosof15.png?w=525">
+
 ```
 Object
 |    Behavior
