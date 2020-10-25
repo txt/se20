@@ -264,6 +264,114 @@ XXXX python lambda dby example
     - Q: Why does JAVA have single parent inheritance? 
     - A: Cause of Smalltalk
 
+Smalltalk class hierarchy (somewhere in the 1980s):
+
+<img align=right src="https://gregsedwards.files.wordpress.com/2015/08/080315_1926_themicrosof15.png?w=525">
+```
+Object
+|    Behavior
+|    |    ClassDescription
+|    |    |    Class
+|    |    |    Metaclass
+|    BlockClosure
+|    Boolean
+|    |    False
+|    |    True
+|    Browser
+|    Collection
+|    |    Bag
+|    |    MappedCollection
+|    |    SequenceableCollection
+|    |    |    ArrayedCollection
+|    |    |    |    Array
+|    |    |    |    ByteArray
+|    |    |    |    WordArray
+|    |    |    |    LargeArrayedCollection
+|    |    |    |    |    LargeArray
+|    |    |    |    |    LargeByteArray
+|    |    |    |    |    LargeWordArray
+|    |    |    |    CompiledCode
+|    |    |    |    |    CompiledMethod
+|    |    |    |    |    CompiledBlock
+|    |    |    |    Interval
+|    |    |    |    CharacterArray
+|    |    |    |    |    String
+|    |    |    |    |    |    Symbol
+|    |    |    LinkedList
+|    |    |    |    Semaphore
+|    |    |    OrderedCollection
+|    |    |    |    RunArray
+|    |    |    |    SortedCollection
+|    |    HashedCollection
+|    |    |    Dictionary
+|    |    |    |    IdentityDictionary
+|    |    |    |    |    MethodDictionary
+|    |    |    |    RootNamespace
+|    |    |    |    |    Namespace
+|    |    |    |    |    SystemDictionary
+|    |    |    Set
+|    |    |    |    IdentitySet
+|    ContextPart
+|    |    BlockContext
+|    |    MethodContext
+|    File
+|    |    Directory
+|    FileSegment
+|    Link
+|    |    Process
+|    |    SymLink
+|    Magnitude
+|    |    Association
+|    |    Character
+|    |    Date
+|    |    LargeArraySubpart
+|    |    Number
+|    |    |    Float
+|    |    |    Fraction
+|    |    |    Integer
+|    |    |    |    LargeInteger
+|    |    |    |    |    LargeNegativeInteger
+|    |    |    |    |    LargePositiveInteger
+|    |    |    |    |    |    LargeZeroInteger
+|    |    |    |    SmallInteger
+|    |    Time
+|    Memory
+|    Message
+|    |    DirectedMessage
+|    MethodInfo
+|    Point
+|    ProcessorScheduler
+|    Rectangle
+|    Signal
+|    |    Exception
+|    |    |    Error
+|    |    |    |    Halt
+|    |    |    |    |    ArithmeticError
+|    |    |    |    |    |    ZeroDivide
+|    |    |    |    |    MessageNotUnderstood
+|    |    |    |    UserBreak
+|    |    |    Notification
+|    |    |    |    Warning
+|    Stream
+|    |    ObjectDumper
+|    |    PositionableStream
+|    |    |    ReadStream
+|    |    |    WriteStream
+|    |    |    |    ReadWriteStream
+|    |    |    |    |    ByteStream
+|    |    |    |    |    |    FileStream
+|    |    Random
+|    |    TextCollector
+|    |    TokenStream
+|    UndefinedObject
+|    ValueAdaptor
+|    |    NullValueHolder
+|    |    PluggableAdaptor
+|    |    |    DelayedAdaptor
+|    |    ValueHolder
+```
+
+
 
 ## JavaScript
 

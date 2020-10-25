@@ -37,6 +37,10 @@ Historically, abstraction has enabled:
 
 ## What is abstraction?
 
+Formal definition 
+- abstraction = freedom from representational qualities 
+- i.e. a step above the details to... something else
+
 Between the programmer and the lower-level details (e.g. the hardware, the lower-level language constructs) there is a  layers of abstraction
 - Programmers talk to the abstraction
 - Automated tools map the  abstraction to the hardware
@@ -72,7 +76,9 @@ But
 
 Abstraction  has been applied, successfully, dozens of times in the history of computing
 - All these following use the same idea... abstraction
-- The following list is sorted
+
+
+The following list is sorted
   by their memory footprint, largest to smallest:
 
 1. Operating systems
@@ -81,11 +87,12 @@ Abstraction  has been applied, successfully, dozens of times in the history of c
 4. Serverless systems
 5. Erlang's trick
 6. Unix Pipes
-7. Iterators and error handlers
+7. OO class hierarchies
+8. Iterators and error handlers
    - These last two is not the same as the rest
      - Iterators and error handlers are abstraction tricks for programmers are smaller than
      - Implemented and popularized by Barbara Liskov
-   - The  rest allow you jump computation around a CPU farm
+   - The  rest allow you jump computation around one of more CPUs
 
 Also, for other notes on abstraction that lead to different
  programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
@@ -256,7 +263,7 @@ The point being made here is that "abstraction" is a tool you can use, in any la
     - e.g. I'm talking to a zip file and not a raw file
     - Then `csv` can change internally while the application code remains the same.
 
-By the way, if we are talking abstractions about consumers and producers then that takes us naturally to...
+By the way, if we are talking abstractions about consumers and producers then that takes us naturally to pipes (see below)
 
 ## Pipes
 
@@ -334,6 +341,115 @@ Problems with pipes:
   - Which makes pipes are more an "under the hood" idea
 - Also, I've had problems with pipes and concurrency: sending data off on long retrevial arcs (e.g. from another part of the network)
   - But that's just me
+
+## OO Class Hierachies
+
+Smalltalk class hierarchy (somewhere in the 1980s):
+
+<img align=right src="https://gregsedwards.files.wordpress.com/2015/08/080315_1926_themicrosof15.png?w=525">
+```
+Object
+|    Behavior
+|    |    ClassDescription
+|    |    |    Class
+|    |    |    Metaclass
+|    BlockClosure
+|    Boolean
+|    |    False
+|    |    True
+|    Browser
+|    Collection
+|    |    Bag
+|    |    MappedCollection
+|    |    SequenceableCollection
+|    |    |    ArrayedCollection
+|    |    |    |    Array
+|    |    |    |    ByteArray
+|    |    |    |    WordArray
+|    |    |    |    LargeArrayedCollection
+|    |    |    |    |    LargeArray
+|    |    |    |    |    LargeByteArray
+|    |    |    |    |    LargeWordArray
+|    |    |    |    CompiledCode
+|    |    |    |    |    CompiledMethod
+|    |    |    |    |    CompiledBlock
+|    |    |    |    Interval
+|    |    |    |    CharacterArray
+|    |    |    |    |    String
+|    |    |    |    |    |    Symbol
+|    |    |    LinkedList
+|    |    |    |    Semaphore
+|    |    |    OrderedCollection
+|    |    |    |    RunArray
+|    |    |    |    SortedCollection
+|    |    HashedCollection
+|    |    |    Dictionary
+|    |    |    |    IdentityDictionary
+|    |    |    |    |    MethodDictionary
+|    |    |    |    RootNamespace
+|    |    |    |    |    Namespace
+|    |    |    |    |    SystemDictionary
+|    |    |    Set
+|    |    |    |    IdentitySet
+|    ContextPart
+|    |    BlockContext
+|    |    MethodContext
+|    File
+|    |    Directory
+|    FileSegment
+|    Link
+|    |    Process
+|    |    SymLink
+|    Magnitude
+|    |    Association
+|    |    Character
+|    |    Date
+|    |    LargeArraySubpart
+|    |    Number
+|    |    |    Float
+|    |    |    Fraction
+|    |    |    Integer
+|    |    |    |    LargeInteger
+|    |    |    |    |    LargeNegativeInteger
+|    |    |    |    |    LargePositiveInteger
+|    |    |    |    |    |    LargeZeroInteger
+|    |    |    |    SmallInteger
+|    |    Time
+|    Memory
+|    Message
+|    |    DirectedMessage
+|    MethodInfo
+|    Point
+|    ProcessorScheduler
+|    Rectangle
+|    Signal
+|    |    Exception
+|    |    |    Error
+|    |    |    |    Halt
+|    |    |    |    |    ArithmeticError
+|    |    |    |    |    |    ZeroDivide
+|    |    |    |    |    MessageNotUnderstood
+|    |    |    |    UserBreak
+|    |    |    Notification
+|    |    |    |    Warning
+|    Stream
+|    |    ObjectDumper
+|    |    PositionableStream
+|    |    |    ReadStream
+|    |    |    WriteStream
+|    |    |    |    ReadWriteStream
+|    |    |    |    |    ByteStream
+|    |    |    |    |    |    FileStream
+|    |    Random
+|    |    TextCollector
+|    |    TokenStream
+|    UndefinedObject
+|    ValueAdaptor
+|    |    NullValueHolder
+|    |    PluggableAdaptor
+|    |    |    DelayedAdaptor
+|    |    ValueHolder
+```
 
 ## Queuing Theory 
 
