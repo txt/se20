@@ -43,7 +43,7 @@ Formal definition
 
 Between the programmer and the lower-level details (e.g. the hardware, the lower-level language constructs) there is a  layers of abstraction
 - Programmers talk to the abstraction
-- Automated tools map the  abstraction to the hardware
+- Automated tools map the  abstraction to something lower down
 
 Concrete example of abstraction:
 
@@ -88,7 +88,8 @@ The following list is sorted
 5. Erlang's trick
 6. Unix Pipes
 7. OO class hierarchies
-8. Iterators and error handlers
+8. Macros
+9. Iterators and error handlers
    - These last two is not the same as the rest
      - Iterators and error handlers are abstraction tricks for programmers are smaller than
      - Implemented and popularized by Barbara Liskov
@@ -451,6 +452,65 @@ Object
 |    |    |    DelayedAdaptor
 |    |    ValueHolder
 ```
+
+## Macros
+
+The LISP `dolist` macro lets you do things to `one` item ata  time from a `lst` (list).
+
+e.g.
+```lisp
+(dolist (one lst) 
+   (print one))
+```
+
+What does this high level abstraction hide under-the-hood?
+
+Lets find out:
+
+```lisp
+[3]> (macroexpand-1 '(dolist (one lst) (print one)))
+
+(DO* ((#:LIST-2990 LST (CDR #:LIST-2990))
+      (ONE NIL))
+     ((ENDP #:LIST-2990) NIL)
+     (DECLARE (LIST #:LIST-2990))
+     (SETQ ONE (CAR #:LIST-2990))
+     (PRINT ONE)
+)
+
+[3]> (macroexpand-1 (macroexpand-1 '(dolist (one lst) (print one))))
+
+(BLOCK NIL
+       (LET* ((#:LIST-2991 LST)
+              (ONE NIL))
+             (DECLARE (LIST #:LIST-2991))
+             (TAGBODY #:LOOP-2992
+                      (IF (ENDP #:LIST-2991)
+                          (GO #:END-2993))
+                      (SETQ ONE (CAR #:LIST-2991))
+                      (PRINT ONE)
+                      (SETQ #:LIST-2991
+                            (CDR #:LIST-2991))
+                      (GO #:LOOP-2992)
+                      #:END-2993
+                      (RETURN-FROM NIL
+                                   (PROGN NIL))))) ;
+```
+
+Note that `defmacro` is a LISP built in that lets you write your own macros. Note that a Python variant
+of this become so acrimonious that  [Python's founder resigned from the community](https://lwn.net/Articles/759654/). LISP programmers would just shrug and say "whatever, use it, don't use it, up to you".
+
+```lisp
+(defmacro aif (test-form then-form &optional else-form)
+   `(let ((it ,test-form))
+          (if it ,then-form ,else-form)))
+
+ (aif (+ 2 7)
+   (format nil "~A does not equal NIL." it)
+   (format nil "~A does equal NIL." it))
+ ;; ⇒ "9 does not equal NIL."
+```
+
 
 ## Queuing Theory 
 
