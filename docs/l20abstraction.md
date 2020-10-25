@@ -33,7 +33,6 @@ Historically, abstraction has enabled:
   - Is this the core of everything we do?
   - Is the whole history of computer science is the search for
     usefuls, implementable,  abstractions?
-  - Is the whole history of science trying to prove "x" (where "x" is an abstraction standing in for multiple concrete things)
 
 ## What is abstraction?
 
@@ -93,7 +92,9 @@ Also, for other notes on abstraction that lead to different
 
 ## Why abstraction?
 
-- Aesthetics:  truth is beauty and beauty is truth and darn I love me a good abstraction
+- Aesthetics:  
+  - Truth is beauty and beauty is truth and darn I love me a good abstraction
+  - Is the whole history of science trying to prove "x" (where "x" is an abstraction standing in for multiple concrete things)?
 - Innovation: abstraction + tool support 
   - Roll your own tech company
 - Simplicity: 
