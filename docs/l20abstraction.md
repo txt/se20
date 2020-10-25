@@ -21,8 +21,7 @@
 Historically, abstraction has enabled:
 
 - millions of useful tools, class libraries
-- the teaching of software engineering 
-  - Can introduce many concrete ideas with a smaller number of abstractions;
+- the teaching of software engineering (since it lets us teach  many concrete ideas with a smaller number of abstractions);
 - testing
   - abstracting lots of functionality into 
     - a small number of tests 
