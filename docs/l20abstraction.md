@@ -157,26 +157,24 @@ def atom(token: str) -> Atom:
             return Symbol(token)
 ```
 
-
 ## Iterators
+
 When you code recursive data structures, give programmers
 so way to way around that code.
 
 e.g. What does this return?
 
 ```python
-for x in [10,[[11,12,13],15], 20,30,[40,50,"tim"]]:
-   print(x)
-```
-
-```python
 def items(x):
   if isinstance(x,(str,list,tuple)):
-   for y in x:
-     for z in items(y):
-       yield z
+    for y in x:
+      for z in items(y):
+        yield z
   else:
     yield x
+
+for x in items([10,[[11,12,13],15], 20,30,[40,50,"tim"]]):
+   print(x)
 ```
 Another example (in awk). This example shows that _iterators_ can be implemented in any language,
 it you think the right way.
@@ -215,22 +213,22 @@ The `csv` iterator reader is below. This iterator calls a sub-iterator `getline`
 # iterator code
 
 function csv(a,file,     i,j,b4, ok,line,x,y) {
-  file  = file ? file : "-"     # [1] read from standard input or file       
+  file  = file ? file : "-"     # [1]................ read from standard input or file       
   ok = getline < file
-  if (ok <0) {                  # [2] complain if missing file
+  if (ok <0) {                  # [2]...,,,,,,,...... complain if missing file
      print "missing "file > "/dev/stderr"; exit 1 }
-  if (ok==0) { close(file);return 0 }                                    
+  if (ok==0) { close(file);return 0 }       # [4] ... signal that there is no data                                 
   line = b4 $0                         
   gsub(/([ \t]*|#.*$)/, "", line) # [3] kill white space and comments      
-  if (!line)       return csv(a,file, line) # [4] skip blanks lines
-  if (line ~ /,$/) return csv(a,file, line) # [5] contact incomplete rows with next
-  split(line, a, ",")                       # [6] split line into cells on comma
+  if (!line)       return csv(a,file, line) # [5] ... skip blanks lines
+  if (line ~ /,$/) return csv(a,file, line) # [6] ... contact incomplete rows with next
+  split(line, a, ",")                       # [7] ... split line into cells on comma
   for(i in a) {
     x=a[i]
     y=a[i]+0
-    a[i] = x==y ? y : x                     # [7] coerce number strings, if any
+    a[i] = x==y ? y : x                     # [8] ... coerce number strings, if any
   }
-  return 1
+  return 1                                  # [9] ... signal that there is more to come
 }
 ```
 
