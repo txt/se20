@@ -16,15 +16,27 @@
 # Abstraction
 
 <img src="../etc/img/abstract.png">
+## The Abstraction Test
 
-Abstraction in computer science had to be invented.
+Which is best?
+
+1. Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
+2. Things, at level `i` have sub-things at level `i+``.
+
+If you are only building one application, the clearly number 1
+
+But number 2, which would need some tools to support it, is more extensible.
+
+
+## Abstraction in computer science had to be invented.
+
 - Barbara Liskov won at $250K prize for her work on  abstraction in programming languages.
   - [Her award lecture](https://amturing.acm.org/vp/liskov_1108679.cfm)
     is amazing
     - at minute  1:09:00 to 1:11:00 the whole world disappears and her and Guy Steele (\*)debate
       iterator design and the rest of us can just listen
 
-<em>(\*) You don't know who Guy Steele is? Shame on you! [Read it[(https://apps.dtic.mil/dtic/tr/fulltext/u2/a030751.pdf) and weep.</em>
+<em>(\*) You don't know who Guy Steele is? Shame on you! [Read it](https://apps.dtic.mil/dtic/tr/fulltext/u2/a030751.pdf) and weep.</em>
 
 Why abstraction? well?
 
@@ -78,17 +90,6 @@ the essential idea of _abstraction_ is used  throughout
 - Between the programmer and the hardware there are layers of abstraction
 - Programmers talk to the abstraction
 - Automated tools make abstraction to the hardware
-
-## The Abstraction Test
-
-Which is best?
-
-1. Countries have states. States have cities. Cities have suburbs. Suburbs have streets. Streets have houses.
-2. Things, at level `i` have sub-things at level `i+``.
-
-If you are only building one application, the clearly number 1
-
-But number 2, which would need some tools to support it, is more extensible.
 
 ## Kinds of Abstractions
 
@@ -279,7 +280,7 @@ You've probably all used pipes already. Here we download an install shell script
 curl -s http://example.com/install.sh | sh
 ```
 
-(By the way, that is a security risk. [Use with care![(https://blog.dijit.sh//don-t-pipe-curl-to-bash))
+(By the way, that is a security risk. [Use with care!](https://blog.dijit.sh//don-t-pipe-curl-to-bash))
 
 Examples
 - `nroff` is a text formatter (old version of latex)
