@@ -244,6 +244,8 @@ Vendor wars killed LISP
   there was still no platform independent GUI.
 - Still, for a good time, install SBCL and have fun
 
+XXXX python lambda dby example
+
 ## Smalltalk
 
 <img align=right width=500
