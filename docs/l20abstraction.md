@@ -51,18 +51,21 @@ If you are only building one application, then clearly number1
 - And if you racing to get "it" out the door then there is clearly a case for using the first, most obvious design.
 
 But
-- If after doing "it",
+- If you are testing "it" then
+  - abstractions reduce the number of tests. 
+  - eg. in the above, one test, not four
+    - Abstract: 
+      - if we delete things, do we also delete sub-things versus
+    - Concrete:
+      - if we delete suburbs,  do we also delete streets?
+      - if we delete cities,  do we also delete suburbs?
+      - if we delete states,  do we also delete cities?
+      - if we delete countries,  do we also delete states?
+ - If after doing "it",
   - You, and other people, are going to want to do "it" a thousand more times
   - And you want to support very large communities not just doing "it0" but also "it1, it2..."
   - And you want to build something unique that might be the basis for an entirely new industry 
     - Supporting billions of dollars in IT acquisitions
-- If you've got the experience to see across multiple applications
-  - And if you've got enough to test out the practicality, utility of things like number2
-  - Suggestion: rule of three
-    - First time, just do concretely
-    - Second time, be concrete again, but make a little note
-    - Third time: "not you again? time to abstract!"
-
 
 ## Kinds of abstractions
 
@@ -87,22 +90,19 @@ Also, for other notes on abstraction that lead to different
  programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
 - see next lecture
 
+## Why abstraction?
 
-## Abstraction in computer science had to be invented.
-
-- Barbara Liskov won at $250K prize for her work on  abstraction in programming languages.
-  - [Her award lecture](https://amturing.acm.org/vp/liskov_1108679.cfm)
-    is amazing
-    - at minute  1:09:00 to 1:11:00 the whole world disappears and her and Guy Steele (\*)debate
-      iterator design and the rest of us can just listen
-
-<em>(\*) You don't know who Guy Steele is? Shame on you! [Read it](https://apps.dtic.mil/dtic/tr/fulltext/u2/a030751.pdf) and weep.</em>
-
-Why abstraction? well?
-
-- If you underlying data structures are complex, 
-  - you want some way to talk to them without having to know everything about them
-- If you want to run your code on a range of different hardware
+- Aesthetics:  truth is beauty and beauty is truth and darn I love me a good abstraction
+- Innovation: abstraction + tool support 
+  - Roll your own tech company
+- Simplicity: 
+  - If you underlying data structures are complex, 
+    - you want some way to talk to them without having to know everything about them
+  - Combine N concrete things into one abstract thing 
+    - e.g. see above, testing
+    - e.g. [mustache macros](https://mustache.github.io/)
+    - e.g. [docopt](https://github.com/docopt)
+- Portability: If you want to run your code on a range of different hardware
   -  you want to write code in  hardware independent manner
      - so code can run all over the place
   - Add an abstraction layer between
@@ -110,8 +110,12 @@ Why abstraction? well?
     - the application above
     - Once you get "it" going for one OS on one machine
       - It runs wherever that OS runs
-    - e g. UNIX
-- If computing environments are dynamic, we want to bounce our
+    - e g. 
+     - UNIX (see below)
+     - Some abstractions make things so easy, can port then to many langauges
+       - mustache
+       - docopt
+- Scheduling: If computing environments are dynamic, we want to bounce our
 computation around the hardware to take full advantage of unused
 resources.
    - And when we bounce a "program", we want to bounce with it:
@@ -127,7 +131,29 @@ resources.
    - Think of the _layers_ pattern, on steroids
        - Where you grab whole layers and move them to another piece hardware
    - Under the hood, again, this is abstraction.
-  
+
+## How to abstract
+Warning:
+- Good abstractions needs experience
+  - To see across multiple applications
+- Good abstractions need test cases
+  - To test out the practicality, utility of things like number2
+- Suggestion: rule of three
+  - First time, just do concretely
+  - Second time, be concrete again, but make a little note
+  - Third time: "not you again? time to abstract!"
+
+BTW, best abstractions needs really, really smart people
+
+- Barbara Liskov won at $250K prize for her work on  abstraction in programming languages.
+  - [Her award lecture](https://amturing.acm.org/vp/liskov_1108679.cfm)
+    is amazing
+    - at minute  1:09:00 to 1:11:00 the whole world disappears and her and Guy Steele (\*)debate
+      iterator design and the rest of us can just listen
+
+<em>(\*) You don't know who Guy Steele is? Shame on you! [Read it](https://apps.dtic.mil/dtic/tr/fulltext/u2/a030751.pdf) and weep.</em>
+
+ 
 ## Error handling
 
 Throw a ball into a stadium, wait for what returns while holding a catchers mitt.
