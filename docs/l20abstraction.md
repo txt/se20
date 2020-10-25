@@ -36,7 +36,7 @@ Historically, abstraction has enabled:
 
 ## What is abstraction?
 
-Between the programmer and the lower-level details (e.g. the hardware) there is a  layers of abstraction
+Between the programmer and the lower-level details (e.g. the hardware, the lower-level language constructs) there is a  layers of abstraction
 - Programmers talk to the abstraction
 - Automated tools map the  abstraction to the hardware
 
