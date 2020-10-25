@@ -41,7 +41,7 @@ Concrete example of abstraction:
    - Note that number 2, would need some tools for instance creation
    - Maybe something as simple as a yaml config file to make your country
 
-If you are only building one application, the clearly number 1
+If you are only building one application, then clearly number1
 - And if you racing to get "it" out the door then there is clearly a case for using the first, most obvious design.
 
 But
