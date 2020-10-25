@@ -39,15 +39,15 @@ If you are only building one application, the clearly number 1
 But
 - If after doing "it",
   - You, and other people, are going to want to do "it" a thousand more times
-  - And you want to support very large communites not just doing "it0" but also "it1, it2..."
+  - And you want to support very large communities not just doing "it0" but also "it1, it2..."
   - And you want to build something unique that might be the basis for an entirely new industry 
-    - Supporting billions of dollars in IT acqusitions
+    - Supporting billions of dollars in IT acquisitions
 - If you've got the experience to see across multiple applications
   - And if you've got enough to test out the practicality, utility of things like number2
   - Suggestion: rule of three
     - First time, just do concretely
     - Second time, be concrete again, but make a little note
-    - Thied time: "not you again? time to abstract!"
+    - Third time: "not you again? time to abstract!"
 
 
 ## Abstraction in computer science had to be invented.
@@ -91,39 +91,24 @@ resources.
  - Under the hood, again, this is abstraction.
 
 Abstraction  has been applied, successfully, dozens of times in the history of computing
-All these following use the same idea... abstraction
-
-- Language features that simplify programming complex systems
-  - Iterators
-  - Error handling
-- Operating system shell language tools
-  - Pipes
-- Hardware independent operating systems
-- Languages implemented via virtual machines (LISP, Smalltalk, Java, JavaScript, Erlan,...)
-- Languages implemented via transpiles
-- "Jump technologies" 
-  - Virtual machines
-  - Containers
-  - Serverless computing
-
-## Kinds of Abstractions
-
-We say abstractions can be sorted by their memory size. The following list is sorted
-largest to smallest:
+- All these following use the same idea... abstraction
+- The following list is sorted
+  by their memory footprint, largest to smallest:
 
 1. Operating systems
 2. Virtual machines
 3. Containers
 4. Serverless systems
 5. Erlang's trick
-6. Pipes
+6. Unix Pipes
 7. Iterators and error handlers
    - These last two is not the same as the rest
      - Iterators and error handlers are abstraction tricks for programmers are smaller than
      - Implemented and popularized by Barbara Liskov
    - The  rest allow you jump computation around a CPU farm
 
-Also, for other notes on abstraction and programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
+Also, for other notes on abstraction that lead to different
+ programming languages (LISP, Smalltalk, Java, Javascript, CoffeeScript)
 - see next lecture
 
 ## Error handling
