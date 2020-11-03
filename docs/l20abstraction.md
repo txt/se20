@@ -633,7 +633,7 @@ See also Elixr (Erlang + prettier syntax, not sure it has the same systems advan
 
 Servless is an abstraction that is smaller than containers
 
-<img src="https://swizec.com/blog/why-you-should-learn-serverless-cloud-functions/412eabb35fe281cb452e125f38b49f56/Vercel-cloud-function-demo884651.gif" alt="Vercel cloud function demo" class="css-1tgny5p">
+<img src="https://swizec.com/412eabb35fe281cb452e125f38b49f56/Vercel-cloud-function-demo884651.gif">
 
 
 
