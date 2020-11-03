@@ -458,6 +458,19 @@ Object
 |    |    ValueHolder
 ```
 
+- More on "Streams"
+  - Streams are objects that support sequential access to collections and files of sequential data. Streams can be open on sequenceable collections of any kind of object, on a source of random numbers, or on files.
+  - There are two separate sets of stream classes, one for streams on collections, and one for streams on files.
+  - More on "Random" as a stream:
+    - [FileStream atEnd](https://github.com/bonzini/smalltalk/blob/master/kernel/FileStream.st#L528-L533)
+      -  produces a finite stream of characters, terminating at end of file
+    - [Random atEnd](https://github.com/bonzini/smalltalk/blob/master/kernel/Random.st#L110-L115)
+      -  produces an infinite stream of machine-generated pseudo-random floating-point numbers of good quality in the range 0.0 through, but not including, 1.
+
+[On the criteria to be used in decomposing systems into modules](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/).
+David Parnas, 1971
+- Death to flowcharts! (and, by implication, pipes)
+
 ## Macros
 
 The LISP `dolist` macro lets you do things to `one` item ata  time from a `lst` (list).
