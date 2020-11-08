@@ -13,11 +13,10 @@
 <br>
 <hr>
 
-XXX to dao. add memoing and my memos trick
 
 # Programming Languages and Abstraction
 
-## LISP
+## LISP: The Ultimate Abstraction
 
 Consider a minimal programming language with just a few primitives, plus a macro
 language for assembling those primitives into more complex reasoning.
@@ -246,7 +245,28 @@ Vendor wars killed LISP
   there was still no platform independent GUI.
 - Still, for a good time, install SBCL and have fun
 
-XXXX python lambda dby example
+
+
+## JavaScript
+
+- ECMA
+  - In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language in just 10 days. 
+    - Clinet-side intra-interpreter language
+      - a Virual machine in every borwser
+    - Why so fast? Cause its theoretical foundations were well defined... in LISP.
+  - It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript.
+
+- ERLANG, ELIXR
+
+## Transpilers
+
+- Transpilers
+  - Why write a new language? Why not just convert your source code into some other language
+    - e.g. CoffeeScript into JavaScript
+
+<img src="../etc/img/cs.png">
+
+But problem with transpliers: where are the line numbers?
 
 ## Smalltalk
 
@@ -266,7 +286,6 @@ XXXX python lambda dby example
 
 Smalltalk class hierarchy (somewhere in the 1980s):
 
-rpcedural control in elaves. east cutomzation
 
 <img align=right src="https://i.pinimg.com/originals/e2/c1/4a/e2c14a7f83ea042e9dc8e0031e5e1a72.jpg">
 
@@ -376,24 +395,3 @@ Object
 ```
 
 
-
-## JavaScript
-
-- ECMA
-  - In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language in just 10 days. 
-    - Clinet-side intra-interpreter language
-      - a Virual machine in every borwser
-    - Why so fast? Cause its theoretical foundations were well defined... in LISP.
-  - It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript.
-
-- ERLANG, ELIXR
-
-## Transpilers
-
-- Transpilers
-  - Why write a new language? Why not just convert your source code into some other language
-    - e.g. CoffeeScript into JavaScript
-
-<img src="../etc/img/cs.png">
-
-but with transpilers: where are the line numbers:w
