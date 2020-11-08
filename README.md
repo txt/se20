@@ -82,6 +82,11 @@ Introduction:
 <dt>
 Videos:
 <dd>
+<a href="https://ncsu.zoom.us/rec/share/lc7ae1joLKFQt70jSFYmBFxC0Q-yiUtLxFk9eYXjtKTA3_z_tMVmiCCr_9ly3CoU.4Hq-uWNAL0EEjRcH">Nov3&nbsp;.ckA5Naz</a>
+<a href="https://ncsu.zoom.us/rec/share/392WW7S3F_8rVB8lM2IYMCL6j32BlcH9R7Og64H71QUtq7hg7FErKl07oSam7kh6.Dp0f2Dg4IJ_ZbMs6">Oct29&nbsp;#mFjsds0</a>
+<a href="https://ncsu.zoom.us/rec/share/z9q-S6QFpEN8yFaOp7jKgvlWeGQY8XOJNqo8-TlyPOsPnyI5oRy9SzGfwfC0N3V5.ziH9fGT4fh9NAbNl">Oct27&nbsp;ts!8%gFb</a>
+<a href="https://ncsu.zoom.us/rec/share/XZCoYProivBAYk29xvKAy0qib5fe4e5LtHD0vSY3LwJ4x1LIm-AEWWrLZjs0R1MM.k-NNRTfyxD5rKr2O">Oct20&nbsp;k9!!i9LF</a>
+<a href="https://ncsu.zoom.us/rec/share/YJc4y1JDaBaO0r7U-4BJlZN5KTGc6ULYvOUU1NwsEUzVSaCVa0zcNH-sorUnk5U.1KY9G_eb3SZQVIHM">Oct13&nsbp;k*z7F5WI</a>
 <a href="https://ncsu.zoom.us/rec/share/TdhEpJdUZCLcXxC1qbGbpxpjuANWkP3T-FciNiCXVgxBcvdsbCjxMorlPckRjzDr.bF78QV-AIwFyYbag">Oct8</a>&nbsp; 0@VaT%qd</a>
 <a href="https://ncsu.zoom.us/rec/share/_ChqDHhDxnSTxwbeDDOODPQosvBybyBWFs1LsABaqXEXXg5p5q0Y1EFGBkAl1ae-.vNAWjUH_V8-mz7xX">OCt1</a>&nbsp; @$d3=med</a>
 <a href="https://ncsu.zoom.us/rec/share/VPDZM8D5iw5ERABmMKIpFyjEdi4ue54t6_X4pp4S5rnHPNeSJYaSaIObEYgWjULF.Fk7w06Er9Hy01TwX">Sep29</a>&nbsp; 4s+4yUmA</a>
