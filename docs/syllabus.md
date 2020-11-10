@@ -147,8 +147,8 @@ With the final grades, the following grade scale will be used:
 |12| Oct26   |    | 20+2|   |    |     ||proj3: 2\*13 projects to 4\*6 tasks| deliverable list2<br>(includes a test plan) |
 |13| Nov2    |    |     |   |    |                                   |                              |
 |14| Nov9    |    |     |  5|    |     ||proj3: lab trials                | attendance tokens            |
-|14| Nov13   |    |10+2 |   |    |     ||proj3: report on lab             | report on week14 labs |
-|15| Nov20   |    |     |   |    | 12  || essay                            | essay. 1200 words           |
+|14| Nov16   |    |10+2 |   |    |     ||proj3: report on lab             | report on week14 labs |
+|15| Nov23   |    |     |   |    | 12  || essay                            | essay. 1200 words           |
 ||**TOTALS** |**12**|**40+6**|**10**|**20**|**12**|**6**||                 |
 
 ## Staff
