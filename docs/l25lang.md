@@ -13,6 +13,7 @@
 <br>
 <hr>
 
+ohter abstractions. llvm. True progergations
 
 # Programming Languages and Abstraction
 
