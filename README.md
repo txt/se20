@@ -33,7 +33,7 @@
 <tr>
 <td>
 
-Are you a great software engineer? Can you...
+Are you a great Software engineer? Can you...
 
 <ul>
 <li>
