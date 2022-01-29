@@ -1,4 +1,4 @@
-<a name=top>
+<a name=top><br>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -29,7 +29,6 @@ Remember, "lab rats" have rights:
     - all results have to be tagged with your secret token. On request, you can require that your own data be forgotten.
 
 Tutors will manage the tokens (as per HW3).
-
 
 # Project 3b
 
@@ -82,5 +81,3 @@ For Extra points
   - In your lab report, you need to write a commentary that summarizes your results using informative
   visualizations. 
     - All figures need to be discussed in the text.
-
-

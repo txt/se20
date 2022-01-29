@@ -1,4 +1,4 @@
-<a name=top>
+<a name=top><br>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -16,7 +16,6 @@
 # Abstraction
 
 <img src="../etc/img/abstract.png">
-
 
 Historically, abstraction has enabled:
 
@@ -76,7 +75,6 @@ But
 
 Abstraction  has been applied, successfully, dozens of times in the history of computing
 - All these following use the same idea... abstraction
-
 
 The following list is sorted
   by their memory footprint, largest to smallest:
@@ -677,9 +675,6 @@ If iterators is small abstraction
 - then containers are in the middle
 
 <img src="https://imesh.github.io/images/contvsvm.png">
-
-
-
 
 ## UNIX
 

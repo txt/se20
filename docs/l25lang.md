@@ -1,4 +1,4 @@
-<a name=top>
+<a name=top><br>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -40,7 +40,6 @@ Enter LISP:
   - It also "explores"; i.e. Cognitive support for humans  
     exploring the world with software.
 - But we'll get back to that.)
-
 
 [Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
   - "In 1960, John McCarthy published a remarkable paper in which he did for programming something like what Euclid did for geometry. He showed how, given a handful of simple operators and a notation for functions, you can build a whole programming language. He called this language Lisp, for "List Processing," because one of his key ideas was to use a simple data structure called a list for both code and data."
@@ -118,7 +117,6 @@ Here's a LISP interpreter written in LISP:
         ('t (cons (eval.  (car m) a)
                   (evlis. (cdr m) a)))))
 ```
-
 
 - Here's a [much, much better](https://norvig.com/lispy.html)
   - Sooo much fun
@@ -246,8 +244,6 @@ Vendor wars killed LISP
   there was still no platform independent GUI.
 - Still, for a good time, install SBCL and have fun
 
-
-
 ## JavaScript
 
 - ECMA
@@ -287,9 +283,7 @@ But problem with transpliers: where are the line numbers?
 
 Smalltalk class hierarchy (somewhere in the 1980s):
 
-
 <img align=right src="https://i.pinimg.com/originals/e2/c1/4a/e2c14a7f83ea042e9dc8e0031e5e1a72.jpg">
-
 
 ```
 Object
@@ -394,5 +388,3 @@ Object
 |    |    |    DelayedAdaptor
 |    |    ValueHolder
 ```
-
-

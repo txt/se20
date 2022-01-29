@@ -1,4 +1,4 @@
-<a name=top>
+<a name=top><br>
 <a href="http://tiny.cc/seng20"><img  width=700
   src="https://raw.githubusercontent.com/txt/se20/master/etc/img/teamBanner.png"></a>
 <hr>
@@ -18,7 +18,6 @@
 <img src="https://www.essayjack.com/hubfs/Practical%20ways%20to%20improve%20your%20essay%20writing-2.jpeg" align=right 
 width=600>
 Work solo.
-
 
 ## What to write
 - Using these [7 steps](https://github.com/txt/se20/blob/master/etc/img/12steps.png) as an outline
@@ -41,10 +40,8 @@ Create an overleaf.com account
 - Add your name and email to list of authors.
 -  Add these lines before `\begin{document}`
 
-
          \usepackage[switch]{lineno}
          \linenumbers
-
 
 - Write at least a 1200 word paper
   - Measured using their  "Word Count" tool (under menu top right)
